@@ -1,0 +1,1307 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OFCOM website</title>
+  <link rel="icon" href="assets/img/favicon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <link href="css/virtual-select.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.3.4/dist/css/datepicker.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.3.4/dist/js/datepicker-full.min.js"></script>
+  <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- header start -->
+  <header class="header fixed-top d-flex align-items-center">
+    <a class="skip-to-content-link" href="#skipToContent" tabindex="0">Skip to main content</a>
+
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <div class="logo me-auto me-lg-0">
+        <a href="index.html"> <img class="brand-logo" src="assets/img/logo2023_2.svg" alt="OfCom Logo" /></a>
+      </div>
+      <a href="javascript:void(0);" id="mobile-menu-trigger" class="mobile-menu-trigger order-3 order-lg-2">
+        <span class="visually-hidden-focusable">hamburger menu</span>
+        <i class="mobile-nav-toggle mobile-nav-show fa-solid fa-bars"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none fa-solid fa-xmark"></i>
+      </a>
+      <!-- menu start here -->
+      <div class="header-item ms-auto">
+        <div class="menu-overlay">
+        </div>
+        <nav class="menu">
+          <div class="mobile-menu-head">
+            <a href="javascript:void(0);" class="go-back">
+              <span class="visually-hidden-focusable">Go Back</span>
+              <i class="fa fa-angle-left"></i></a>
+            <div class="current-menu-title"></div>
+            <div class="mobile-menu-close">&times;</div>
+          </div>
+          <ul class="menu-main">
+
+            <li class="block menu-item-has-children topicmenublock  ">
+
+              <button type="button">Topics <span class="visually-hidden-focusable">Menu</span> <i
+                  class="fa fa-angle-down"></i></button>
+              <div class="sub-menu mega-menu mega-menu-column-4">
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> About Ofcom </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Ofcom is the regulator for the communications services that we use and rely on each day.
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> Internet-based services </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      As people communicate seamlessly online and offline, we now need to invest our efforts into making
+                      digital communications work for everyone
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> Media use and attitudes </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Ofcom wants to understand how adults and children in the UK use media.
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="online-safety.html" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> Online safety </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Under the Online Safety Act, Ofcom's job is to make online services safer for the people who use
+                      them. We make sure companies have effective systems in place to protect users from harm.
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="phones-and-broadband.html" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> Phones and broadband </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Ofcom is committed to a thriving telecoms sector, where companies can compete fairly and customers
+                      benefit from a broad range of services.
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> Post </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Ofcom's job is to make sure there is a universal postal service.
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> Spectrum </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      You can't see or feel radio spectrum, but we use it every day. Our job is to authorise and manage
+                      the use of spectrum in the UK.
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> TV, radio and on-demand </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      We make sure that broadcasters provide quality TV, radio and on-demand programmes that appeal to
+                      diverse audiences. We also have rules in place to protect viewers and listeners from harm.
+                    </span>
+
+                  </p>
+                </div>
+
+
+
+                <div class="w-100 menu-social-icons">
+                  <a href="https://x.com/ofcom" title="x-twitter" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                  <a href="https://www.facebook.com/ofcom" title="facebook" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/ofcom" title="linkedin" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="https://www.youtube.com/ofcom" title="youtube" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="https://www.instagram.com/ofcom.org.uk/" title="instagram" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="https://www.tiktok.com/@ofcom.org.uk" title="tiktok" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                  </a>
+                </div>
+
+                <div class="multicolor-banner">
+                  <div class="row row-cols-auto g-0 multicolor-strip menu-strip-height">
+                    <div class="bg-blue"></div>
+                    <div class="bg-megenta"></div>
+                    <div class="bg-pink"></div>
+                    <div class="bg-yellow"></div>
+                    <div class="bg-green"></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="block menu-item-has-children contenttypemenublock  ">
+
+              <button type="button">Ofcom's work <span class="visually-hidden-focusable">Menu</span> <i
+                  class="fa fa-angle-down"></i></button>
+              <div class="sub-menu mega-menu mega-menu-column-4">
+
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Advice for businesses </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      How to make the most of communications services as a small business.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Advice for consumers </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      How to make the most of the services you use, and deal with problems.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Consultations and statements </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Proposals we are consulting on and decisions we've made.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="enforcement.html" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Enforcement </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      How we make sure companies follow our rules, to protect customers and promote competition.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Information for industry </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Rules, guidance and other information for the industries we regulate.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Licence information </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      If you're looking to use certain radio equipment, or broadcast on TV or radio, you'll need a
+                      licence from Ofcom.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>News and updates </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Our latest news, features, views and information about our work.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Research, statistics and data </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Evidence we gather to inform our work as a regulator.
+                    </span>
+                  </p>
+                </div>
+
+
+
+                <div class="w-100 menu-social-icons">
+                  <a href="https://x.com/ofcom" title="x-twitter" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                  <a href="https://www.facebook.com/ofcom" title="facebook" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/ofcom" title="linkedin" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="https://www.youtube.com/ofcom" title="youtube" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="https://www.instagram.com/ofcom.org.uk/" title="instagram" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="https://www.tiktok.com/@ofcom.org.uk" title="tiktok" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                  </a>
+                </div>
+
+                <div class="multicolor-banner">
+                  <div class="row row-cols-auto g-0 multicolor-strip menu-strip-height">
+                    <div class="bg-blue"></div>
+                    <div class="bg-megenta"></div>
+                    <div class="bg-pink"></div>
+                    <div class="bg-yellow"></div>
+                    <div class="bg-green"></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="block menu-item-has-children menublock  ">
+
+              <button type="button"> Complaints <span class="visually-hidden-focusable">Menu</span> <i
+                  class="fa fa-angle-down"></i></button>
+              <div class="sub-menu mega-menu mega-menu-column-4">
+                <div class="list-item ">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="complaints.html" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Complaints </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+
+                   <ul>
+                    <li><a href="javascript:void(0);">Complain about
+                        mobile, phone or internet services</a></li>
+                    <li><a href="javascript:void(0);">Complain about TV,
+                        radio or on demand services</a></li>
+                    <li><a href="javascript:void(0);">Complain about postal services</a>
+                    </li>
+                    <li><a href="javascript:void(0);">Complain about wireless
+                        interference</a></li>
+                    <li><a href="javascript:void(0);">Complain about online
+                        services, websites or apps</a></li>
+                    <li><a href="javascript:void(0);">Complain about premium rate
+                        services</a></li>
+                  </ul>
+                </div>
+
+
+                <div class="list-item">
+                  <ul>
+                    <li class="mb-3">
+                      <span class="detail-text">
+                        Ofcom may be able to help you complain about or report issues relating to: phone, broadband and
+                        postal services; TV, radio and on-demand programmes; interference to wireless devices; or
+                        something you have seen on an online service, website or app.
+                      </span>
+                    </li>
+
+                   <li>
+                      <a href="javascript:void(0);">
+                        The types of complaint Ofcom deals with
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">
+                        Get in touch by phone or post
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+
+
+                <div class="w-100 menu-social-icons">
+                  <a href="https://x.com/ofcom" title="x-twitter" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                  <a href="https://www.facebook.com/ofcom" title="facebook" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/ofcom" title="linkedin" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="https://www.youtube.com/ofcom" title="youtube" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="https://www.instagram.com/ofcom.org.uk/" title="instagram" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="https://www.tiktok.com/@ofcom.org.uk" title="tiktok" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                  </a>
+                </div>
+
+                <div class="multicolor-banner">
+                  <div class="row row-cols-auto g-0 multicolor-strip menu-strip-height">
+                    <div class="bg-blue"></div>
+                    <div class="bg-megenta"></div>
+                    <div class="bg-pink"></div>
+                    <div class="bg-yellow"></div>
+                    <div class="bg-green"></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="block menu-item-has-children menublock  ">
+
+              <button type="button"> Licences <span class="visually-hidden-focusable">Menu</span> <i
+                  class="fa fa-angle-down"></i></button>
+              <div class="sub-menu mega-menu mega-menu-column-4">
+                <div class="list-item ">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="licence.html" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Licences </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+
+                 <ul>
+                    <li><a href="javascript:void(0);">Spectrum licences</a></li>
+                    <li><a href="javascript:void(0);">Radio broadcast licences</a></li>
+                    <li><a href="javascript:void(0);">TV broadcast licences</a></li>
+                  </ul>
+                </div>
+
+
+                <div class="list-item">
+                  <ul>
+                    <li class="mb-3">
+                      <span class="detail-text">
+                        You need a licence from Ofcom if you’re looking to use certain radio equipment (like amateur or
+                        ships radio), or broadcast on TV or radio.
+                      </span>
+                    </li>
+
+                    <li>
+                      <a href="javascript:void(0);">
+                        Help with your spectrum licence
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">
+                        Help with your broadcast licence
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+
+
+                <div class="w-100 menu-social-icons">
+                  <a href="https://x.com/ofcom" title="x-twitter" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                  <a href="https://www.facebook.com/ofcom" title="facebook" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/ofcom" title="linkedin" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="https://www.youtube.com/ofcom" title="youtube" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="https://www.instagram.com/ofcom.org.uk/" title="instagram" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="https://www.tiktok.com/@ofcom.org.uk" title="tiktok" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                  </a>
+                </div>
+
+                <div class="multicolor-banner">
+                  <div class="row row-cols-auto g-0 multicolor-strip menu-strip-height">
+                    <div class="bg-blue"></div>
+                    <div class="bg-megenta"></div>
+                    <div class="bg-pink"></div>
+                    <div class="bg-yellow"></div>
+                    <div class="bg-green"></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </nav>
+      </div>
+      <!-- menu end here -->
+      <a href="javascript:void(0);" id="search-icon" class="search-icons d-flex align-items-center order-2 order-lg-1">
+        <i class="fas fa-search"></i>
+        <span class="visually-hidden-focusable">Global Search</span>
+      </a>
+      <form action="global-search.html" class="search-form" id="globalSearch">
+        <div class="search-box mx-auto mb-3 position-relative">
+          <input type="search" class="search-box-input" name="query" aria-label="Global Search" placeholder="Search"
+            id="globalquery" autocomplete="off">
+          <label for="globalquery" class="fas fa-search visually-hidden-focusable">Search</label>
+          <a href="global-search.html" class="fas fa-search gl-search"><span
+              class="visually-hidden-focusable">Search</span></a>
+        </div>
+
+        <h4 class="text-center mt-4">Quick links</h4>
+        <hr>
+        <div class="search-quick-link mx-auto mt-4">
+          <div class="row">
+            <div class="col-6 col-md-3">
+              <a href="javascript:void(0);" class="w-100 d-flex align-items-start align-items-start">
+                <span>Broadband and mobile coverage checker</span>
+                <i class="fa-solid fa-circle-arrow-right"></i>
+              </a>
+            </div>
+            <div class="col-6 col-md-3">
+              <a href="javascript:void(0);" class="w-100 d-flex align-items-start align-items-start">
+                <span>Social tariffs: Cheaper broadband and phone packages</span>
+                <i class="fa-solid fa-circle-arrow-right"></i>
+              </a>
+            </div>
+            <div class="col-6 col-md-3">
+              <a href="javascript:void(0);" class="w-100 d-flex align-items-start align-items-start">
+                <span>Telephone area codes: Find UK dialling codes for numbers starting 01 and 02</span>
+                <i class="fa-solid fa-circle-arrow-right"></i>
+              </a>
+            </div>
+            <div class="col-6 col-md-3">
+              <a href="javascript:void(0);" class="w-100 d-flex align-items-start align-items-start">
+                <span>Ofcom licensing portal for aircraft, amateur and ships radio</span>
+                <i class="fa-solid fa-circle-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr>
+
+
+        <div class="search-quick-link news-blue-bg mx-auto mt-4 mb-5">
+          <h4 class="text-center mt-4 mb-3">Latest news</h4>
+          <div class="row extra-margin">
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="javascript:void(0);">
+                <div class="info-card news-info">
+                  <picture>
+                    <source srcset="assets/img/tech-gavel-web.webp" sizes="100vw" type="image/webp">
+                    <source srcset="" sizes="100vw"><img alt="Tech-gavel-web" src="" loading="lazy" decoding="async"
+                      class="w-100 mb-3">
+                  </picture>
+                  <div class="d-flex justify-content-between align-items-start">
+                    <h3 class="info-card-header">Ofcom spectrum auction: final results announced</h3>
+                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                        stroke-linejoin="bevel"></path>
+                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                    </svg>
+                  </div>
+                  <span class="date">24 October 2025</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="javascript:void(0);">
+                <div class="info-card news-info">
+                  <picture>
+                    <source srcset="assets/img/delivery-warehouse-workers-hero.webp" sizes="100vw" type="image/webp">
+                    <source srcset="" sizes="100vw"><img alt="Tech-gavel-web" src="" loading="lazy" decoding="async"
+                      class="w-100 mb-3">
+                  </picture>
+                  <div class="d-flex justify-content-between align-items-start">
+                    <h3 class="info-card-header">Best and worst parcel firms for customer satisfaction revealed 2024/25
+                    </h3>
+                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                        stroke-linejoin="bevel"></path>
+                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                    </svg>
+                  </div>
+                  <span class="date">22 October 2025</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="javascript:void(0);">
+                <div class="info-card news-info">
+                  <picture>
+                    <source srcset="assets/img/news-centre-hero-1336--560px-6.webp" sizes="100vw" type="image/webp">
+                    <source srcset="" sizes="100vw"><img alt="Tech-gavel-web" src="" loading="lazy" decoding="async"
+                      class="w-100 mb-3">
+                  </picture>
+                  <div class="d-flex justify-content-between align-items-start">
+                    <h3 class="info-card-header">Ofcom updates guidance around politicians presenting news</h3>
+                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                        stroke-linejoin="bevel"></path>
+                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                    </svg>
+                  </div>
+                  <span class="date">20 October 2025</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="javascript:void(0);">
+                <div class="info-card news-info">
+                  <picture>
+                    <source srcset="assets/img/bbc-salford.webp" sizes="100vw" type="image/webp">
+                    <source srcset="" sizes="100vw"><img alt="Tech-gavel-web" src="" loading="lazy" decoding="async"
+                      class="w-100 mb-3">
+                  </picture>
+                  <div class="d-flex justify-content-between align-items-start">
+                    <h3 class="info-card-header">Ofcom investigation finds BBC Gaza documentary in breach of
+                      Broadcasting Code</h3>
+                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                        stroke-linejoin="bevel"></path>
+                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                    </svg>
+                  </div>
+                  <span class="date">17 October 2025</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </form>
+      <a href="" class="langauge-change order-1 order-lg-3" lang="cy" hreflang="cy">Cymraeg</a>
+
+
+    </div>
+    </div>
+  </header>
+  <main role="main">
+
+
+    <section class="breadcrumb-position">
+      <div class="row">
+        <div class="col-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="/">Home</a></li>
+              <li class="breadcrumb-item ellipsis"><a href="phones-and-broadband.html">Phones and broadband</a></li>
+              <li class="breadcrumb-item ellipsis"><a href="#">Coverage and
+                  speeds</a></li>
+              <li class="breadcrumb-item active ellipsis" aria-current="page"><span>Full-fibre broadband reaches nearly
+                  7 in 10 homes</span></li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <picture>
+        <source srcset="assets/img/cn-24-nc_eng-web.webp"
+          sizes="100vw" type="image/webp">
+        <source srcset="assets/img/cn-24-nc_eng-web.webp"
+          sizes="100vw"><img alt="Person using laptop with broadband router on table "
+          src="assets/img/cn-24-nc_eng-web.webp">
+      </picture>
+    </section>
+    <section>
+      <div class="hero-banner-narrow blue-bg">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 col-lg-7 col-xl-8 offset-lg-2 offset-xl-2">
+              <h1 id="skipToContent" data-epi-type="title"><strong>UFull-fibre broadband reaches nearly 7 in 10 homes</strong></h1>
+            </div>
+
+
+            <div class="col-md-12 col-lg-3 col-xl-2 mx-auto position-relative social-icons-block">
+              <button id="toggleButton" class="btn btn-primary-white-border center-icon-btn social-share-icon-btn">
+                <span>Share this page</span>
+                <svg class="position-absolute share-button" style="right: 10px;" width="25" height="24"
+                  viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M18.9764 16.12C18.2164 16.12 17.5364 16.42 17.0164 16.89L9.88638 12.74C9.93638 12.51 9.97638 12.28 9.97638 12.04C9.97638 11.8 9.93638 11.57 9.88638 11.34L16.9364 7.23004C17.4764 7.73004 18.1864 8.04004 18.9764 8.04004C20.6364 8.04004 21.9764 6.70004 21.9764 5.04004C21.9764 3.38004 20.6364 2.04004 18.9764 2.04004C17.3164 2.04004 15.9764 3.38004 15.9764 5.04004C15.9764 5.28004 16.0164 5.51004 16.0664 5.74004L9.01638 9.85004C8.47638 9.35004 7.76638 9.04004 6.97638 9.04004C5.31638 9.04004 3.97638 10.38 3.97638 12.04C3.97638 13.7 5.31638 15.04 6.97638 15.04C7.76638 15.04 8.47638 14.73 9.01638 14.23L16.1364 18.39C16.0864 18.6 16.0564 18.82 16.0564 19.04C16.0564 20.65 17.3664 21.96 18.9764 21.96C20.5864 21.96 21.8964 20.65 21.8964 19.04C21.8964 17.43 20.5864 16.12 18.9764 16.12ZM18.9764 4.04004C19.5264 4.04004 19.9764 4.49004 19.9764 5.04004C19.9764 5.59004 19.5264 6.04004 18.9764 6.04004C18.4264 6.04004 17.9764 5.59004 17.9764 5.04004C17.9764 4.49004 18.4264 4.04004 18.9764 4.04004ZM6.97638 13.04C6.42638 13.04 5.97638 12.59 5.97638 12.04C5.97638 11.49 6.42638 11.04 6.97638 11.04C7.52638 11.04 7.97638 11.49 7.97638 12.04C7.97638 12.59 7.52638 13.04 6.97638 13.04ZM18.9764 20.06C18.4264 20.06 17.9764 19.61 17.9764 19.06C17.9764 18.51 18.4264 18.06 18.9764 18.06C19.5264 18.06 19.9764 18.51 19.9764 19.06C19.9764 19.61 19.5264 20.06 18.9764 20.06Z"
+                    fill="" />
+                </svg>
+              </button>
+              <div class="social-icons-box">
+                <a class="text-white " href="#" title="Twitter">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a class="text-white " href="#" title="Facebook">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a class="text-white " href="#" title="LinkedIn">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a class="text-white " href="#" title="Youtube">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a id="copyUrl" class="text-white " href="javascript:void(0);" title="Copy browser URL">
+                  <i class="fa-solid fa-link"></i>
+                </a>
+
+              </div>
+            </div>
+
+            <div class="toast-container" id="copyToast" role="alert" aria-live="assertive" aria-atomic="true">
+              <div class="toast-top-header">
+                <span>
+                  URL copied
+                </span>
+              </div>
+              <div class="row row-cols-auto g-0 multicolor-strip toast-strip">
+                <div class="col bg-blue"></div>
+                <div class="col bg-megenta"></div>
+                <div class="col bg-pink"></div>
+                <div class="col bg-yellow"></div>
+                <div class="col bg-green"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <section>
+	<div class="container-fluid standared-page container-p-0">
+		<div class="row">
+			<div class="col-lg-2">
+					<div class="mt-5 mb-lg-0">
+							<a class="btn btn-tag blue-bg" href="https://www.ofcom.org.uk/phones-and-broadband" target="_self">
+								Phones and broadband
+							</a>
+							<a class="btn btn-tag light-blue-bg" href="https://www.ofcom.org.uk/phones-and-broadband/coverage-and-speeds" target="_self">
+								Coverage and speeds
+							</a>
+							<a class="btn btn-tag maroon-bg" href="https://www.ofcom.org.uk/news-and-updates" target="_self">
+								News and updates
+							</a>
+							<a class="btn btn-tag red-bg" href="https://www.ofcom.org.uk/news-and-updates?SelectedNewsType=191485" target="_self">
+								News
+							</a>
+					</div>
+			</div>
+			<div class="col-lg-8">
+				<div class="row row-cols-auto g-0 mt-3 mt-lg-5 ml-left">
+						<div class="col-12">
+							Published:
+							5 December 2024
+						</div>
+				</div>
+				<div class="mt-3 mt-lg-5">
+
+<div class="rich-text-block"><ul>
+<li class="standfirst">Rapid rollout sees record reach of full-fibre broadband to more than 20 million UK homes</li>
+<li class="standfirst">Average UK download speed reaches 223 Mbit/s</li>
+<li class="standfirst">5G deployment continues to gradually expand</li>
+</ul>
+<p class="standfirst">A record 20.7 million UK homes can now access full-fibre broadband, according to <a href="/phones-and-broadband/coverage-and-speeds/connected-nations-2024">Ofcom’s latest annual report</a> on the nation’s broadband and mobile networks.</p>
+<p>Ofcom’s Connected Nations report finds that 69% (20.7 million) of UK homes now have access to full-fibre broadband, up from 57% (17.1 million) in September 2023. Northern Ireland leads the way with 93% of homes able to access full fibre [1].</p>
+<p>By using fibre optic cables all the way to the home instead of copper lines, full-fibre broadband is faster and more reliable. Full-fibre networks, as well as cable, can potentially deliver speeds of one gigabit per second (Gbit/s) or higher, which means a better experience when doing activities like streaming, gaming and making video calls.</p>
+<p>Taking full-fibre and cable networks together, 25 million homes (83%) now have access to a gigabit-capable broadband connection. <span>This suggests the Government’s target of 85% coverage by 2025 is likely to be reached.&nbsp;</span></p>
+<p><span><img alt="CN 24 UK coverage" src="assets/img/cn-24-uk-coverage.webp" width="621" height="354" style="display: block; margin-left: auto; margin-right: auto;"></span></p>
+<h2><strong>Full-fibre take-up climbs year on year</strong></h2>
+<p>The number of households signed up to full-fibre broadband services where available has risen from 28% to 35% (7.5 million households) between May 2023 and July 2024.</p>
+<p>Take up of full fibre is notably higher in rural areas than in urban areas. Over half (52%) of homes in rural areas with full-fibre access are signed up, compared with just under a third (32%) in towns and cities.</p>
+<p>With customers moving in greater numbers to higher-speed broadband packages, the UK average maximum download speed has also increased from 170Mbit/s to 223 Mbit/s in 2024.</p>
+<p class="testimonial-text">It’s a record-breaking year for broadband in the UK, as the roll out of full fibre continues to steam ahead.</p>
+<p class="testimonial-text">Whether you’re running a business, streaming your favourite programmes, or doing Christmas shopping online, it’s more likely than ever that you’ll be able to benefit from a fast and reliable broadband connection.</p>
+<p class="testimonial-name"><strong>- Natalie Black, Ofcom’s Networks and Communications Group Director</strong></p>
+<p>The report, which covers the full range of the UK’s communications networks, also contains other key findings, including:</p>
+<h2><strong>Superfast broadband take-up reaches 75% of premises</strong></h2>
+<p>Take-up of superfast broadband - services with download speeds of at least 30 Mbit/s – has increased from 72% to 75% of residential and business premises.</p>
+<p>The law says that, when this threshold has been reached, Government can ask Ofcom to review certain aspects of the broadband universal service obligation (USO). &nbsp;We have today informed Government that we believe this milestone has been met. The USO gives everyone in the UK the right to ask for an upgrade if they can’t get ‘decent’ broadband - delivering download speeds of 10 Mbit/s and upload speeds of 1 Mbit/s [2].</p>
+<p>Our report shows there has been a reduction in the number of premises unable to get decent broadband – down from 61,000 to 58,000 since last year. Our estimates indicate that this could fall further to 26,000 by mid-2027.</p>
+<h2><strong>Satellite broadband take-up more than doubles</strong></h2>
+<p>More people than ever before are looking to space for their broadband connection.</p>
+<p>In 2024, Starlink’s satellite broadband reached 87,000 connections – the majority in rural areas - more than doubling from 42,000 last year.</p>
+<h2><strong>Deployment of 5G networks increases steadily</strong></h2>
+<p>The availability of mobile 5G continues to gradually expand. 5G technology now carries more than a fifth (21%) of all monthly mobile data traffic in the UK [3], while around 50% of mobile handsets are now 5G capable.</p>
+<p>Mobile network operators’ 5G coverage outside premises ranges between 61% and 79% each. 5G coverage outside premises where it is available from at least one operator increased to 95% - up from 93% last year [4]. We continue, however, to see significant differences across the UK, with 5G deployed in 42% of sites in urban areas, compared to 16% of sites in rural areas.</p>
+<p>4G remains the most used technology, carrying 78% of all monthly mobile data traffic. 4G landmass coverage where it is available from at least one operator is now at 95%, up from 93% last year, largely driven by the Shared Rural Network programme.</p>
+<p>Legacy 3G networks are being phased out, with two mobile network operators having already completed the process, and 2G expected to be shut down by 2033.</p>
+<h2><strong>Improving our mobile coverage reporting</strong></h2>
+<p>Current coverage reporting based on existing signal strength predictions from mobile network operators has limitations and does not necessarily reflect customers lived experience.</p>
+<p>Improving our coverage and performance reporting and exploring new ways to capture this data is a priority for Ofcom in the coming year. This work will include overhauling our mobile web-checker tool, which we will re-launch in the summer.</p>
+<p><strong>Notes to editors:</strong></p>
+<ol>
+<li><span data-teams="true">Reports for each of the UK's nations can be found&nbsp;<a href="/phones-and-broadband/coverage-and-speeds/connected-nations-2024/nation-reports-2024">here.</a></span></li>
+<li>If you can’t get a download speed of at least 10 Mbit/s and an upload speed of at least 1 Mbit/s (this is defined as a 'decent connection'), you have a legal right to request an upgraded connection. You can make this request to BT, or to KCOM if you live in the Hull area. You don't need to be an existing customer to apply.</li>
+<li>Total monthly mobile traffic overall has grown by 18% this year to 1069 PB, albeit at a slower pace compared to the 25% growth observed between 2022 and 2023.</li>
+<li>Refers to high confidence which is associated with around 80% probability of 5G coverage availability for areas outside of premises where at least one mobile network operator provides coverage.</li>
+</ol></div>					
+
+
+
+<div class="block  articlepanelblock  ">
+	<div class="mt-5">
+		<section class="container-xl info">
+<h2 class="h3 teaser-header text-center">Related content</h2>            
+			<div class="row extra-margin">
+				
+<div class="block col-12 col-sm-6 col-lg-4 standardpage  ">
+
+    <a href="/phones-and-broadband/coverage-and-speeds/connected-nations-report-finds-big-advances-in-scotlands-connectivity-in-2024">
+        <div class="info-card">
+            <div class="d-flex justify-content-between align-items-start">
+                    <h3 class="info-card-header">Connected Nations report finds big advances in Scotland’s connectivity in 2024</h3>
+                <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                    <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                    <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                </svg>
+            </div>
+            <div class="serach-date">
+            </div>
+            
+                <p>
+                    17% increase in 4G mobile geographic coverage available from all four mobile operators, and more than six in 10 Scottish homes have access to full-fibre broadband
+                </p>
+        </div>
+    </a>
+</div><div class="block col-12 col-sm-6 col-lg-4 standardpage  ">
+
+    <a href="/phones-and-broadband/coverage-and-speeds/full-fibre-broadband-reaches-one-million-homes-in-wales">
+        <div class="info-card">
+            <div class="d-flex justify-content-between align-items-start">
+                    <h3 class="info-card-header">Full-fibre broadband reaches one million homes in Wales</h3>
+                <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                    <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                    <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                </svg>
+            </div>
+            <div class="serach-date">
+            </div>
+            
+                <p>
+                    A record one million homes in Wales can now access full-fibre broadband, according to Ofcom’s latest annual report on the nation’s broadband and mobile networks.
+                </p>
+        </div>
+    </a>
+</div><div class="block col-12 col-sm-6 col-lg-4 standardpage  ">
+
+    <a href="/phones-and-broadband/coverage-and-speeds/more-than-nine-in-10-northern-ireland-homes-can-access-full-fibre-broadband">
+        <div class="info-card">
+            <div class="d-flex justify-content-between align-items-start">
+                    <h3 class="info-card-header">More than nine in 10 Northern Ireland homes can access full-fibre broadband</h3>
+                <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                    <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                    <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                </svg>
+            </div>
+            <div class="serach-date">
+            </div>
+            
+                <p>
+                    More than three quarters of a million Northern Ireland homes have access to full-fibre broadband – a higher proportion of homes than for all other UK nations – according to Ofcom’s latest Connected Nations report published today.
+                </p>
+        </div>
+    </a>
+</div>
+			</div>
+		</section>
+	</div>
+</div>				</div>
+			</div>
+		</div>
+	</div>
+</section>
+  </main>
+
+  <section id="footer-subscription" class="mtop-5" aria-label="subscription">
+    <div class="row g-0">
+      <div class="col-12 d-flex justify-content-center position-relative">
+        <a href="email-updates.html" class="btn btn-primary button-subscribe">
+          Subscribe to email updates <i class="ms-4 fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+      <div class="col-12">
+        <div class="row row-cols-auto g-0 multicolor-strip">
+          <div class="col bg-blue"></div>
+          <div class="col bg-megenta"></div>
+          <div class="col bg-pink"></div>
+          <div class="col bg-yellow"></div>
+          <div class="col bg-green"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container-xl">
+      <div class="row">
+
+        <div class="block col-md-12 col-lg-3 socialiconsblock  ">
+
+          <section class="mt-0 mt-lg-5 social">
+            <h2 class="follow">Follow us</h2>
+            <ul class="list-unstyled social-icons">
+              <li class="social-icons-list">
+                <a class="" href="https://x.com/ofcom" title="x-twitter" aria-label="x-twitter (opens in a new tab)"
+                  target="_blank">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <span class="visually-hidden-focusable">x-twitter</span>
+                </a>
+              </li>
+              <li class="social-icons-list">
+                <a class="" href="https://www.facebook.com/ofcom" title="facebook"
+                  aria-label="facebook (opens in a new tab)" target="_blank">
+                  <i class="fa-brands fa-facebook"></i>
+                  <span class="visually-hidden-focusable">facebook</span>
+                </a>
+              </li>
+              <li class="social-icons-list">
+                <a class="" href="https://www.linkedin.com/company/ofcom" title="linkedin"
+                  aria-label="linkedin (opens in a new tab)" target="_blank">
+                  <i class="fa-brands fa-linkedin"></i>
+                  <span class="visually-hidden-focusable">linkedin</span>
+                </a>
+              </li>
+              <li class="social-icons-list">
+                <a class="" href="https://www.youtube.com/ofcom" title="youtube"
+                  aria-label="youtube (opens in a new tab)" target="_blank">
+                  <i class="fa-brands fa-youtube"></i>
+                  <span class="visually-hidden-focusable">youtube</span>
+                </a>
+              </li>
+              <li class="social-icons-list">
+                <a class="" href="https://www.instagram.com/ofcom.org.uk/" title="instagram"
+                  aria-label="instagram (opens in a new tab)" target="_blank">
+                  <i class="fa-brands fa-instagram"></i>
+                  <span class="visually-hidden-focusable">instagram</span>
+                </a>
+              </li>
+              <li class="social-icons-list">
+                <a class="" href="https://www.tiktok.com/@ofcom.org.uk" title="tiktok"
+                  aria-label="tiktok (opens in a new tab)" target="_blank">
+                  <i class="fa-brands fa-tiktok"></i>
+                  <span class="visually-hidden-focusable">tiktok</span>
+                </a>
+              </li>
+            </ul>
+          </section>
+
+        </div>
+        <div class="block col-md-12 col-lg-3 linklistblock  ">
+
+          <section class="mt-0 mt-lg-5 about-ofcom">
+            <h2 class="follow h5">About Ofcom</h2>
+            <ul class="list-unstyled">
+              <li>
+                <a class="footer-link" title="What is Ofcom?" href="javascript:void(0);">
+                  What is Ofcom?
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Contact us" href="javascript:void(0);">
+                  Contact us
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Ofcom in the nations and regions"
+                  href="javascript:void(0);">
+                  Nations and regions
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Jobs at Ofcom" href="javascript:void(0);"
+                  target="_blank">
+                  Jobs
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="General Privacy Statement"
+                  href="javascript:void(0);">
+                  General Privacy Statement
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Modern slavery statement"
+                  href="javascript:void(0);">
+                  Modern slavery statement
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Our work in the Welsh language"
+                  href="javascript:void(0);">
+                  Our work in Welsh
+                </a>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div class="block col-md-12 col-lg-3 linklistblock  ">
+
+          <section class="mt-0 mt-lg-5 about-ofcom">
+            <h2 class="follow h5">About this website</h2>
+            <ul class="list-unstyled">
+              <li>
+                <a class="footer-link" title="Accessibility of Ofcom's website"
+                  href="javascript:void(0);">
+                  Accessibility
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Cookies policy" href="javascript:void(0);">
+                  Cookies policy
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Terms of use" href="javascript:void(0);">
+                  Terms of use
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Copyright and information re-use"
+                  href="javascript:void(0);">
+                  Copyright and information re-use
+                </a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="container-xl">
+      <div class="row copyrights">
+        <div class="copyright-text text-lg-start text-start text-sm-end"> © Ofcom 2025 </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <!-- <script type="text/javascript">
+    window.onload = () => {
+      const myModal = new bootstrap.Modal('#onload');
+      myModal.show();
+    }
+  </script> -->
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+          slidesPerGroup: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 10,
+          slidesPerGroup: 3,
+        },
+      },
+    });
+  </script>
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/js/bootstrap-select.min.js"></script>
+  <script src="js/virtual-select.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src="js/main.js"></script>
+  <script>
+    VirtualSelect.init({
+      ele: '#example-select',
+      hideClearButton: true,
+      disableSelectAll: true,
+      showSelectedOptionsFirst: false,
+      autoSelectFirstOption: false,
+      autoSelectFirstOption: false,
+      selectAllText: 'Select all',
+      autofocus: false,
+      disableSelectAll: false,
+      showDropboxAsPopup: false
+    });
+  </script>
+  <script>
+    flatpickr(".flatpickr-date", {
+      enableTime: false,
+      dateFormat: "d-m-Y",
+    });
+  </script>
+
+  <script>
+    const elem = document.querySelector('.filter-datepicker');
+    const datepicker = new Datepicker(elem, {
+      format: 'dd/mm/yyyy',
+    });
+
+    $('.addingCalendar').on("click", function (e) {
+      console.log("clicked");
+      $('filter-datepicker').click();
+    });
+  </script>
+  <script>
+    const elem1 = document.querySelector('.filter-datepicker1');
+    const datepicker1 = new Datepicker(elem1, {
+      format: 'dd/mm/yyyy',
+    }); 
+  </script>
+  <script>
+
+
+  </script>
+
+</body>
+
+</html>

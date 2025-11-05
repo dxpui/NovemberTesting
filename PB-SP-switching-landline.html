@@ -1,0 +1,1522 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OFCOM website</title>
+  <link rel="icon" href="assets/img/favicon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <link href="css/virtual-select.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.3.4/dist/css/datepicker.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.3.4/dist/js/datepicker-full.min.js"></script>
+  <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- header start -->
+  <header class="header fixed-top d-flex align-items-center">
+    <a class="skip-to-content-link" href="#skipToContent" tabindex="0">Skip to main content</a>
+
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <div class="logo me-auto me-lg-0">
+        <a href="index.html"> <img class="brand-logo" src="assets/img/logo2023_2.svg" alt="OfCom Logo" /></a>
+      </div>
+      <a href="javascript:void(0);" id="mobile-menu-trigger" class="mobile-menu-trigger order-3 order-lg-2">
+        <span class="visually-hidden-focusable">hamburger menu</span>
+        <i class="mobile-nav-toggle mobile-nav-show fa-solid fa-bars"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none fa-solid fa-xmark"></i>
+      </a>
+      <!-- menu start here -->
+      <div class="header-item ms-auto">
+        <div class="menu-overlay">
+        </div>
+        <nav class="menu">
+          <div class="mobile-menu-head">
+            <a href="javascript:void(0);" class="go-back">
+              <span class="visually-hidden-focusable">Go Back</span>
+              <i class="fa fa-angle-left"></i></a>
+            <div class="current-menu-title"></div>
+            <div class="mobile-menu-close">&times;</div>
+          </div>
+          <ul class="menu-main">
+
+            <li class="block menu-item-has-children topicmenublock  ">
+
+              <button type="button">Topics <span class="visually-hidden-focusable">Menu</span> <i
+                  class="fa fa-angle-down"></i></button>
+              <div class="sub-menu mega-menu mega-menu-column-4">
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> About Ofcom </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Ofcom is the regulator for the communications services that we use and rely on each day.
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> Internet-based services </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      As people communicate seamlessly online and offline, we now need to invest our efforts into making
+                      digital communications work for everyone
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> Media use and attitudes </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Ofcom wants to understand how adults and children in the UK use media.
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="online-safety.html" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> Online safety </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Under the Online Safety Act, Ofcom's job is to make online services safer for the people who use
+                      them. We make sure companies have effective systems in place to protect users from harm.
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="phones-and-broadband.html" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> Phones and broadband </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Ofcom is committed to a thriving telecoms sector, where companies can compete fairly and customers
+                      benefit from a broad range of services.
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> Post </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Ofcom's job is to make sure there is a universal postal service.
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> Spectrum </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      You can't see or feel radio spectrum, but we use it every day. Our job is to authorise and manage
+                      the use of spectrum in the UK.
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> TV, radio and on-demand </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      We make sure that broadcasters provide quality TV, radio and on-demand programmes that appeal to
+                      diverse audiences. We also have rules in place to protect viewers and listeners from harm.
+                    </span>
+
+                  </p>
+                </div>
+
+
+
+                <div class="w-100 menu-social-icons">
+                  <a href="https://x.com/ofcom" title="x-twitter" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                  <a href="https://www.facebook.com/ofcom" title="facebook" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/ofcom" title="linkedin" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="https://www.youtube.com/ofcom" title="youtube" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="https://www.instagram.com/ofcom.org.uk/" title="instagram" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="https://www.tiktok.com/@ofcom.org.uk" title="tiktok" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                  </a>
+                </div>
+
+                <div class="multicolor-banner">
+                  <div class="row row-cols-auto g-0 multicolor-strip menu-strip-height">
+                    <div class="bg-blue"></div>
+                    <div class="bg-megenta"></div>
+                    <div class="bg-pink"></div>
+                    <div class="bg-yellow"></div>
+                    <div class="bg-green"></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="block menu-item-has-children contenttypemenublock  ">
+
+              <button type="button">Ofcom's work <span class="visually-hidden-focusable">Menu</span> <i
+                  class="fa fa-angle-down"></i></button>
+              <div class="sub-menu mega-menu mega-menu-column-4">
+
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Advice for businesses </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      How to make the most of communications services as a small business.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Advice for consumers </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      How to make the most of the services you use, and deal with problems.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Consultations and statements </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Proposals we are consulting on and decisions we've made.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="enforcement.html" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Enforcement </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      How we make sure companies follow our rules, to protect customers and promote competition.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Information for industry </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Rules, guidance and other information for the industries we regulate.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Licence information </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      If you're looking to use certain radio equipment, or broadcast on TV or radio, you'll need a
+                      licence from Ofcom.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>News and updates </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Our latest news, features, views and information about our work.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Research, statistics and data </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Evidence we gather to inform our work as a regulator.
+                    </span>
+                  </p>
+                </div>
+
+
+
+                <div class="w-100 menu-social-icons">
+                  <a href="https://x.com/ofcom" title="x-twitter" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                  <a href="https://www.facebook.com/ofcom" title="facebook" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/ofcom" title="linkedin" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="https://www.youtube.com/ofcom" title="youtube" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="https://www.instagram.com/ofcom.org.uk/" title="instagram" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="https://www.tiktok.com/@ofcom.org.uk" title="tiktok" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                  </a>
+                </div>
+
+                <div class="multicolor-banner">
+                  <div class="row row-cols-auto g-0 multicolor-strip menu-strip-height">
+                    <div class="bg-blue"></div>
+                    <div class="bg-megenta"></div>
+                    <div class="bg-pink"></div>
+                    <div class="bg-yellow"></div>
+                    <div class="bg-green"></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="block menu-item-has-children menublock  ">
+
+              <button type="button"> Complaints <span class="visually-hidden-focusable">Menu</span> <i
+                  class="fa fa-angle-down"></i></button>
+              <div class="sub-menu mega-menu mega-menu-column-4">
+                <div class="list-item ">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="complaints.html" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Complaints </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+
+                   <ul>
+                    <li><a href="javascript:void(0);">Complain about
+                        mobile, phone or internet services</a></li>
+                    <li><a href="javascript:void(0);">Complain about TV,
+                        radio or on demand services</a></li>
+                    <li><a href="javascript:void(0);">Complain about postal services</a>
+                    </li>
+                    <li><a href="javascript:void(0);">Complain about wireless
+                        interference</a></li>
+                    <li><a href="javascript:void(0);">Complain about online
+                        services, websites or apps</a></li>
+                    <li><a href="javascript:void(0);">Complain about premium rate
+                        services</a></li>
+                  </ul>
+                </div>
+
+
+                <div class="list-item">
+                  <ul>
+                    <li class="mb-3">
+                      <span class="detail-text">
+                        Ofcom may be able to help you complain about or report issues relating to: phone, broadband and
+                        postal services; TV, radio and on-demand programmes; interference to wireless devices; or
+                        something you have seen on an online service, website or app.
+                      </span>
+                    </li>
+
+                   <li>
+                      <a href="javascript:void(0);">
+                        The types of complaint Ofcom deals with
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">
+                        Get in touch by phone or post
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+
+
+                <div class="w-100 menu-social-icons">
+                  <a href="https://x.com/ofcom" title="x-twitter" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                  <a href="https://www.facebook.com/ofcom" title="facebook" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/ofcom" title="linkedin" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="https://www.youtube.com/ofcom" title="youtube" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="https://www.instagram.com/ofcom.org.uk/" title="instagram" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="https://www.tiktok.com/@ofcom.org.uk" title="tiktok" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                  </a>
+                </div>
+
+                <div class="multicolor-banner">
+                  <div class="row row-cols-auto g-0 multicolor-strip menu-strip-height">
+                    <div class="bg-blue"></div>
+                    <div class="bg-megenta"></div>
+                    <div class="bg-pink"></div>
+                    <div class="bg-yellow"></div>
+                    <div class="bg-green"></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="block menu-item-has-children menublock  ">
+
+              <button type="button"> Licences <span class="visually-hidden-focusable">Menu</span> <i
+                  class="fa fa-angle-down"></i></button>
+              <div class="sub-menu mega-menu mega-menu-column-4">
+                <div class="list-item ">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="licence.html" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Licences </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+
+                 <ul>
+                    <li><a href="javascript:void(0);">Spectrum licences</a></li>
+                    <li><a href="javascript:void(0);">Radio broadcast licences</a></li>
+                    <li><a href="javascript:void(0);">TV broadcast licences</a></li>
+                  </ul>
+                </div>
+
+
+                <div class="list-item">
+                  <ul>
+                    <li class="mb-3">
+                      <span class="detail-text">
+                        You need a licence from Ofcom if you’re looking to use certain radio equipment (like amateur or
+                        ships radio), or broadcast on TV or radio.
+                      </span>
+                    </li>
+
+                    <li>
+                      <a href="javascript:void(0);">
+                        Help with your spectrum licence
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">
+                        Help with your broadcast licence
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+
+
+                <div class="w-100 menu-social-icons">
+                  <a href="https://x.com/ofcom" title="x-twitter" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                  <a href="https://www.facebook.com/ofcom" title="facebook" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/ofcom" title="linkedin" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="https://www.youtube.com/ofcom" title="youtube" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="https://www.instagram.com/ofcom.org.uk/" title="instagram" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="https://www.tiktok.com/@ofcom.org.uk" title="tiktok" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                  </a>
+                </div>
+
+                <div class="multicolor-banner">
+                  <div class="row row-cols-auto g-0 multicolor-strip menu-strip-height">
+                    <div class="bg-blue"></div>
+                    <div class="bg-megenta"></div>
+                    <div class="bg-pink"></div>
+                    <div class="bg-yellow"></div>
+                    <div class="bg-green"></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </nav>
+      </div>
+      <!-- menu end here -->
+      <a href="javascript:void(0);" id="search-icon" class="search-icons d-flex align-items-center order-2 order-lg-1">
+        <i class="fas fa-search"></i>
+        <span class="visually-hidden-focusable">Global Search</span>
+      </a>
+      <form action="global-search.html" class="search-form" id="globalSearch">
+        <div class="search-box mx-auto mb-3 position-relative">
+          <input type="search" class="search-box-input" name="query" aria-label="Global Search" placeholder="Search"
+            id="globalquery" autocomplete="off">
+          <label for="globalquery" class="fas fa-search visually-hidden-focusable">Search</label>
+          <a href="global-search.html" class="fas fa-search gl-search"><span
+              class="visually-hidden-focusable">Search</span></a>
+        </div>
+
+        <h4 class="text-center mt-4">Quick links</h4>
+        <hr>
+        <div class="search-quick-link mx-auto mt-4">
+          <div class="row">
+            <div class="col-6 col-md-3">
+              <a href="javascript:void(0);" class="w-100 d-flex align-items-start align-items-start">
+                <span>Broadband and mobile coverage checker</span>
+                <i class="fa-solid fa-circle-arrow-right"></i>
+              </a>
+            </div>
+            <div class="col-6 col-md-3">
+              <a href="javascript:void(0);" class="w-100 d-flex align-items-start align-items-start">
+                <span>Social tariffs: Cheaper broadband and phone packages</span>
+                <i class="fa-solid fa-circle-arrow-right"></i>
+              </a>
+            </div>
+            <div class="col-6 col-md-3">
+              <a href="javascript:void(0);" class="w-100 d-flex align-items-start align-items-start">
+                <span>Telephone area codes: Find UK dialling codes for numbers starting 01 and 02</span>
+                <i class="fa-solid fa-circle-arrow-right"></i>
+              </a>
+            </div>
+            <div class="col-6 col-md-3">
+              <a href="javascript:void(0);" class="w-100 d-flex align-items-start align-items-start">
+                <span>Ofcom licensing portal for aircraft, amateur and ships radio</span>
+                <i class="fa-solid fa-circle-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr>
+
+
+        <div class="search-quick-link news-blue-bg mx-auto mt-4 mb-5">
+          <h4 class="text-center mt-4 mb-3">Latest news</h4>
+          <div class="row extra-margin">
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="javascript:void(0);">
+                <div class="info-card news-info">
+                  <picture>
+                    <source srcset="assets/img/tech-gavel-web.webp" sizes="100vw" type="image/webp">
+                    <source srcset="" sizes="100vw"><img alt="Tech-gavel-web" src="" loading="lazy" decoding="async"
+                      class="w-100 mb-3">
+                  </picture>
+                  <div class="d-flex justify-content-between align-items-start">
+                    <h3 class="info-card-header">Ofcom spectrum auction: final results announced</h3>
+                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                        stroke-linejoin="bevel"></path>
+                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                    </svg>
+                  </div>
+                  <span class="date">24 October 2025</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="javascript:void(0);">
+                <div class="info-card news-info">
+                  <picture>
+                    <source srcset="assets/img/delivery-warehouse-workers-hero.webp" sizes="100vw" type="image/webp">
+                    <source srcset="" sizes="100vw"><img alt="Tech-gavel-web" src="" loading="lazy" decoding="async"
+                      class="w-100 mb-3">
+                  </picture>
+                  <div class="d-flex justify-content-between align-items-start">
+                    <h3 class="info-card-header">Best and worst parcel firms for customer satisfaction revealed 2024/25
+                    </h3>
+                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                        stroke-linejoin="bevel"></path>
+                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                    </svg>
+                  </div>
+                  <span class="date">22 October 2025</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="javascript:void(0);">
+                <div class="info-card news-info">
+                  <picture>
+                    <source srcset="assets/img/news-centre-hero-1336--560px-6.webp" sizes="100vw" type="image/webp">
+                    <source srcset="" sizes="100vw"><img alt="Tech-gavel-web" src="" loading="lazy" decoding="async"
+                      class="w-100 mb-3">
+                  </picture>
+                  <div class="d-flex justify-content-between align-items-start">
+                    <h3 class="info-card-header">Ofcom updates guidance around politicians presenting news</h3>
+                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                        stroke-linejoin="bevel"></path>
+                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                    </svg>
+                  </div>
+                  <span class="date">20 October 2025</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="javascript:void(0);">
+                <div class="info-card news-info">
+                  <picture>
+                    <source srcset="assets/img/bbc-salford.webp" sizes="100vw" type="image/webp">
+                    <source srcset="" sizes="100vw"><img alt="Tech-gavel-web" src="" loading="lazy" decoding="async"
+                      class="w-100 mb-3">
+                  </picture>
+                  <div class="d-flex justify-content-between align-items-start">
+                    <h3 class="info-card-header">Ofcom investigation finds BBC Gaza documentary in breach of
+                      Broadcasting Code</h3>
+                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                        stroke-linejoin="bevel"></path>
+                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                    </svg>
+                  </div>
+                  <span class="date">17 October 2025</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </form>
+      <a href="" class="langauge-change order-1 order-lg-3" lang="cy" hreflang="cy">Cymraeg</a>
+
+
+    </div>
+    </div>
+  </header>
+  <main role="main">
+
+
+    <section class="breadcrumb-position">
+      <div class="row">
+        <div class="col-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="/">Home</a></li>
+              <li class="breadcrumb-item ellipsis"><a href="phones-and-broadband.html">Phones and broadband</a></li>
+              <li class="breadcrumb-item ellipsis"><a href="PB-switching-provider.html">Switching
+                  provider</a></li>
+              <li class="breadcrumb-item active ellipsis" aria-current="page"><span>Switching landline</span></li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <section>
+      <div class="hero-banner-narrow blue-bg">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 col-lg-7 col-xl-8 offset-lg-2 offset-xl-2">
+              <h1 id="skipToContent" data-epi-type="title"><strong>Switching landline</strong></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid standared-page container-p-0">
+        <div class="row">
+          <div class="col-lg-2">
+            <div class="mt-5 mb-lg-0">
+              <a class="btn btn-tag blue-bg" href="https://www.ofcom.org.uk/phones-and-broadband" target="_self">
+                Phones and broadband
+              </a>
+              <a class="btn btn-tag light-blue-bg"
+                href="https://www.ofcom.org.uk/phones-and-broadband/switching-provider" target="_self">
+                Switching provider
+              </a>
+              <a class="btn btn-tag maroon-bg" href="https://www.ofcom.org.uk/advice-for-consumers" target="_self">
+                Advice for consumers
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="row row-cols-auto g-0 mt-3 mt-lg-5 ml-left">
+              <div class="col-12">
+                Published:
+                27 February 2017
+              </div>
+              <div class="col-12">
+                Last updated:
+                2 October 2024
+              </div>
+            </div>
+            <div class="mt-3 mt-lg-5">
+              <div class="standard-content-area">
+
+                <div class="block  richtextblock  ">
+
+                  <section class="container-xl mt-5">
+
+                    <div class="rich-text-block">
+                      <p class="standfirst">Long gone are the days when you could only get your home phone from one or
+                        two providers.</p>
+                      <p>Now you can choose from a wide range of companies, and phone services can be bought as
+                        stand-alone services or as part of bundled deals alongside other services, such as TV, broadband
+                        and mobile services.</p>
+                      <p>This guide explains what you need to do if you want to switch your landline to a new provider.
+                      </p>
+                      <h2><span>One Touch Switch</span></h2>
+                      <p><span>From September 2024, a new switching process for all broadband and landline services
+                        </span><span>called ‘One Touch Switch’ </span><span>will be used.</span><span> This process will
+                          be easier, quicker and more reliable for customers.</span></p>
+                      <p><span>Under this process, you don’t <em>need to speak to your current provider</em>. Instead,
+                          your new provider can arrange the </span><span>switch</span><span> for you. You will simply
+                          need to provide them with a few details including your address and the name of your current
+                          provider. </span></p>
+                      <p><span>These details will be matched against your current provider’s records, and they will
+                          immediately send you any important information to consider in deciding whether to go
+                          ahead</span><span> with the switch</span><span>. This may include early termination charges or
+                          the impact of the switch on any other services you currently receive. If you decide to go
+                          ahead with the switch, the new provider will </span><span>arrange</span><span> this for your
+                          preferred switching date.</span></p>
+                      <p><span><img
+                            alt="Under One Touch Switch, a customer contacts their chosen new provider and provides their details. The current provider automatically gives the customer switching information (for example early termination charges, the impact of the switch on other services). If they decide they want to go ahead, they confirm this with their new provider. The new provider then manages the switch."
+                            src="assets/img/one-touch-switch-overview.webp"
+                            width="1347" height="462"></span></p>
+                      <p><span>On the day of the switch, once your new service ha</span><span>s</span><span> been
+                          confirmed to be working correctly, your new provider will notify your old provider to cease
+                          your existing service and <span style="font-style: normal !msorm;"><em>you should not be
+                              charged for any notice period charges beyond this
+                              date</em></span></span><span>.</span><span> Any loss of service that occurs during a
+                          switch should not be longer than one working day.</span></p>
+                      <p><span>Under our new rules, providers will also have to compensate you in an easy and timely
+                          manner if things go wrong, </span><span>for example, if you are</span><span> left without a
+                          service for more than one working day, or if they miss any service or installation
+                          appointments. We expect providers to pay such compensation within 30 days of the completion of
+                          a delayed switch, or the date of any missed appointment.</span></p>
+                      <p>You can keep your existing landline telephone number when you switch. This is known as number
+                        'porting'. If you want to keep your number, let <span>your new </span>provider know. You can
+                        request to keep your old phone number for free even if you have already cancelled your previous
+                        service (as long as you request this within one month of cancelling). However, you may not be
+                        able to keep your existing landline number if you are switching landline provider at the same
+                        time as moving home.</p>
+                      <p>If you change your mind, you must contact your new provider to cancel your request to switch.
+                      </p>
+                      <h2><span>Switching a bundle</span></h2>
+                      <p>If you're switching provider for a bundle of landline and broadband services at the same time,
+                        you will usually follow <span>t</span>he process described above.</p>
+                      <p>Where you have asked and are able to keep your existing phone number, you do not need to notify
+                        <span>your old </span>provider that you are moving to a new landline provider.</p>
+                      <p>However, you may need to notify them to cancel other services you are also switching as part of
+                        a bundle - particularly if the switch involves cancellation of a TV service.</p>
+                      <p><span>Your old provider will give you information on what your options are regarding these
+                          services in the switching information they send to you.</span><span>.</span></p>
+                      <h2><span>Early termination charges and cooling off period</span></h2>
+                      <p><span>If you want to change provider before the&nbsp;</span><span><a
+                            href="/phones-and-broadband/saving-money/in-or-out">end of your minimum contract
+                            period</a></span><span>, you might have to pay early termination
+                          charges</span><span>.</span> <span>If you use the OTS switching process you will be
+                          automatically notified by your current provider about any termination charges.</span></p>
+                      <p><span>And remember, you have the right to cancel your order within 14 calendar days (the
+                          ‘cooling off’ period). However, if your service has already started then you may be charged
+                          for the proportion of the service you have already used when you cancel and/or any
+                          installation costs incurred.</span></p>
+                      <h2><span>Managing your own </span><span>switch</span></h2>
+                      <p>You may choose to ask your new provider not to manage the switch on your behalf, for example if
+                        you would prefer to have a period of overlap between the new installation and cancelling your
+                        old service. In this case, you would need to order the service with your new provider and
+                        separately contact your old provider to cancel your existing contract at the appropriate time.
+                        However, please be aware that the OTS process would not apply in this case.&nbsp;</p>
+                    </div>
+                  </section>
+                </div>
+              </div>
+
+
+
+
+              <div class="block  twocolumnblock  ">
+
+                <div class="mt-5">
+                  <section class="container-xl">
+                    <h2 class="text-center teaser-header h3">Related content</h2>
+                    <div class="row">
+                      <div class="col-md-12 col-lg-12">
+                        <div class="row extra-margin">
+
+                          <div class="block  standardpage col-12 col-sm-6 col-md-4 onethird">
+
+                            <a
+                              href="/phones-and-broadband/switching-provider/checklist-when-taking-out-new-phone-or-broadband-contract">
+                              <div class="info-card">
+                                <div class="d-flex justify-content-between align-items-start">
+                                  <h3 class="info-card-header">Checklist for new phone or broadband contract</h3>
+                                  <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                    <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                      stroke-linejoin="bevel"></path>
+                                    <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel">
+                                    </path>
+                                  </svg>
+                                </div>
+                                <div class="serach-date">
+                                </div>
+
+                                <p>
+                                  This guide sets out some factors you might want to consider before signing a new
+                                  contract and explains what you can do if the price you agreed to at the point of sale
+                                  increases unexpectedly.
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="block  standardpage col-12 col-sm-6 col-md-4 onethird">
+
+                            <a href="/phones-and-broadband/saving-money/managing-your-costs-landlines">
+                              <div class="info-card">
+                                <div class="d-flex justify-content-between align-items-start">
+                                  <h3 class="info-card-header">Managing landline costs</h3>
+                                  <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                    <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                      stroke-linejoin="bevel"></path>
+                                    <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel">
+                                    </path>
+                                  </svg>
+                                </div>
+                                <div class="serach-date">
+                                </div>
+
+                                <p>
+                                  How to choose the best landline type of tariff for you, including favourite number
+                                  discounts, web calls and specific advice for people on low incomes.
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="block  standardpage col-12 col-sm-6 col-md-4 onethird">
+
+                            <a href="/phones-and-broadband/saving-money/price-comparison">
+                              <div class="info-card">
+                                <div class="d-flex justify-content-between align-items-start">
+                                  <h3 class="info-card-header">Use an Ofcom-accredited price comparison site to find the
+                                    best deal</h3>
+                                  <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                    <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                      stroke-linejoin="bevel"></path>
+                                    <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel">
+                                    </path>
+                                  </svg>
+                                </div>
+                                <div class="serach-date">
+                                </div>
+
+                                <p>
+                                  Looking for a new phone, broadband or digital TV deal? Check out the price comparison
+                                  sites that Ofcom has accredited.
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="block  standardpage col-12 col-sm-6 col-md-4 onethird">
+
+                            <a href="/phones-and-broadband/switching-provider/switching-mobile-phone-provider">
+                              <div class="info-card">
+                                <div class="d-flex justify-content-between align-items-start">
+                                  <h3 class="info-card-header">Switching mobile phone provider</h3>
+                                  <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                    <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                      stroke-linejoin="bevel"></path>
+                                    <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel">
+                                    </path>
+                                  </svg>
+                                </div>
+                                <div class="serach-date">
+                                </div>
+
+                                <p>
+                                  This guide explains how to switch your mobile phone service to a new provider. You can
+                                  do so by sending a simple text.
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="block  standardpage col-12 col-sm-6 col-md-4 onethird">
+
+                            <a href="/phones-and-broadband/switching-provider/switching-broadband-provider">
+                              <div class="info-card">
+                                <div class="d-flex justify-content-between align-items-start">
+                                  <h3 class="info-card-header">Switching broadband provider</h3>
+                                  <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                    <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                      stroke-linejoin="bevel"></path>
+                                    <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel">
+                                    </path>
+                                  </svg>
+                                </div>
+                                <div class="serach-date">
+                                </div>
+
+                                <p>
+                                  This guide explains what you need to do if you want to switch your broadband to a new
+                                  provider.
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </section>
+                </div>
+              </div>
+              <div id="feedbackform">
+
+                <div class="block  formcontainerblock  ">
+
+
+
+
+                  <form method="post" novalidate="novalidate" data-f-metadata=""
+                    aria-labelledby="4078f3df-4b94-46ce-9ebd-e2b5903bfb68_label" enctype="multipart/form-data"
+                    class="EPiServerForms ValidationSuccess" data-f-type="form"
+                    id="4078f3df-4b94-46ce-9ebd-e2b5903bfb68">
+
+
+
+                    <script type="text/javascript" nonce="wgTYe+VWgy+9Fgb/YRACNegEawAApZNYtrwo3ymiNhE=">
+                      // This view acts as a rendering template to render InitScript(and server-side Form's descriptor) in FormContainerBlock's client-side for Form[4078f3df-4b94-46ce-9ebd-e2b5903bfb68].
+                      // TECHNOTE: all serverside (paths, dynamic values) of EPiServerForms will be transfered to client side here in this section.
+                      (function initializeOnRenderingFormDescriptor() {
+                        // each workingFormInfo is store inside epi.EPiServer.Forms, lookup by its FormGuid
+                        var workingFormInfo = epi.EPiServer.Forms["4078f3df-4b94-46ce-9ebd-e2b5903bfb68"] = {
+                          Id: "4078f3df-4b94-46ce-9ebd-e2b5903bfb68",
+                          Name: "Page Feedback Form",
+                          // whether this Form can be submitted which relates to the visitor's data (cookie, identity) and Form's settings (AllowAnonymous, AllowXXX)
+                          SubmittableStatus: { "submittable": true, "message": "" },
+                          ConfirmMessage: "Successfully Submitted Confirmation Message",
+                          ResetConfirmMessage: "",
+                          ShowNavigationBar: true,
+                          FocusOnForm: false,
+                          ShowSummarizedData: false,
+                          // serialize the dependency configuration of this form to clientside
+                          DependenciesInfo: JSON.parse("[{\"fieldName\":\"__field_72719\",\"action\":{\"displayName\":\"Shown\",\"name\":\"EPiServer.Forms.Core.Internal.Dependency.ShowAction\",\"order\":1,\"clientsideAction\":\"show\"},\"conditionCombination\":\"Any\",\"conditions\":[{\"fieldName\":\"__field_72718\",\"operator\":\"Equals\",\"fieldValue\":\"No\"}]},{\"fieldName\":\"__field_72720\",\"action\":{\"displayName\":\"Shown\",\"name\":\"EPiServer.Forms.Core.Internal.Dependency.ShowAction\",\"order\":1,\"clientsideAction\":\"show\"},\"conditionCombination\":\"Any\",\"conditions\":[{\"fieldName\":\"__field_72718\",\"operator\":\"Equals\",\"fieldValue\":\"No\"},{\"fieldName\":\"__field_72718\",\"operator\":\"Equals\",\"fieldValue\":\"Yes\"}]}]"),
+                          // keep all fieldName which are not satisfied the field dependency conditions
+                          DependencyInactiveElements: [],
+                          // Validation info, for executing validating on client side
+                          ValidationInfo: JSON.parse("[{\"targetElementName\":\"__field_72718\",\"targetElementId\":\"c2ee3143-73e4-46e6-9298-3708bd1947c3\",\"validators\":[{\"type\":\"EPiServer.Forms.Implementation.Validation.RequiredValidator\",\"description\":null,\"model\":{\"message\":\"This field is required.\",\"validationCssClass\":\"ValidationRequired\",\"additionalAttributes\":{\"required\":\"\",\"aria-required\":\"true\"}}}]},{\"targetElementName\":\"__field_72719\",\"targetElementId\":\"f592d84e-befd-49d2-9c31-b9b5ed8268dd\",\"validators\":[{\"type\":\"EPiServer.Forms.Implementation.Validation.RequiredValidator\",\"description\":null,\"model\":{\"message\":\"This field is required.\",\"validationCssClass\":\"ValidationRequired\",\"additionalAttributes\":{\"required\":\"\",\"aria-required\":\"true\"}}}]},{\"targetElementName\":\"__field_190413\",\"targetElementId\":\"80be2fa7-a431-4238-9ef2-793db3b02fc8\",\"validators\":[{\"type\":\"EPiServer.Forms.Samples.Implementation.Validation.RecaptchaValidator\",\"description\":null,\"model\":{\"message\":\"Invalid reCAPTCHA value, please try again.\",\"validationCssClass\":null,\"additionalAttributes\":null}}]}]"),
+                          // Steps information for driving multiple-step Forms.
+                          StepsInfo: {
+                            Steps: [{ "index": 0, "attachedUrl": "", "dependField": null, "dependCondition": null, "isActive": true, "attachedContentLink": "", "dependValue": "", "elementName": "__field_", "guid": "00000000-0000-0000-0000-000000000000" }]
+                          },
+                          FieldsExcludedInSubmissionSummary: [],
+                          ElementsInfo: JSON.parse("{\"__field_72718\":{\"type\":\"EPiServer.Forms.Implementation.Elements.ChoiceElementBlock\",\"friendlyName\":\"Options\",\"customBinding\":false},\"__field_72719\":{\"type\":\"EPiServer.Forms.Implementation.Elements.TextareaElementBlock\",\"friendlyName\":\"comments\",\"customBinding\":false},\"__field_72720\":{\"type\":\"EPiServer.Forms.Implementation.Elements.SubmitButtonElementBlock\",\"friendlyName\":\"Submit\",\"customBinding\":false}}"),
+                          DataSubmitController: "/EPiServer.Forms/DataSubmit",
+                        };
+                        /// TECHNOTE: Calculation at FormInfo level, and these values will be static input for later processing.
+                        workingFormInfo.StepsInfo.FormHasNoStep_VirtualStepCreated = true; // this FLAG will be true, if Editor does not put any FormStep. Engine will create a virtual step, with empty GUID
+                        workingFormInfo.StepsInfo.FormHasNothing = false; // this FLAG will be true if FormContainer has no element at all
+                        workingFormInfo.StepsInfo.AllStepsAreNotLinked = true; // this FLAG will be true, if all steps all have contentLink= ="" (emptyString)
+
+                        epi.EPiServer.SystemSettings = {
+                          RequestVerification: {
+                            FormFieldName: "__RequestVerificationToken",
+                            HeaderName: "RequestVerificationToken"
+                          }
+                        };
+                      })();
+                    </script>
+                    <input type="hidden" class="Form__Element Form__SystemElement FormHidden FormHideInSummarized"
+                      name="__FormGuid" value="4078f3df-4b94-46ce-9ebd-e2b5903bfb68" data-f-type="hidden">
+                    <input type="hidden" class="Form__Element Form__SystemElement FormHidden FormHideInSummarized"
+                      name="__FormHostedPage" value="70445" data-f-type="hidden">
+                    <input type="hidden" class="Form__Element Form__SystemElement FormHidden FormHideInSummarized"
+                      name="__FormLanguage" value="en" data-f-type="hidden">
+                    <input type="hidden" class="Form__Element Form__SystemElement FormHidden FormHideInSummarized"
+                      name="__FormCurrentStepIndex" value="0" data-f-type="hidden">
+                    <input type="hidden" class="Form__Element Form__SystemElement FormHidden FormHideInSummarized"
+                      name="__FormSubmissionId" value="" data-f-type="hidden">
+                    <input name="__RequestVerificationToken" type="hidden"
+                      value="CfDJ8CKmhdhapJJPjb6ErY-Ko06dU4Ipcc0pSytO2WI1sZsBtG5DKAAXd3AuPm81vGJ_fNjLD0tMEa4-f1U1UBPVjPc6YcMmyzClDQMQtiPQBOgpLq0dcgx6phc5Pa9eZHN7eQFQstn2EuVxWNSkqHFG2IA">
+                    <h2 class="Form__Title" id="4078f3df-4b94-46ce-9ebd-e2b5903bfb68_label">Rate this page</h2>
+                    <div class="Form__Status">
+                      <div role="status" class="Form__Status__Message hide" data-f-form-statusmessage="">
+
+                      </div>
+                    </div>
+                    <div data-f-mainbody="" class="Form__MainBody">
+                      <section id="__field_" data-f-type="step" data-f-element-name="__field_"
+                        class="Form__Element FormStep Form__Element--NonData " data-f-stepindex="0"
+                        data-f-element-nondata="">
+                        <!-- Each FormStep groups the elements below it til the next FormStep -->
+
+
+
+                        <div aria-invalid="false" class="Form__Element FormChoice ValidationRequired"
+                          data-f-element-name="__field_72718" data-f-type="choice"
+                          id="c2ee3143-73e4-46e6-9298-3708bd1947c3">
+                          <fieldset aria-describedby="__field_72718_desc">
+                            <legend class="Form__Element__Caption">Was this page helpful?</legend>
+                            <div>
+                              <input type="radio" id="c2ee3143-73e4-46e6-9298-3708bd1947c3_0" name="__field_72718"
+                                value="Yes" class="FormChoice__Input FormChoice__Input--Radio" data-f-datainput=""
+                                required="" aria-required="true">
+                              <label for="c2ee3143-73e4-46e6-9298-3708bd1947c3_0" class="FormChoice__Label">
+                                Yes
+                              </label>
+                            </div>
+                            <div>
+                              <input type="radio" id="c2ee3143-73e4-46e6-9298-3708bd1947c3_1" name="__field_72718"
+                                value="No" class="FormChoice__Input FormChoice__Input--Radio" data-f-datainput=""
+                                required="" aria-required="true">
+                              <label for="c2ee3143-73e4-46e6-9298-3708bd1947c3_1" class="FormChoice__Label">
+                                No
+                              </label>
+                            </div>
+                          </fieldset>
+                          <span class="Form__Element__ValidationError hidden" data-f-linked-name="__field_72718"
+                            data-f-validationerror="" id="__field_72718_desc" role="alert"></span>
+                        </div>
+
+                        <div class="Form__Element FormTextbox FormTextbox--Textarea ValidationRequired hide"
+                          data-f-element-name="__field_72719" data-f-modifier="textarea" data-f-type="textbox"> <label
+                            for="f592d84e-befd-49d2-9c31-b9b5ed8268dd" class="Form__Element__Caption">What can we do to
+                            improve pages like this?</label>
+                          <textarea name="__field_72719" id="f592d84e-befd-49d2-9c31-b9b5ed8268dd"
+                            class="FormTextbox__Input" placeholder=""
+                            data-f-label="What can we do to improve pages like this?" data-f-datainput=""
+                            title="Tooltip text resolved the aria label issue" required="" aria-required="true"
+                            aria-describedby="__field_72719_desc" autocomplete="off"></textarea>
+                          <span class="Form__Element__ValidationError hidden" data-f-linked-name="__field_72719"
+                            data-f-validationerror="" id="__field_72719_desc" role="alert"></span>
+                        </div>
+
+
+                        <button id="fe98d66c-adbf-4f60-b418-70b1b7b32a3a" name="submit" type="submit"
+                          value="fe98d66c-adbf-4f60-b418-70b1b7b32a3a" data-f-is-finalized="false"
+                          data-f-is-progressive-submit="true" data-f-type="submitbutton"
+                          data-f-element-name="__field_72720"
+                          class="Form__Element FormExcludeDataRebind FormSubmitButton hide btn btn-primary width-md-100">
+                          Submit</button>
+
+
+
+                        <div id="80be2fa7-a431-4238-9ef2-793db3b02fc8"
+                          class="Form__Element Form__CustomElement FormRecaptcha"
+                          data-epiforms-element-name="__field_190413"
+                          data-epiforms-sitekey="6LcxVZgqAAAAAA5jdSiWf0zricZdAMxTjP28peu4">
+
+                          <span role="alert" aria-live="polite" data-epiforms-linked-name="__field_190413"
+                            class="Form__Element__ValidationError hidden">
+
+                          </span>
+                        </div>
+                      </section>
+
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section id="footer-subscription" class="mtop-5" aria-label="subscription">
+    <div class="row g-0">
+      <div class="col-12 d-flex justify-content-center position-relative">
+        <a href="email-updates.html" class="btn btn-primary button-subscribe">
+          Subscribe to email updates <i class="ms-4 fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+      <div class="col-12">
+        <div class="row row-cols-auto g-0 multicolor-strip">
+          <div class="col bg-blue"></div>
+          <div class="col bg-megenta"></div>
+          <div class="col bg-pink"></div>
+          <div class="col bg-yellow"></div>
+          <div class="col bg-green"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container-xl">
+      <div class="row">
+
+        <div class="block col-md-12 col-lg-3 socialiconsblock  ">
+
+          <section class="mt-0 mt-lg-5 social">
+            <h2 class="follow">Follow us</h2>
+            <ul class="list-unstyled social-icons">
+              <li class="social-icons-list">
+                <a class="" href="https://x.com/ofcom" title="x-twitter" aria-label="x-twitter (opens in a new tab)"
+                  target="_blank">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <span class="visually-hidden-focusable">x-twitter</span>
+                </a>
+              </li>
+              <li class="social-icons-list">
+                <a class="" href="https://www.facebook.com/ofcom" title="facebook"
+                  aria-label="facebook (opens in a new tab)" target="_blank">
+                  <i class="fa-brands fa-facebook"></i>
+                  <span class="visually-hidden-focusable">facebook</span>
+                </a>
+              </li>
+              <li class="social-icons-list">
+                <a class="" href="https://www.linkedin.com/company/ofcom" title="linkedin"
+                  aria-label="linkedin (opens in a new tab)" target="_blank">
+                  <i class="fa-brands fa-linkedin"></i>
+                  <span class="visually-hidden-focusable">linkedin</span>
+                </a>
+              </li>
+              <li class="social-icons-list">
+                <a class="" href="https://www.youtube.com/ofcom" title="youtube"
+                  aria-label="youtube (opens in a new tab)" target="_blank">
+                  <i class="fa-brands fa-youtube"></i>
+                  <span class="visually-hidden-focusable">youtube</span>
+                </a>
+              </li>
+              <li class="social-icons-list">
+                <a class="" href="https://www.instagram.com/ofcom.org.uk/" title="instagram"
+                  aria-label="instagram (opens in a new tab)" target="_blank">
+                  <i class="fa-brands fa-instagram"></i>
+                  <span class="visually-hidden-focusable">instagram</span>
+                </a>
+              </li>
+              <li class="social-icons-list">
+                <a class="" href="https://www.tiktok.com/@ofcom.org.uk" title="tiktok"
+                  aria-label="tiktok (opens in a new tab)" target="_blank">
+                  <i class="fa-brands fa-tiktok"></i>
+                  <span class="visually-hidden-focusable">tiktok</span>
+                </a>
+              </li>
+            </ul>
+          </section>
+
+        </div>
+        <div class="block col-md-12 col-lg-3 linklistblock  ">
+
+          <section class="mt-0 mt-lg-5 about-ofcom">
+            <h2 class="follow h5">About Ofcom</h2>
+            <ul class="list-unstyled">
+              <li>
+                <a class="footer-link" title="What is Ofcom?" href="javascript:void(0);">
+                  What is Ofcom?
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Contact us" href="javascript:void(0);">
+                  Contact us
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Ofcom in the nations and regions"
+                  href="javascript:void(0);">
+                  Nations and regions
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Jobs at Ofcom" href="javascript:void(0);"
+                  target="_blank">
+                  Jobs
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="General Privacy Statement"
+                  href="javascript:void(0);">
+                  General Privacy Statement
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Modern slavery statement"
+                  href="javascript:void(0);">
+                  Modern slavery statement
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Our work in the Welsh language"
+                  href="javascript:void(0);">
+                  Our work in Welsh
+                </a>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div class="block col-md-12 col-lg-3 linklistblock  ">
+
+          <section class="mt-0 mt-lg-5 about-ofcom">
+            <h2 class="follow h5">About this website</h2>
+            <ul class="list-unstyled">
+              <li>
+                <a class="footer-link" title="Accessibility of Ofcom's website"
+                  href="javascript:void(0);">
+                  Accessibility
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Cookies policy" href="javascript:void(0);">
+                  Cookies policy
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Terms of use" href="javascript:void(0);">
+                  Terms of use
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Copyright and information re-use"
+                  href="javascript:void(0);">
+                  Copyright and information re-use
+                </a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="container-xl">
+      <div class="row copyrights">
+        <div class="copyright-text text-lg-start text-start text-sm-end"> © Ofcom 2025 </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <!-- <script type="text/javascript">
+    window.onload = () => {
+      const myModal = new bootstrap.Modal('#onload');
+      myModal.show();
+    }
+  </script> -->
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+          slidesPerGroup: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 10,
+          slidesPerGroup: 3,
+        },
+      },
+    });
+  </script>
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/js/bootstrap-select.min.js"></script>
+  <script src="js/virtual-select.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src="js/main.js"></script>
+  <script>
+    VirtualSelect.init({
+      ele: '#example-select',
+      hideClearButton: true,
+      disableSelectAll: true,
+      showSelectedOptionsFirst: false,
+      autoSelectFirstOption: false,
+      autoSelectFirstOption: false,
+      selectAllText: 'Select all',
+      autofocus: false,
+      disableSelectAll: false,
+      showDropboxAsPopup: false
+    });
+  </script>
+  <script>
+    flatpickr(".flatpickr-date", {
+      enableTime: false,
+      dateFormat: "d-m-Y",
+    });
+  </script>
+
+  <script>
+    const elem = document.querySelector('.filter-datepicker');
+    const datepicker = new Datepicker(elem, {
+      format: 'dd/mm/yyyy',
+    });
+
+    $('.addingCalendar').on("click", function (e) {
+      console.log("clicked");
+      $('filter-datepicker').click();
+    });
+  </script>
+  <script>
+    const elem1 = document.querySelector('.filter-datepicker1');
+    const datepicker1 = new Datepicker(elem1, {
+      format: 'dd/mm/yyyy',
+    }); 
+  </script>
+  <script>
+
+
+  </script>
+
+</body>
+
+</html>

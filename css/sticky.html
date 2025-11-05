@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sticky Accordion</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      padding-top: 150px;
+    }
+
+   /* Smooth sticky transition */
+#accordionContainer {
+  transition: all 0.3s ease-in-out;
+  background: #fff;
+  z-index: 999;
+}
+
+/* Sticky mode */
+#accordionContainer.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Smooth accordion open/close */
+.accordion-collapse {
+  transition: height 0.4s ease !important;
+  overflow: hidden;
+}
+
+  </style>
+</head>
+<body>
+
+<!-- Sticky Hide Button -->
+<button class="hide-btn btn btn-danger">Hide</button>
+
+<!-- Accordion Wrapper -->
+<div id="accordionWrapper" class="container mt-3">
+  <div id="accordionContainer">
+    <div class="accordion" id="exampleAccordion">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+            Search Filters
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#exampleAccordion">
+          <div class="accordion-body">
+            <p>This is your filter content. Add inputs, selects, etc.</p>
+            <p>Lots of content to test scrolling...</p>
+            <p>More filters here...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Dummy content below -->
+<div class="container mt-5">
+  <p>Scroll down to test sticky accordion behavior...</p>
+  <div style="height: 1500px; background: linear-gradient(#fafafa, #ddd);"></div>
+</div>
+
+
+<!-- Page filler -->
+<div class="container mt-5">
+  <p>Background content to demonstrate scrolling behind the sticky accordion. Scroll down to test behavior.</p>
+  <div style="height: 1500px; background: linear-gradient(#f0f0f0, #ccc);"></div>
+</div>
+
+<!-- Bootstrap & jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  function stickyFilterTop() {
+    let lastScrollTop = 0;
+    let accordion = $("#accordionContainer");
+    let accordionWrapper = $("#accordionWrapper");
+    let originalOffset = accordionWrapper.offset().top;
+
+    // Spacer to avoid layout shifting
+    let spacer = $("<div id='accordionSpacer'></div>").hide();
+    accordionWrapper.after(spacer);
+
+    function isAnyAccordionOpen() {
+        return $(".accordion-collapse.show").length > 0;
+    }
+
+    function updateSpacer() {
+        let accordionHeight = accordion.outerHeight();
+        if (accordion.hasClass("sticky")) {
+            spacer.height(accordionHeight).show();
+        } else {
+            spacer.hide();
+        }
+    }
+
+    function expandAccordion() {
+        if (!$("#collapseOne").hasClass("show")) {
+            $("#collapseOne").collapse("show");
+        }
+    }
+
+    function collapseAccordion() {
+        if ($("#collapseOne").hasClass("show")) {
+            $("#collapseOne").collapse("hide");
+        }
+    }
+
+    function updateStickyUI() {
+        if (accordion.hasClass("sticky")) {
+            accordion.css({
+                "height": "auto",
+                "overflow-y": "visible"
+            });
+            $("body").css("overflow-y", "auto");
+        } else {
+            accordion.css({
+                "height": "auto",
+                "overflow-y": "visible"
+            });
+            $("body").css("overflow-y", "auto");
+        }
+    }
+
+    $(window).on("scroll", function () {
+        let currentScroll = $(this).scrollTop();
+
+        if (currentScroll > lastScrollTop) {
+            // Scrolling down
+            if (currentScroll >= originalOffset) {
+                if (!accordion.hasClass("sticky")) {
+                    accordion.addClass("sticky");
+                    expandAccordion(); // ✅ Auto-expand when sticky
+                    updateStickyUI();
+                    updateSpacer();
+                }
+            }
+        } else {
+            // Scrolling up
+            if (currentScroll < originalOffset) {
+                accordion.removeClass("sticky");
+                collapseAccordion(); // ✅ Auto-collapse when above
+                updateStickyUI();
+                updateSpacer();
+            }
+        }
+
+        lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+    });
+
+    // Update UI when accordion is toggled manually
+    $(".accordion-button").on("click", function () {
+        setTimeout(() => {
+            updateStickyUI();
+            updateSpacer();
+        }, 300);
+    });
+}
+
+$(document).ready(function () {
+    stickyFilterTop();
+});
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,2881 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OFCOM website</title>
+  <link rel="icon" href="assets/img/favicon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <link href="css/virtual-select.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.3.4/dist/css/datepicker.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.3.4/dist/js/datepicker-full.min.js"></script>
+  <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- header start -->
+  <header class="header fixed-top d-flex align-items-center">
+    <a class="skip-to-content-link" href="#skipToContent" tabindex="0">Skip to main content</a>
+
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <div class="logo me-auto me-lg-0">
+        <a href="index.html"> <img class="brand-logo" src="assets/img/logo2023_2.svg" alt="OfCom Logo" /></a>
+      </div>
+      <a href="javascript:void(0);" id="mobile-menu-trigger" class="mobile-menu-trigger order-3 order-lg-2">
+        <span class="visually-hidden-focusable">hamburger menu</span>
+        <i class="mobile-nav-toggle mobile-nav-show fa-solid fa-bars"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none fa-solid fa-xmark"></i>
+      </a>
+      <!-- menu start here -->
+      <div class="header-item ms-auto">
+        <div class="menu-overlay">
+        </div>
+        <nav class="menu">
+          <div class="mobile-menu-head">
+            <a href="javascript:void(0);" class="go-back">
+              <span class="visually-hidden-focusable">Go Back</span>
+              <i class="fa fa-angle-left"></i></a>
+            <div class="current-menu-title"></div>
+            <div class="mobile-menu-close">&times;</div>
+          </div>
+          <ul class="menu-main">
+
+            <li class="block menu-item-has-children topicmenublock  ">
+
+              <button type="button">Topics <span class="visually-hidden-focusable">Menu</span> <i
+                  class="fa fa-angle-down"></i></button>
+              <div class="sub-menu mega-menu mega-menu-column-4">
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> About Ofcom </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Ofcom is the regulator for the communications services that we use and rely on each day.
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> Internet-based services </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      As people communicate seamlessly online and offline, we now need to invest our efforts into making
+                      digital communications work for everyone
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> Media use and attitudes </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Ofcom wants to understand how adults and children in the UK use media.
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                 <div class="title d-flex justify-content-between align-items-center">
+                    <a href="online-safety.html" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> Online safety </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Under the Online Safety Act, Ofcom's job is to make online services safer for the people who use
+                      them. We make sure companies have effective systems in place to protect users from harm.
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="phones-and-broadband.html" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> Phones and broadband </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Ofcom is committed to a thriving telecoms sector, where companies can compete fairly and customers
+                      benefit from a broad range of services.
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> Post </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Ofcom's job is to make sure there is a universal postal service.
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> Spectrum </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      You can't see or feel radio spectrum, but we use it every day. Our job is to authorise and manage
+                      the use of spectrum in the UK.
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> TV, radio and on-demand </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      We make sure that broadcasters provide quality TV, radio and on-demand programmes that appeal to
+                      diverse audiences. We also have rules in place to protect viewers and listeners from harm.
+                    </span>
+
+                  </p>
+                </div>
+
+
+
+                <div class="w-100 menu-social-icons">
+                  <a href="https://x.com/ofcom" title="x-twitter" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                  <a href="https://www.facebook.com/ofcom" title="facebook" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/ofcom" title="linkedin" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="https://www.youtube.com/ofcom" title="youtube" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="https://www.instagram.com/ofcom.org.uk/" title="instagram" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="https://www.tiktok.com/@ofcom.org.uk" title="tiktok" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                  </a>
+                </div>
+
+                <div class="multicolor-banner">
+                  <div class="row row-cols-auto g-0 multicolor-strip menu-strip-height">
+                    <div class="bg-blue"></div>
+                    <div class="bg-megenta"></div>
+                    <div class="bg-pink"></div>
+                    <div class="bg-yellow"></div>
+                    <div class="bg-green"></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="block menu-item-has-children contenttypemenublock  ">
+
+              <button type="button">Ofcom's work <span class="visually-hidden-focusable">Menu</span> <i
+                  class="fa fa-angle-down"></i></button>
+              <div class="sub-menu mega-menu mega-menu-column-4">
+
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Advice for businesses </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      How to make the most of communications services as a small business.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Advice for consumers </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      How to make the most of the services you use, and deal with problems.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Consultations and statements </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Proposals we are consulting on and decisions we've made.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="enforcement.html" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Enforcement </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      How we make sure companies follow our rules, to protect customers and promote competition.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Information for industry </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Rules, guidance and other information for the industries we regulate.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Licence information </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      If you're looking to use certain radio equipment, or broadcast on TV or radio, you'll need a
+                      licence from Ofcom.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>News and updates </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Our latest news, features, views and information about our work.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Research, statistics and data </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Evidence we gather to inform our work as a regulator.
+                    </span>
+                  </p>
+                </div>
+
+
+
+                <div class="w-100 menu-social-icons">
+                  <a href="https://x.com/ofcom" title="x-twitter" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                  <a href="https://www.facebook.com/ofcom" title="facebook" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/ofcom" title="linkedin" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="https://www.youtube.com/ofcom" title="youtube" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="https://www.instagram.com/ofcom.org.uk/" title="instagram" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="https://www.tiktok.com/@ofcom.org.uk" title="tiktok" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                  </a>
+                </div>
+
+                <div class="multicolor-banner">
+                  <div class="row row-cols-auto g-0 multicolor-strip menu-strip-height">
+                    <div class="bg-blue"></div>
+                    <div class="bg-megenta"></div>
+                    <div class="bg-pink"></div>
+                    <div class="bg-yellow"></div>
+                    <div class="bg-green"></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="block menu-item-has-children menublock  ">
+
+              <button type="button"> Complaints <span class="visually-hidden-focusable">Menu</span> <i
+                  class="fa fa-angle-down"></i></button>
+              <div class="sub-menu mega-menu mega-menu-column-4">
+                <div class="list-item ">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="complaints.html" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Complaints </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+
+                   <ul>
+                    <li><a href="javascript:void(0);">Complain about
+                        mobile, phone or internet services</a></li>
+                    <li><a href="javascript:void(0);">Complain about TV,
+                        radio or on demand services</a></li>
+                    <li><a href="javascript:void(0);">Complain about postal services</a>
+                    </li>
+                    <li><a href="javascript:void(0);">Complain about wireless
+                        interference</a></li>
+                    <li><a href="javascript:void(0);">Complain about online
+                        services, websites or apps</a></li>
+                    <li><a href="javascript:void(0);">Complain about premium rate
+                        services</a></li>
+                  </ul>
+                </div>
+
+
+                <div class="list-item">
+                  <ul>
+                    <li class="mb-3">
+                      <span class="detail-text">
+                        Ofcom may be able to help you complain about or report issues relating to: phone, broadband and
+                        postal services; TV, radio and on-demand programmes; interference to wireless devices; or
+                        something you have seen on an online service, website or app.
+                      </span>
+                    </li>
+
+                   <li>
+                      <a href="javascript:void(0);">
+                        The types of complaint Ofcom deals with
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">
+                        Get in touch by phone or post
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+
+
+                <div class="w-100 menu-social-icons">
+                  <a href="https://x.com/ofcom" title="x-twitter" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                  <a href="https://www.facebook.com/ofcom" title="facebook" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/ofcom" title="linkedin" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="https://www.youtube.com/ofcom" title="youtube" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="https://www.instagram.com/ofcom.org.uk/" title="instagram" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="https://www.tiktok.com/@ofcom.org.uk" title="tiktok" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                  </a>
+                </div>
+
+                <div class="multicolor-banner">
+                  <div class="row row-cols-auto g-0 multicolor-strip menu-strip-height">
+                    <div class="bg-blue"></div>
+                    <div class="bg-megenta"></div>
+                    <div class="bg-pink"></div>
+                    <div class="bg-yellow"></div>
+                    <div class="bg-green"></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="block menu-item-has-children menublock  ">
+
+              <button type="button"> Licences <span class="visually-hidden-focusable">Menu</span> <i
+                  class="fa fa-angle-down"></i></button>
+              <div class="sub-menu mega-menu mega-menu-column-4">
+                <div class="list-item ">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="licence.html" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Licences </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+
+                 <ul>
+                    <li><a href="javascript:void(0);">Spectrum licences</a></li>
+                    <li><a href="javascript:void(0);">Radio broadcast licences</a></li>
+                    <li><a href="javascript:void(0);">TV broadcast licences</a></li>
+                  </ul>
+                </div>
+
+
+                <div class="list-item">
+                  <ul>
+                    <li class="mb-3">
+                      <span class="detail-text">
+                        You need a licence from Ofcom if you’re looking to use certain radio equipment (like amateur or
+                        ships radio), or broadcast on TV or radio.
+                      </span>
+                    </li>
+
+                    <li>
+                      <a href="javascript:void(0);">
+                        Help with your spectrum licence
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">
+                        Help with your broadcast licence
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+
+
+                <div class="w-100 menu-social-icons">
+                  <a href="https://x.com/ofcom" title="x-twitter" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                  <a href="https://www.facebook.com/ofcom" title="facebook" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/ofcom" title="linkedin" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="https://www.youtube.com/ofcom" title="youtube" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="https://www.instagram.com/ofcom.org.uk/" title="instagram" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="https://www.tiktok.com/@ofcom.org.uk" title="tiktok" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                  </a>
+                </div>
+
+                <div class="multicolor-banner">
+                  <div class="row row-cols-auto g-0 multicolor-strip menu-strip-height">
+                    <div class="bg-blue"></div>
+                    <div class="bg-megenta"></div>
+                    <div class="bg-pink"></div>
+                    <div class="bg-yellow"></div>
+                    <div class="bg-green"></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </nav>
+      </div>
+      <!-- menu end here -->
+      <a href="javascript:void(0);" id="search-icon" class="search-icons d-flex align-items-center order-2 order-lg-1">
+        <i class="fas fa-search"></i>
+        <span class="visually-hidden-focusable">Global Search</span>
+      </a>
+      <form action="global-search.html" class="search-form" id="globalSearch">
+        <div class="search-box mx-auto mb-3 position-relative">
+          <input type="search" class="search-box-input" name="query" aria-label="Global Search" placeholder="Search"
+            id="globalquery" autocomplete="off">
+          <label for="globalquery" class="fas fa-search visually-hidden-focusable">Search</label>
+          <a href="global-search.html" class="fas fa-search gl-search"><span
+              class="visually-hidden-focusable">Search</span></a>
+        </div>
+
+        <h4 class="text-center mt-4">Quick links</h4>
+        <hr>
+        <div class="search-quick-link mx-auto mt-4">
+          <div class="row">
+            <div class="col-6 col-md-3">
+              <a href="javascript:void(0);" class="w-100 d-flex align-items-start align-items-start">
+                <span>Broadband and mobile coverage checker</span>
+                <i class="fa-solid fa-circle-arrow-right"></i>
+              </a>
+            </div>
+            <div class="col-6 col-md-3">
+              <a href="javascript:void(0);" class="w-100 d-flex align-items-start align-items-start">
+                <span>Social tariffs: Cheaper broadband and phone packages</span>
+                <i class="fa-solid fa-circle-arrow-right"></i>
+              </a>
+            </div>
+            <div class="col-6 col-md-3">
+              <a href="javascript:void(0);" class="w-100 d-flex align-items-start align-items-start">
+                <span>Telephone area codes: Find UK dialling codes for numbers starting 01 and 02</span>
+                <i class="fa-solid fa-circle-arrow-right"></i>
+              </a>
+            </div>
+            <div class="col-6 col-md-3">
+              <a href="javascript:void(0);" class="w-100 d-flex align-items-start align-items-start">
+                <span>Ofcom licensing portal for aircraft, amateur and ships radio</span>
+                <i class="fa-solid fa-circle-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr>
+
+
+        <div class="search-quick-link news-blue-bg mx-auto mt-4 mb-5">
+          <h4 class="text-center mt-4 mb-3">Latest news</h4>
+          <div class="row extra-margin">
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="javascript:void(0);">
+                <div class="info-card news-info">
+                  <picture>
+                    <source srcset="assets/img/tech-gavel-web.webp" sizes="100vw" type="image/webp">
+                    <source srcset="" sizes="100vw"><img alt="Tech-gavel-web" src="" loading="lazy" decoding="async"
+                      class="w-100 mb-3">
+                  </picture>
+                  <div class="d-flex justify-content-between align-items-start">
+                    <h3 class="info-card-header">Ofcom spectrum auction: final results announced</h3>
+                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                        stroke-linejoin="bevel"></path>
+                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                    </svg>
+                  </div>
+                  <span class="date">24 October 2025</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="javascript:void(0);">
+                <div class="info-card news-info">
+                  <picture>
+                    <source srcset="assets/img/delivery-warehouse-workers-hero.webp" sizes="100vw" type="image/webp">
+                    <source srcset="" sizes="100vw"><img alt="Tech-gavel-web" src="" loading="lazy" decoding="async"
+                      class="w-100 mb-3">
+                  </picture>
+                  <div class="d-flex justify-content-between align-items-start">
+                    <h3 class="info-card-header">Best and worst parcel firms for customer satisfaction revealed 2024/25
+                    </h3>
+                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                        stroke-linejoin="bevel"></path>
+                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                    </svg>
+                  </div>
+                  <span class="date">22 October 2025</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="javascript:void(0);">
+                <div class="info-card news-info">
+                  <picture>
+                    <source srcset="assets/img/news-centre-hero-1336--560px-6.webp" sizes="100vw" type="image/webp">
+                    <source srcset="" sizes="100vw"><img alt="Tech-gavel-web" src="" loading="lazy" decoding="async"
+                      class="w-100 mb-3">
+                  </picture>
+                  <div class="d-flex justify-content-between align-items-start">
+                    <h3 class="info-card-header">Ofcom updates guidance around politicians presenting news</h3>
+                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                        stroke-linejoin="bevel"></path>
+                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                    </svg>
+                  </div>
+                  <span class="date">20 October 2025</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="javascript:void(0);">
+                <div class="info-card news-info">
+                  <picture>
+                    <source srcset="assets/img/bbc-salford.webp" sizes="100vw" type="image/webp">
+                    <source srcset="" sizes="100vw"><img alt="Tech-gavel-web" src="" loading="lazy" decoding="async"
+                      class="w-100 mb-3">
+                  </picture>
+                  <div class="d-flex justify-content-between align-items-start">
+                    <h3 class="info-card-header">Ofcom investigation finds BBC Gaza documentary in breach of
+                      Broadcasting Code</h3>
+                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                        stroke-linejoin="bevel"></path>
+                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                    </svg>
+                  </div>
+                  <span class="date">17 October 2025</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </form>
+      <a href="" class="langauge-change order-1 order-lg-3" lang="cy" hreflang="cy">Cymraeg</a>
+
+
+    </div>
+    </div>
+  </header>
+  <main role="main">
+
+
+    <section class="breadcrumb-position">
+      <div class="row">
+        <div class="col-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="/">Home</a></li>
+              <li class="breadcrumb-item active ellipsis" aria-current="page"><span>Make a complaint</span></li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <div class="row g-0 green-bg">
+        <div class="col-md-6 order-last order-md-first">
+          <div class="hero-banner h-100">
+            <h1 id="skipToContent" data-epi-type="title">Make a complaint</h1>
+            <p class="banner-detail-full"> Ofcom may be able to help you complain about or report issues relating to:
+              phone, broadband and postal services; TV, radio and on-demand programmes; interference to wireless
+              devices; or something you have seen on an online service, website or app. </p>
+          </div>
+        </div>
+        <div class="col-md-6 order-first order-md-last">
+          <picture>
+            <source srcset="assets/img/complaints.webp" sizes="100vw"><img alt="internet"
+              src="assets/img/complaints.webp" decoding="async" class="w-100 hero-banner-img">
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="row g-0">
+        <div class="col-12 gray-bg">
+          <div class="recommendation-block-outer">
+            <div class="row">
+              <div id="CTABlockId" class="col-12">
+                <section class="white-bg">
+                  <div class="interest-modal">
+                    <span class="">Content and filters are tailored to your interests. <a href="javascript:void(0);"
+                        data-bs-toggle="modal" data-bs-target="#language-notification">Update your
+                        interests.</a></span>
+                  </div>
+                  <div class="modal language-notification fade" id="language-notification" tabindex="-1"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-xl modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <div class="icon-info"><span class="visually-hidden-focusable">Info Icon</span>
+                            <i class="fa-solid fa-circle-info f-size-x"></i>
+                          </div>
+                          <!-- <div class="modal-title" id="exampleModalLabel1">Translate page from Welsh?</div> -->
+                          <button type="button" class="" data-bs-dismiss="modal" aria-label="Close"><i
+                              class="fa fa-times" aria-hidden="true"></i></button>
+                        </div>
+                        <div class="modal-body">
+                          <!-- <div class="toast-header">
+                                <i class="fa-solid fa-circle-info f-size-m "></i>
+                                <button type="button" class="btn-close" data-bs-dismiss="toast"
+                                  aria-label="Close"></button>
+                              </div> -->
+                          <div class="toast-body text-center">
+                            <h3 class="body-header mt-3">Interested in Complaints</h3>
+                            We can show you more relevant content based on your interests
+
+                            <div class="text-center mt-3">
+                              <a href="javascript:void(0);" class="btn btn-secondary filters-content btn-small">
+                                Complain about mobile, phone or internet services (i)
+                              </a>
+                              <a href="javascript:void(0);" class="btn btn-secondary filters-content btn-small">
+                                Complain about TV, radio or on demand services (i)
+                              </a>
+                              <a href="javascript:void(0);" class="btn btn-secondary filters-content btn-small">
+                                Complain about postal services (i)
+                              </a>
+                              <!-- <a href="javascript:void(0);" class="btn btn-secondary filters-content active btn-small">
+                                Online habits (i)
+                              </a>
+                              <a href="javascript:void(0);" class="btn btn-secondary filters-content btn-small">
+                                Media use and attitudes (i)
+                              </a>
+                              <a href="javascript:void(0);" class="btn btn-secondary filters-content btn-small">
+                                Information for industry (i)
+                              </a> -->
+                            </div>
+
+                          </div>
+
+
+                          <div class="modal-footer d-flex mt-1 justify-content-center justify-content-md-end">
+                            <a href="javascript:void(0);" data-bs-dismiss="modal" class="btn btn-primary">
+                              Save preferences <i class="ms-4 fa-solid fa-arrow-right"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </section>
+                <div class="block  ctaquicklinksblock  ">
+                  <div class="blue-bg recommendation-block">
+                    <div class="row">
+                      <div class="col-12 mb-2">
+                        <h2 class="recommendation-header"> Recommendations for you</h2>
+                      </div>
+                      <div class="col-md-3">
+                        <a href="javascript:void(0);" class="recommendation-link-block">
+                          <div
+                            class="recommendation-link d-flex justify-content-between align-items-start align-items-start">
+                            <span> The types of complaint we deal with </span>
+                            <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                stroke-linejoin="bevel"></path>
+                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel">
+                              </path>
+                            </svg>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="col-md-3">
+                        <a href="javascript:void(0);" class="recommendation-link-block">
+                          <div
+                            class="recommendation-link d-flex justify-content-between align-items-start align-items-start">
+                            <span> Get in touch by phone or post </span>
+                            <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                stroke-linejoin="bevel"></path>
+                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel">
+                              </path>
+                            </svg>
+                          </div>
+                        </a>
+                      </div>
+                      <!-- <div class="col-md-3">
+                        <a href="javascript:void(0);"
+                          class="recommendation-link-block">
+                          <div
+                            class="recommendation-link d-flex justify-content-between align-items-start align-items-start">
+                            <span> Help with your spectrum licence </span>
+                            <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                stroke-linejoin="bevel"></path>
+                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel">
+                              </path>
+                            </svg>
+                          </div>
+                        </a>
+                      </div> -->
+                      <!-- <div class="col-md-3">
+                        <a href="javascript:void(0);" class="recommendation-link-block">
+                          <div
+                            class="recommendation-link d-flex justify-content-between align-items-start align-items-start">
+                            <span> Licensing portal: apply for a new or manage an existing licence online </span>
+                            <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                stroke-linejoin="bevel"></path>
+                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel">
+                              </path>
+                            </svg>
+                          </div>
+                        </a>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="results-top">
+      <section id="accordionWrapper" class="filter-section">
+        <div id="accordionContainer" class="search-filter">
+          <div class="accordion" id="contentfilter-accordion">
+            <div class="accordion-item abc">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#contentfilter-collapse" aria-expanded="true" aria-controls="contentfilter-collapse">
+                  <span aria-label="Expand search" class="apply-f">Expand search</span>
+                  <span class="collaspe">Collapse search</span>
+                </button>
+              </h2>
+              <div id="contentfilter-collapse" class="accordion-collapse collapse show"
+                data-bs-parent="#contentfilter-accordion">
+                <div class="accordion-body">
+                  <div class="row">
+                    <div class="col-sm-12 col-md-7 search-form new-search">
+                      <div class="search-box position-relative">
+                        <input type="search" class="search-box-input results-input" name="query" id="query"
+                          autocomplete="off" placeholder="Search" value="">
+                        <label for="query" class="visually-hidden-focusable text-dark">Search</label>
+                        <a href="javascript:void(0);" class="serach-icon-btn px-1" aria-label="Search">
+                          <i class="fas fa-search page-search"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+
+
+    <section>
+      <div class="block  latestnewsblock  ">
+
+        <section class="news-white-bg news-container-area">
+          <h2 class="text-center news-slider-header my-3 position-relative h3"> Quick Links </h2>
+          <div class="container-xl">
+            <div class="row extra-margin">
+              <div class="col-12">
+                <div class="swiper-outer">
+                  <div class="swiper mySwiper1 latest-news-swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <a
+                          href="javascript:void(0);">
+                          <div class="info-card news-info ">
+                            <picture>
+                              <source srcset="" sizes="100vw" type="image/webp">
+                              <source srcset="" sizes="100vw"><img alt="A close-up photo of a camera lens"
+                                src="assets/img/LC1.jpg" loading="lazy" decoding="async" class="card-img-small mb-3">
+                            </picture>
+                            <div class="d-flex justify-content-between align-items-start">
+                              <h3 class="info-card-header">The types of complaint Ofcom deals with</h3>
+                              <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                  stroke-linejoin="bevel"></path>
+                                <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel">
+                                </path>
+                              </svg>
+                            </div>
+
+                          </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a
+                          href="javascript:void(0);">
+                          <div class="info-card news-info ">
+                            <picture>
+                              <source srcset="" sizes="100vw" type="image/webp">
+                              <source srcset="" sizes="100vw"><img alt="A close-up photo of a camera lens"
+                                src="assets/img/phones-landline.webp" loading="lazy" decoding="async" class="card-img-small mb-3">
+                            </picture>
+                            <div class="d-flex justify-content-between align-items-start">
+                              <h3 class="info-card-header">Get in touch by phone or post</h3>
+                              <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                  stroke-linejoin="bevel"></path>
+                                <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel">
+                                </path>
+                              </svg>
+                            </div>
+
+                          </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide" role="group">
+                        <a
+                          href="javascript:void(0);">
+                          <div class="info-card news-info ">
+                            <picture>
+                              <source srcset="" sizes="100vw" type="image/webp">
+                              <source srcset="" sizes="100vw"><img alt="A close-up photo of a camera lens"
+                                src="assets/img/switching-homepage.webp" loading="lazy" decoding="async" class="card-img-small mb-3">
+                            </picture>
+                            <div class="d-flex justify-content-between align-items-start">
+                              <h3 class="info-card-header">Broadband and landline faults and problems</h3>
+                              <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                  stroke-linejoin="bevel"></path>
+                                <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel">
+                                </path>
+                              </svg>
+                            </div>
+
+                          </div>
+                        </a>
+                      </div>
+                      <!-- <div class="swiper-slide" role="group">
+                        <a
+                          href="javascript:void(0);">
+                          <div class="info-card news-info ">
+                            <picture>
+                              <source srcset="" sizes="100vw" type="image/webp">
+                              <sourcel srcset="" sizes="100vw"><img
+                                  alt="View of BBC's regional headquarters in Salford " src="assets/img/LC2.jpg"
+                                  loading="lazy" decoding="async" class="card-img-small mb-3">
+                            </picture>
+                            <div class="d-flex justify-content-between align-items-start">
+                              <h3 class="info-card-header">Letter to the BBC chair on the BBC programme 'Gaza: How To
+                                Survive A Warzone'</h3>
+                              <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                  stroke-linejoin="bevel"></path>
+                                <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel">
+                                </path>
+                              </svg>
+                            </div>
+
+                          </div>
+                        </a>
+                      </div> -->
+                      <div class="swiper-slide" role="group">
+                        <a
+                          href="javascript:void(0);">
+                          <div class="info-card news-info ">
+                            <picture>
+                              <source srcset="" sizes="100vw" type="image/webp">
+                              <source srcset="" sizes="100vw"><img alt="TV Newsroom social" src="assets/img/latest-3.png"
+                                loading="lazy" decoding="async" class="card-img-small mb-3">
+                            </picture>
+                            <div class="d-flex justify-content-between align-items-start">
+                              <h3 class="info-card-header">On Netflix (not regulated by Ofcom)</h3>
+                              <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                  stroke-linejoin="bevel"></path>
+                                <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel">
+                                </path>
+                              </svg>
+                            </div>
+
+                          </div>
+                        </a>
+                      </div>
+
+                      <div class="swiper-slide" role="group">
+                        <a
+                          href="/tv-radio-and-on-demand/broadcast-standards/ofcom-statement-in-response-to-high-court-judgment-gb-news-v-ofcom">
+                          <div class="info-card news-info ">
+                            <picture>
+                              <source srcset="" sizes="100vw" type="image/webp">
+                              <source srcset="" sizes="100vw"><img alt="TV Newsroom social" src="assets/img/news-center-small-7.png"
+                                loading="lazy" decoding="async" class="card-img-small mb-3">
+                            </picture>
+                            <div class="d-flex justify-content-between align-items-start">
+                              <h3 class="info-card-header">Billing disputes with TV subscription services</h3>
+                              <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                  stroke-linejoin="bevel"></path>
+                                <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel">
+                                </path>
+                              </svg>
+                            </div>
+
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination1"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+
+
+    <section class="container-xl mt-5 text-center">
+      <h3 class="mb-5">What would you like to complain about?</h3>
+      <div class="row">
+        <div id="link-tags" class="col-sm-12 col-md-8 mx-auto">
+          <!-- tags will be generated here -->
+        </div>
+      </div>
+
+      <div class="row justify-content-md-end justify-content-center">
+        <div id="expend-accordion" class="col-auto">
+          <a href="javascript:void(0);" class="show-hide-text" data-expand-text="Expand All"
+            data-collapse-text="Collapse All">
+            <!-- <i class="fas toggle-icon fa-angle-down"></i> -->
+            <span class="toggle-text">Expand All</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 col-md-8 mx-auto">
+          <div class="block accordionpanelblock">
+            <div class="mt-3">
+              <div class="container-xl">
+                <div class="row">
+                  <div class="col-12">
+                    <div id="myAccordion" class="accordion accordion-expended overflow-hidden">
+                      <div class="accordion-item destination-accordian">
+                        <div class="accordion-header" id="headingOne">
+                          <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#collapse59">
+                            <h2>
+                              <p class="accordion-head">Complain about mobile, phone or internet services</p>
+                              <div class="link-tag-tooltip">Complain about mobile, phone or internet services</div>
+                            </h2>
+                          </button>
+                        </div>
+                        <div id="collapse59" class="accordion-collapse collapse">
+                          <div class="card-body">
+                            <div class="row extra-margin">
+
+                              <div class="block col-12 col-sm-10 col-lg-8 teaserlinkcardblock  ">
+                                <div>
+                                  <div class="info-card hover-none">
+                                    <div
+                                      class="d-flex justify-content-between align-items-start align-items-center mb-4">
+                                      <span>Unwanted calls and messages </span>
+                                    </div>
+                                    <ul>
+                                      <li>
+                                        <a
+                                          href="/make-a-complaint/complain-about-mobile-phone-or-internet-services/unwanted-calls-and-messages/silent-abandoned-scam-calls">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>Silent, abandoned and scam calls</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a
+                                          href="/make-a-complaint/complain-about-mobile-phone-or-internet-services/unwanted-calls-and-messages/sales-calls">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>Sales calls</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a
+                                          href="/make-a-complaint/complain-about-mobile-phone-or-internet-services/unwanted-calls-and-messages/abusive-calls">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>Abusive calls</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="block col-12 col-sm-10 col-lg-8 teaserlinkcardblock  ">
+                                <div>
+                                  <a
+                                    href="/make-a-complaint/complain-about-mobile-phone-or-internet-services/the-way-a-service-was-sold">
+                                    <div class="info-card">
+                                      <div class="d-flex justify-content-between align-items-start align-items-center">
+                                        <h3 class="info-card-header">The way a service was sold</h3>
+                                        <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                            stroke-linejoin="bevel"></path>
+                                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                            stroke-linejoin="bevel"></path>
+                                        </svg>
+
+                                      </div>
+
+                                    </div>
+                                  </a>
+                                </div>
+                              </div>
+                              <div class="block col-12 col-sm-10 col-lg-8 teaserlinkcardblock  ">
+                                <div>
+                                  <a
+                                    href="/make-a-complaint/complain-about-mobile-phone-or-internet-services/billing-and-charges">
+                                    <div class="info-card">
+                                      <div class="d-flex justify-content-between align-items-start align-items-center">
+                                        <h3 class="info-card-header">Billing and charges</h3>
+                                        <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                            stroke-linejoin="bevel"></path>
+                                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                            stroke-linejoin="bevel"></path>
+                                        </svg>
+
+                                      </div>
+
+                                    </div>
+                                  </a>
+                                </div>
+                              </div>
+                              <div class="block col-12 col-sm-10 col-lg-8 teaserlinkcardblock  ">
+                                <div>
+                                  <a
+                                    href="/make-a-complaint/complain-about-mobile-phone-or-internet-services/contracts">
+                                    <div class="info-card">
+                                      <div class="d-flex justify-content-between align-items-start align-items-center">
+                                        <h3 class="info-card-header">Contracts</h3>
+                                        <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                            stroke-linejoin="bevel"></path>
+                                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                            stroke-linejoin="bevel"></path>
+                                        </svg>
+
+                                      </div>
+
+                                    </div>
+                                  </a>
+                                </div>
+                              </div>
+                              <div class="block col-12 col-sm-10 col-lg-8 teaserlinkcardblock  ">
+                                <div>
+                                  <div class="info-card hover-none">
+                                    <div
+                                      class="d-flex justify-content-between align-items-start align-items-center mb-4">
+                                      <span>Faults and service problems </span>
+                                    </div>
+                                    <ul>
+                                      <li>
+                                        <a href="/phones-and-broadband/service-quality/mobile-faults-guide">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>Mobile phone service faults and problems</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a href="/phones-and-broadband/service-quality/broadband-landline-faults">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>Broadband and landline faults and problems</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="block col-12 col-sm-10 col-lg-8 teaserlinkcardblock  ">
+                                <div>
+                                  <a
+                                    href="/make-a-complaint/complain-about-mobile-phone-or-internet-services/changing-provider">
+                                    <div class="info-card">
+                                      <div class="d-flex justify-content-between align-items-start align-items-center">
+                                        <h3 class="info-card-header">Changing provider</h3>
+                                        <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                            stroke-linejoin="bevel"></path>
+                                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                            stroke-linejoin="bevel"></path>
+                                        </svg>
+
+                                      </div>
+
+                                    </div>
+                                  </a>
+                                </div>
+                              </div>
+                              <div class="block col-12 col-sm-10 col-lg-8 teaserlinkcardblock  ">
+                                <div>
+                                  <div class="info-card hover-none">
+                                    <div
+                                      class="d-flex justify-content-between align-items-start align-items-center mb-4">
+                                      <span>Other issues </span>
+                                    </div>
+                                    <ul>
+                                      <li>
+                                        <a
+                                          href="/make-a-complaint/complain-about-mobile-phone-or-internet-services/other/data-protection">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>Personal data and privacy</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a
+                                          href="/make-a-complaint/complain-about-mobile-phone-or-internet-services/other/payphones">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>Public phone boxes</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row extra-margin">
+
+                              <div class="block col-12 col-sm-10 col-lg-8 teaserlinkcardblock  ">
+                                <div class="info-card hover-none">
+                                  <div class="d-flex justify-content-between align-items-start align-items-center mb-4">
+                                    <span>Business radio </span>
+                                  </div>
+                                  <ul>
+                                    <li>
+                                      <a href="/spectrum/radio-equipment/apply-business-radio">
+                                        <div
+                                          class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                          <span>Apply for a new business radio licence</span>
+                                          <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                            <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                              stroke-linejoin="bevel"></path>
+                                            <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                              stroke-linejoin="bevel"></path>
+                                          </svg>
+                                        </div>
+                                      </a>
+                                    </li>
+                                  </ul>
+                                  <ul>
+                                    <li>
+                                      <a href="https://secure.ofcom.org.uk/payments" target="_blank">
+                                        <div
+                                          class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                          <span>Pay for your licence</span>
+                                          <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                            <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                              stroke-linejoin="bevel"></path>
+                                            <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                              stroke-linejoin="bevel"></path>
+                                          </svg>
+                                        </div>
+                                      </a>
+                                    </li>
+                                  </ul>
+                                  <ul>
+                                    <li>
+                                      <a href="https://secure.ofcom.org.uk/busrad/vary" target="_blank">
+                                        <div
+                                          class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                          <span>Make a change to your licence</span>
+                                          <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                            <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                              stroke-linejoin="bevel"></path>
+                                            <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                              stroke-linejoin="bevel"></path>
+                                          </svg>
+                                        </div>
+                                      </a>
+                                    </li>
+                                  </ul>
+                                  <ul>
+                                    <li>
+                                      <a href="https://secure.ofcom.org.uk/busrad/surrender" target="_blank">
+                                        <div
+                                          class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                          <span>Surrender your licence</span>
+                                          <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                            <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                              stroke-linejoin="bevel"></path>
+                                            <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                              stroke-linejoin="bevel"></path>
+                                          </svg>
+                                        </div>
+                                      </a>
+                                    </li>
+                                  </ul>
+                                  <ul>
+                                    <li>
+                                      <a href="/spectrum/radio-equipment/amend2">
+                                        <div
+                                          class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                          <span>Amend your licence</span>
+                                          <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                            <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                              stroke-linejoin="bevel"></path>
+                                            <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                              stroke-linejoin="bevel"></path>
+                                          </svg>
+                                        </div>
+                                      </a>
+                                    </li>
+                                  </ul>
+                                  <ul>
+                                    <li>
+                                      <a href="/spectrum/radio-equipment/guidance-for-licensees">
+                                        <div
+                                          class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                          <span>Information for licensees</span>
+                                          <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                            <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                              stroke-linejoin="bevel"></path>
+                                            <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                              stroke-linejoin="bevel"></path>
+                                          </svg>
+                                        </div>
+                                      </a>
+                                    </li>
+                                  </ul>
+                                  <ul>
+                                    <li>
+                                      <a href="/spectrum/radio-equipment/internet-of-things">
+                                        <div
+                                          class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                          <span>Internet of Things (IoT)</span>
+                                          <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                            <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                              stroke-linejoin="bevel"></path>
+                                            <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                              stroke-linejoin="bevel"></path>
+                                          </svg>
+                                        </div>
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+
+                            </div>
+                            <div class="row">
+                              <div class="block col-12 col-sm-10 col-lg-8 teaserlinkcardblock  ">
+                                <div>
+                                  <div class="info-card hover-none">
+                                    <div
+                                      class="d-flex justify-content-between align-items-start align-items-center mb-4">
+                                      <span>Aeronautical radio </span>
+                                    </div>
+                                    <ul>
+                                      <li>
+                                        <a href="/spectrum/radio-equipment/licensing-portals">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>Apply for an aircraft licence</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a href="/spectrum/radio-equipment/licensing-process-applications">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>Apply for a ground station or unmanned aircraft system licence</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a href="/spectrum/radio-equipment/aeronautical-licensing?language=en">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>Information for licensees</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item destination-accordian">
+                        <div class="accordion-header" id="heading2">
+                          <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#collapse60">
+                            <h2>
+                              <p class="accordion-head">Complain about TV, radio or on demand services</p>
+                              <div class="link-tag-tooltip">Complain about TV, radio or on demand services</div>
+                            </h2>
+                          </button>
+                        </div>
+                        <div id="collapse60" class="accordion-collapse collapse">
+                          <div class="card-body">
+                            <div class="row extra-margin">
+
+                              <div class="block col-12 col-sm-10 col-lg-8 teaserlinkcardblock  ">
+                                <div>
+                                  <div class="info-card hover-none">
+                                    <div
+                                      class="d-flex justify-content-between align-items-start align-items-center mb-4">
+                                      <span>A programme I saw or heard </span>
+                                    </div>
+                                    <ul>
+                                      <li>
+                                        <a href="https://ofcomlive.my.salesforce-sites.com/formentry/SitesFormBBCIntroductory?complaintType=SitesFormBBCStandardsComplaints"
+                                          target="_blank">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>On a BBC TV channel or radio station</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a href="https://ofcomlive.my.salesforce-sites.com/formentry/SitesFormCSLEStandardsComplaints"
+                                          target="_blank">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>On another TV channel or radio station</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a href="https://ofcomlive.my.salesforce-sites.com/formentry/SitesFormBBCIntroductory?complaintType=SitesFormBBCStandardsComplaints"
+                                          target="_blank">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>On BBC iPlayer</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a href="https://ofcomlive.my.salesforce-sites.com/formentry/SitesFormCSLEOnDemandComplaints"
+                                          target="_blank">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>On another video on demand service</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="block col-12 col-sm-10 col-lg-8 teaserlinkcardblock  ">
+                                <div>
+                                  <div class="info-card hover-none">
+                                    <div
+                                      class="d-flex justify-content-between align-items-start align-items-center mb-4">
+                                      <span>An advert I saw </span>
+                                    </div>
+                                    <ul>
+                                      <li>
+                                        <a
+                                          href="/make-a-complaint/complain-about-tv-radio-or-on-demand-services/an-advert-i-saw/advertisements">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>Advertisements</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a
+                                          href="/make-a-complaint/complain-about-tv-radio-or-on-demand-services/an-advert-i-saw/political-advertising">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>Political advertising</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a
+                                          href="/make-a-complaint/complain-about-tv-radio-or-on-demand-services/an-advert-i-saw/programme-trailers">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>Programme trailers</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a
+                                          href="/make-a-complaint/complain-about-tv-radio-or-on-demand-services/an-advert-i-saw/programme-sponsorship-credits">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>Programme sponsorship credits</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a
+                                          href="/make-a-complaint/complain-about-tv-radio-or-on-demand-services/an-advert-i-saw/amount-of-adverts">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>Amount of adverts</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="block col-12 col-sm-10 col-lg-8 teaserlinkcardblock  ">
+                                <div>
+                                  <div class="info-card hover-none">
+                                    <div
+                                      class="d-flex justify-content-between align-items-start align-items-center mb-4">
+                                      <span>A programme I was in </span>
+                                    </div>
+                                    <ul>
+                                      <li>
+                                        <a href="https://ofcomlive.my.salesforce-sites.com/formentry/SitesFormBBCFairnessAndPrivacy"
+                                          target="_blank">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>On a BBC TV channel or radio station</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a href="https://ofcomlive.my.salesforce-sites.com/formentry/SitesFormCSLEFairnessAndPrivacy"
+                                          target="_blank">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>On another TV channel or radio station</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a href="https://ofcomlive.my.salesforce-sites.com/formentry/SitesFormBBCFairnessAndPrivacy"
+                                          target="_blank">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>On BBC iPlayer</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="block col-12 col-sm-10 col-lg-8 teaserlinkcardblock  ">
+                                <div>
+                                  <div class="info-card hover-none">
+                                    <div
+                                      class="d-flex justify-content-between align-items-start align-items-center mb-4">
+                                      <span>Accessibility (including subtitling, signing and audio description) </span>
+                                    </div>
+                                    <ul>
+                                      <li>
+                                        <a
+                                          href="/make-a-complaint/complain-about-tv-radio-or-on-demand-services/subtitling-signing-or-audio-description/on-a-bbc-tv-channel">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>Accessibility on a BBC TV channel</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a
+                                          href="/make-a-complaint/complain-about-tv-radio-or-on-demand-services/subtitling-signing-or-audio-description/on-another-tv-channel">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>Accessibility on another TV channel</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a
+                                          href="/make-a-complaint/complain-about-tv-radio-or-on-demand-services/subtitling-signing-or-audio-description/on-bbc-iplayer">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>Accessibility on BBC iPlayer or another video on-demand service</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="block col-12 col-sm-10 col-lg-8 teaserlinkcardblock  ">
+                                <div>
+                                  <div class="info-card hover-none">
+                                    <div
+                                      class="d-flex justify-content-between align-items-start align-items-center mb-4">
+                                      <span>Something I have seen on a video on demand service </span>
+                                    </div>
+                                    <ul>
+                                      <li>
+                                        <a href="https://ofcomlive.my.salesforce-sites.com/formentry/SitesFormBBCIntroductory?complaintType=SitesFormBBCStandardsComplaints"
+                                          target="_blank">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>On BBC iPlayer</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a
+                                          href="/make-a-complaint/complain-about-tv-radio-or-on-demand-services/something-you-have-seen-on-a-video-ondemand-service/on-netflix">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>On Netflix</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a href="https://ofcomlive.my.salesforce-sites.com/formentry/SitesFormCSLEOnDemandComplaints"
+                                          target="_blank">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>On another video on demand service</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="block col-12 col-sm-10 col-lg-8 teaserlinkcardblock  ">
+                                <div>
+                                  <a href="https://ofcomlive.my.salesforce-sites.com/formentry/SitesFormBBCIntroductory?complaintType=SitesFormBBCOnlineMaterial"
+                                    target="_blank">
+                                    <div class="info-card">
+                                      <div class="d-flex justify-content-between align-items-start align-items-center">
+                                        <h3 class="info-card-header">Something I have seen on a BBC website or app</h3>
+                                        <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                            stroke-linejoin="bevel"></path>
+                                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                            stroke-linejoin="bevel"></path>
+                                        </svg>
+
+                                      </div>
+
+                                    </div>
+                                  </a>
+                                </div>
+                              </div>
+                              <div class="block col-12 col-sm-10 col-lg-8 teaserlinkcardblock  ">
+                                <div>
+                                  <a
+                                    href="/make-a-complaint/complain-about-tv-radio-or-on-demand-services/station-or-tv-channel-not-keeping-to-ofcoms-licensing-rules">
+                                    <div class="info-card">
+                                      <div class="d-flex justify-content-between align-items-start align-items-center">
+                                        <h3 class="info-card-header">A radio station or TV channel not keeping to
+                                          Ofcom's licensing rules</h3>
+                                        <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                            stroke-linejoin="bevel"></path>
+                                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                            stroke-linejoin="bevel"></path>
+                                        </svg>
+
+                                      </div>
+
+                                    </div>
+                                  </a>
+                                </div>
+                              </div>
+                              <div class="block col-12 col-sm-10 col-lg-8 teaserlinkcardblock  ">
+                                <div>
+                                  <div class="info-card hover-none">
+                                    <div
+                                      class="d-flex justify-content-between align-items-start align-items-center mb-4">
+                                      <span>Something else </span>
+                                    </div>
+                                    <ul>
+                                      <li>
+                                        <a
+                                          href="/make-a-complaint/complain-about-tv-radio-or-on-demand-services/something-else/billing-disputes-with-tv-subscription-services">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>Billing disputes with TV subscription services</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a
+                                          href="/make-a-complaint/complain-about-tv-radio-or-on-demand-services/something-else/changes-to-tv-or-radio-schedules">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>Changes to TV or radio schedules</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a
+                                          href="/make-a-complaint/complain-about-tv-radio-or-on-demand-services/something-else/quality-of-programmes">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>Quality of programmes</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a
+                                          href="/make-a-complaint/complain-about-tv-radio-or-on-demand-services/something-else/programme-yet-to-be-broadcast-on-tv-or-radio-or-shown-on-a-video-on-demand-service">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>A programme that is yet to be broadcast or appear on demand</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a
+                                          href="/make-a-complaint/complain-about-tv-radio-or-on-demand-services/something-else/a-video-on-demand-service-is-available-which-does-not-appear-on-ofcoms-list-of-regulated-on-demand-programme-services">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>A video on demand service is available which does not appear on
+                                              Ofcom's list of regulated on demand programme services</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a
+                                          href="/make-a-complaint/complain-about-tv-radio-or-on-demand-services/something-else/harrassment-by-press-journalists">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>Harassment by press journalists</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a
+                                          href="/make-a-complaint/complain-about-tv-radio-or-on-demand-services/something-else/bbc-other-regulatory-issues-including-the-bbcs-requirements-under-its-operating-licence">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>BBC: other regulatory issues including the BBC's requirements under
+                                              its Operating Licence</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a
+                                          href="/make-a-complaint/complain-about-tv-radio-or-on-demand-services/something-else/regional-production-and-regional-programming-complaints">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>Regional production and programming</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                      <li>
+                                        <a
+                                          href="/make-a-complaint/complain-about-tv-radio-or-on-demand-services/something-else/other">
+                                          <div
+                                            class="d-flex justify-content-between align-items-start align-items-center small-icon info-link">
+                                            <span>None of the above</span>
+                                            <svg class="svg-arrow-info" width="24" height="24" viewBox="0 0 40 40"
+                                              xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                              <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964"
+                                                stroke-width="2" stroke-linejoin="bevel"></path>
+                                              <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                                stroke-linejoin="bevel"></path>
+                                            </svg>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item destination-accordian">
+                        <div class="accordion-header" id="heading3">
+                          <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#collapse61">
+                            <h2>
+                              <p class="accordion-head">Complain about postal services</p>
+                            </h2>
+                          </button>
+                        </div>
+                        <div id="collapse61" class="accordion-collapse collapse">
+                          <div class="card-body">
+                            <div class="row extra-margin">
+
+                             <div class="block col-12 col-sm-10 col-lg-8 teaserlinkcardblock  ">
+                                <div>
+                                  <a href="/make-a-complaint/complain-about-postal-services/royal-mail">
+                                    <div class="info-card">
+                                      <div class="d-flex justify-content-between align-items-start align-items-center">
+                                        <h3 class="info-card-header">Royal Mail</h3>
+                                        <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                            stroke-linejoin="bevel"></path>
+                                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                            stroke-linejoin="bevel"></path>
+                                        </svg>
+
+                                      </div>
+
+                                    </div>
+                                  </a>
+                                </div>
+                              </div>
+                             <div class="block col-12 col-sm-10 col-lg-8 teaserlinkcardblock  ">
+                                <div>
+                                  <a href="/make-a-complaint/complain-about-postal-services/post-office-ltd">
+                                    <div class="info-card">
+                                      <div class="d-flex justify-content-between align-items-start align-items-center">
+                                        <h3 class="info-card-header">Post Office</h3>
+                                        <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                            stroke-linejoin="bevel"></path>
+                                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                            stroke-linejoin="bevel"></path>
+                                        </svg>
+
+                                      </div>
+
+                                    </div>
+                                  </a>
+                                </div>
+                              </div>
+                             <div class="block col-12 col-sm-10 col-lg-8 teaserlinkcardblock  ">
+                                <div>
+                                  <a href="/make-a-complaint/complain-about-postal-services/parcelforce">
+                                    <div class="info-card">
+                                      <div class="d-flex justify-content-between align-items-start align-items-center">
+                                        <h3 class="info-card-header">Parcel companies</h3>
+                                        <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                            stroke-linejoin="bevel"></path>
+                                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                            stroke-linejoin="bevel"></path>
+                                        </svg>
+
+                                      </div>
+
+                                    </div>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- <div class="accordion-item destination-accordian">
+                        <div class="accordion-header" id="heading4">
+                          <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#collapse62">
+                            <h2>
+                              <p class="accordion-head">Complain about premium rate services</p>
+                            </h2>
+                          </button>
+                        </div>
+                        <div id="collapse62" class="accordion-collapse collapse">
+                          <div class="card-body">
+                            <p>Inside accordion 4</p>
+                          </div>
+                        </div>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="block  latestnewsblock  ">
+
+        <section class="news-green-bg news-container-area mt-5">
+          <h2 class="text-center news-slider-header my-3 position-relative h3">Complaints news <a href="javascript:void(0);"
+              class="btn btn-primary btn-primary-latest-news">
+              See more news
+              <i class="ms-2 fa-solid fa-arrow-right"></i>
+            </a>
+          </h2>
+          <div class="container-xl">
+            <div class="row extra-margin">
+              <div class="col-12">
+                <div class="swiper-outer">
+                  <div
+                    class="swiper mySwiper latest-news-swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide swiper-slide-active">
+                        <a href="javascript:void(0);">
+                          <div class="info-card news-info ">
+                            <picture>
+                              <source srcset="" sizes="100vw" type="image/webp">
+                              <source srcset="" sizes="100vw"><img alt="A close-up photo of a camera lens"
+                                src="assets/img/adr-complaints.webp" loading="lazy" decoding="async" class="card-img-small mb-3">
+                            </picture>
+                            <div class="d-flex justify-content-between align-items-start">
+                              <h3 class="info-card-header">Quicker complaints resolution for telecoms customers, under new Ofcom rules</h3>
+                              <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                  stroke-linejoin="bevel"></path>
+                                <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel">
+                                </path>
+                              </svg>
+                            </div>
+                            <div class="date">
+                              <span class="date-label">
+                                Published: 8 July 2025
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide swiper-slide-next">
+                        <a
+                          href="javascript:void(0);">
+                          <div class="info-card news-info ">
+                            <picture>
+                              <source srcset="" sizes="100vw" type="image/webp">
+                              <sourcel srcset="" sizes="100vw"><img
+                                  alt="View of BBC's regional headquarters in Salford " src="assets/img/family-watching-tv-hero.webp"
+                                  loading="lazy" decoding="async" class="card-img-small mb-3">
+                            </picture>
+                            <div class="d-flex justify-content-between align-items-start">
+                              <h3 class="info-card-header">Latest telecoms and pay-TV complaints revealed</h3>
+                              <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                  stroke-linejoin="bevel"></path>
+                                <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel">
+                                </path>
+                              </svg>
+                            </div>
+                            <div class="date">
+                              <span class="date-label">
+                                Published: 30 October 2025
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide" role="group" aria-label="3 / 3">
+                        <a href="javascript:void(0);">
+                          <div class="info-card news-info ">
+                            <picture>
+                              <source srcset="" sizes="100vw" type="image/webp">
+                              <source srcset="" sizes="100vw"><img alt="TV Newsroom social" src="assets/img/news-on-phone-and-laptop-screens.webp"
+                                loading="lazy" decoding="async" class="card-img-small mb-3">
+                            </picture>
+                            <div class="d-flex justify-content-between align-items-start">
+                              <h3 class="info-card-header">Four in 10 UK adults encounter misinformation</h3>
+                              <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                  stroke-linejoin="bevel"></path>
+                                <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel">
+                                </path>
+                              </svg>
+                            </div>
+                            <div class="date">
+                              <span class="date-label">
+                                Published: 27 November 2024
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+
+                      <div class="swiper-slide" role="group" aria-label="4 / 4">
+                        <a href="javascript:void(0);">
+                          <div class="info-card news-info ">
+                            <picture>
+                              <source srcset="" sizes="100vw" type="image/webp">
+                              <source srcset="" sizes="100vw"><img alt="A close-up photo of a camera lens"
+                                src="assets/img/related-news-3.png" loading="lazy" decoding="async" class="card-img-small mb-3">
+                            </picture>
+                            <div class="d-flex justify-content-between align-items-start">
+                              <h3 class="info-card-header">Policies and guidelines</h3>
+                              <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                  stroke-linejoin="bevel"></path>
+                                <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel">
+                                </path>
+                              </svg>
+                            </div>
+                            <div class="date">
+                              <span class="date-label">
+                                Published: 11 March 2025
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal swiper-pagination-lock">
+                      <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button"
+                        aria-label="Go to slide 1" aria-current="true"></span>
+                    </div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <a href="javascript:void(0);" class="back-to-top" id="page-top">
+      <i class="fa-solid fa-chevron-up"></i>
+      <span title="Back to top">Back to top</span>
+    </a>
+  </main>
+
+  <section id="footer-subscription" class="mtop-5" aria-label="subscription">
+    <div class="row g-0">
+      <div class="col-12 d-flex justify-content-center position-relative">
+        <a href="email-updates.html" class="btn btn-primary button-subscribe">
+          Subscribe to email updates <i class="ms-4 fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+      <div class="col-12">
+        <div class="row row-cols-auto g-0 multicolor-strip">
+          <div class="col bg-blue"></div>
+          <div class="col bg-megenta"></div>
+          <div class="col bg-pink"></div>
+          <div class="col bg-yellow"></div>
+          <div class="col bg-green"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container-xl">
+      <div class="row">
+
+        <div class="block col-md-12 col-lg-3 socialiconsblock  ">
+
+          <section class="mt-0 mt-lg-5 social">
+            <h2 class="follow">Follow us</h2>
+            <ul class="list-unstyled social-icons">
+              <li class="social-icons-list">
+                <a class="" href="https://x.com/ofcom" title="x-twitter" aria-label="x-twitter (opens in a new tab)"
+                  target="_blank">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <span class="visually-hidden-focusable">x-twitter</span>
+                </a>
+              </li>
+              <li class="social-icons-list">
+                <a class="" href="https://www.facebook.com/ofcom" title="facebook"
+                  aria-label="facebook (opens in a new tab)" target="_blank">
+                  <i class="fa-brands fa-facebook"></i>
+                  <span class="visually-hidden-focusable">facebook</span>
+                </a>
+              </li>
+              <li class="social-icons-list">
+                <a class="" href="https://www.linkedin.com/company/ofcom" title="linkedin"
+                  aria-label="linkedin (opens in a new tab)" target="_blank">
+                  <i class="fa-brands fa-linkedin"></i>
+                  <span class="visually-hidden-focusable">linkedin</span>
+                </a>
+              </li>
+              <li class="social-icons-list">
+                <a class="" href="https://www.youtube.com/ofcom" title="youtube"
+                  aria-label="youtube (opens in a new tab)" target="_blank">
+                  <i class="fa-brands fa-youtube"></i>
+                  <span class="visually-hidden-focusable">youtube</span>
+                </a>
+              </li>
+              <li class="social-icons-list">
+                <a class="" href="https://www.instagram.com/ofcom.org.uk/" title="instagram"
+                  aria-label="instagram (opens in a new tab)" target="_blank">
+                  <i class="fa-brands fa-instagram"></i>
+                  <span class="visually-hidden-focusable">instagram</span>
+                </a>
+              </li>
+              <li class="social-icons-list">
+                <a class="" href="https://www.tiktok.com/@ofcom.org.uk" title="tiktok"
+                  aria-label="tiktok (opens in a new tab)" target="_blank">
+                  <i class="fa-brands fa-tiktok"></i>
+                  <span class="visually-hidden-focusable">tiktok</span>
+                </a>
+              </li>
+            </ul>
+          </section>
+
+        </div>
+        <div class="block col-md-12 col-lg-3 linklistblock  ">
+
+          <section class="mt-0 mt-lg-5 about-ofcom">
+            <h2 class="follow h5">About Ofcom</h2>
+            <ul class="list-unstyled">
+              <li>
+                <a class="footer-link" title="What is Ofcom?" href="javascript:void(0);">
+                  What is Ofcom?
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Contact us" href="javascript:void(0);">
+                  Contact us
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Ofcom in the nations and regions"
+                  href="javascript:void(0);">
+                  Nations and regions
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Jobs at Ofcom" href="javascript:void(0);"
+                  target="_blank">
+                  Jobs
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="General Privacy Statement"
+                  href="javascript:void(0);">
+                  General Privacy Statement
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Modern slavery statement"
+                  href="javascript:void(0);">
+                  Modern slavery statement
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Our work in the Welsh language"
+                  href="javascript:void(0);">
+                  Our work in Welsh
+                </a>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div class="block col-md-12 col-lg-3 linklistblock  ">
+
+          <section class="mt-0 mt-lg-5 about-ofcom">
+            <h2 class="follow h5">About this website</h2>
+            <ul class="list-unstyled">
+              <li>
+                <a class="footer-link" title="Accessibility of Ofcom's website"
+                  href="javascript:void(0);">
+                  Accessibility
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Cookies policy" href="javascript:void(0);">
+                  Cookies policy
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Terms of use" href="javascript:void(0);">
+                  Terms of use
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Copyright and information re-use"
+                  href="javascript:void(0);">
+                  Copyright and information re-use
+                </a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="container-xl">
+      <div class="row copyrights">
+        <div class="copyright-text text-lg-start text-start text-sm-end"> © Ofcom 2025 </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <!-- <script type="text/javascript">
+    window.onload = () => {
+      const myModal = new bootstrap.Modal('#onload');
+      myModal.show();
+    }
+  </script> -->
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+          slidesPerGroup: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 10,
+          slidesPerGroup: 3,
+        },
+      },
+    });
+  </script>
+  <script>
+    var swiper = new Swiper(".mySwiper1", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination1",
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+          slidesPerGroup: 2,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 10,
+          slidesPerGroup: 4,
+        },
+      },
+    });
+  </script>
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/js/bootstrap-select.min.js"></script>
+  <script src="js/virtual-select.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src="js/main.js"></script>
+  <script>
+    VirtualSelect.init({
+      ele: '#example-select',
+      hideClearButton: true,
+      disableSelectAll: true,
+      showSelectedOptionsFirst: false,
+      autoSelectFirstOption: false,
+      autoSelectFirstOption: false,
+      selectAllText: 'Select all',
+      autofocus: false,
+      disableSelectAll: false,
+      showDropboxAsPopup: false
+    });
+  </script>
+  <script>
+    flatpickr(".flatpickr-date", {
+      enableTime: false,
+      dateFormat: "d-m-Y",
+    });
+  </script>
+
+  <script>
+    const elem = document.querySelector('.filter-datepicker');
+    const datepicker = new Datepicker(elem, {
+      format: 'dd/mm/yyyy',
+    });
+
+    $('.addingCalendar').on("click", function (e) {
+      console.log("clicked");
+      $('filter-datepicker').click();
+    });
+  </script>
+  <script>
+    const elem1 = document.querySelector('.filter-datepicker1');
+    const datepicker1 = new Datepicker(elem1, {
+      format: 'dd/mm/yyyy',
+    }); 
+  </script>
+  <script>
+
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,2339 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OFCOM website</title>
+  <link rel="icon" href="assets/img/favicon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <link href="css/virtual-select.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.3.4/dist/css/datepicker.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.3.4/dist/js/datepicker-full.min.js"></script>
+  <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- header start -->
+  <header class="header fixed-top d-flex align-items-center">
+    <a class="skip-to-content-link" href="#skipToContent" tabindex="0">Skip to main content</a>
+
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <div class="logo me-auto me-lg-0">
+        <a href="index.html"> <img class="brand-logo" src="assets/img/logo2023_2.svg" alt="OfCom Logo" /></a>
+      </div>
+      <a href="javascript:void(0);" id="mobile-menu-trigger" class="mobile-menu-trigger order-3 order-lg-2">
+        <span class="visually-hidden-focusable">hamburger menu</span>
+        <i class="mobile-nav-toggle mobile-nav-show fa-solid fa-bars"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none fa-solid fa-xmark"></i>
+      </a>
+      <!-- menu start here -->
+      <div class="header-item ms-auto">
+        <div class="menu-overlay">
+        </div>
+        <nav class="menu">
+          <div class="mobile-menu-head">
+            <a href="javascript:void(0);" class="go-back">
+              <span class="visually-hidden-focusable">Go Back</span>
+              <i class="fa fa-angle-left"></i></a>
+            <div class="current-menu-title"></div>
+            <div class="mobile-menu-close">&times;</div>
+          </div>
+          <ul class="menu-main">
+
+            <li class="block menu-item-has-children topicmenublock  ">
+
+              <button type="button">Topics <span class="visually-hidden-focusable">Menu</span> <i
+                  class="fa fa-angle-down"></i></button>
+              <div class="sub-menu mega-menu mega-menu-column-4">
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> About Ofcom </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Ofcom is the regulator for the communications services that we use and rely on each day.
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> Internet-based services </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      As people communicate seamlessly online and offline, we now need to invest our efforts into making
+                      digital communications work for everyone
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> Media use and attitudes </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Ofcom wants to understand how adults and children in the UK use media.
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="online-safety.html" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> Online safety </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Under the Online Safety Act, Ofcom's job is to make online services safer for the people who use
+                      them. We make sure companies have effective systems in place to protect users from harm.
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="phones-and-broadband.html" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> Phones and broadband </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Ofcom is committed to a thriving telecoms sector, where companies can compete fairly and customers
+                      benefit from a broad range of services.
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> Post </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Ofcom's job is to make sure there is a universal postal service.
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> Spectrum </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      You can't see or feel radio spectrum, but we use it every day. Our job is to authorise and manage
+                      the use of spectrum in the UK.
+                    </span>
+
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span> TV, radio and on-demand </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      We make sure that broadcasters provide quality TV, radio and on-demand programmes that appeal to
+                      diverse audiences. We also have rules in place to protect viewers and listeners from harm.
+                    </span>
+
+                  </p>
+                </div>
+
+
+
+                <div class="w-100 menu-social-icons">
+                  <a href="https://x.com/ofcom" title="x-twitter" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                  <a href="https://www.facebook.com/ofcom" title="facebook" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/ofcom" title="linkedin" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="https://www.youtube.com/ofcom" title="youtube" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="https://www.instagram.com/ofcom.org.uk/" title="instagram" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="https://www.tiktok.com/@ofcom.org.uk" title="tiktok" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                  </a>
+                </div>
+
+                <div class="multicolor-banner">
+                  <div class="row row-cols-auto g-0 multicolor-strip menu-strip-height">
+                    <div class="bg-blue"></div>
+                    <div class="bg-megenta"></div>
+                    <div class="bg-pink"></div>
+                    <div class="bg-yellow"></div>
+                    <div class="bg-green"></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="block menu-item-has-children contenttypemenublock  ">
+
+              <button type="button">Ofcom's work <span class="visually-hidden-focusable">Menu</span> <i
+                  class="fa fa-angle-down"></i></button>
+              <div class="sub-menu mega-menu mega-menu-column-4">
+
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Advice for businesses </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      How to make the most of communications services as a small business.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Advice for consumers </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      How to make the most of the services you use, and deal with problems.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Consultations and statements </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Proposals we are consulting on and decisions we've made.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="enforcement.html" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Enforcement </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      How we make sure companies follow our rules, to protect customers and promote competition.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Information for industry </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Rules, guidance and other information for the industries we regulate.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Licence information </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      If you're looking to use certain radio equipment, or broadcast on TV or radio, you'll need a
+                      licence from Ofcom.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>News and updates </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Our latest news, features, views and information about our work.
+                    </span>
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="javascript:void(0);" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Research, statistics and data </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <p>
+                    <span class="detail-text">
+                      Evidence we gather to inform our work as a regulator.
+                    </span>
+                  </p>
+                </div>
+
+
+
+                <div class="w-100 menu-social-icons">
+                  <a href="https://x.com/ofcom" title="x-twitter" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                  <a href="https://www.facebook.com/ofcom" title="facebook" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/ofcom" title="linkedin" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="https://www.youtube.com/ofcom" title="youtube" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="https://www.instagram.com/ofcom.org.uk/" title="instagram" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="https://www.tiktok.com/@ofcom.org.uk" title="tiktok" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                  </a>
+                </div>
+
+                <div class="multicolor-banner">
+                  <div class="row row-cols-auto g-0 multicolor-strip menu-strip-height">
+                    <div class="bg-blue"></div>
+                    <div class="bg-megenta"></div>
+                    <div class="bg-pink"></div>
+                    <div class="bg-yellow"></div>
+                    <div class="bg-green"></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="block menu-item-has-children menublock  ">
+
+              <button type="button"> Complaints <span class="visually-hidden-focusable">Menu</span> <i
+                  class="fa fa-angle-down"></i></button>
+              <div class="sub-menu mega-menu mega-menu-column-4">
+                <div class="list-item ">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="complaints.html" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Complaints </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+
+                   <ul>
+                    <li><a href="javascript:void(0);">Complain about
+                        mobile, phone or internet services</a></li>
+                    <li><a href="javascript:void(0);">Complain about TV,
+                        radio or on demand services</a></li>
+                    <li><a href="javascript:void(0);">Complain about postal services</a>
+                    </li>
+                    <li><a href="javascript:void(0);">Complain about wireless
+                        interference</a></li>
+                    <li><a href="javascript:void(0);">Complain about online
+                        services, websites or apps</a></li>
+                    <li><a href="javascript:void(0);">Complain about premium rate
+                        services</a></li>
+                  </ul>
+                </div>
+
+
+                <div class="list-item">
+                  <ul>
+                    <li class="mb-3">
+                      <span class="detail-text">
+                        Ofcom may be able to help you complain about or report issues relating to: phone, broadband and
+                        postal services; TV, radio and on-demand programmes; interference to wireless devices; or
+                        something you have seen on an online service, website or app.
+                      </span>
+                    </li>
+
+                   <li>
+                      <a href="javascript:void(0);">
+                        The types of complaint Ofcom deals with
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">
+                        Get in touch by phone or post
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+
+
+                <div class="w-100 menu-social-icons">
+                  <a href="https://x.com/ofcom" title="x-twitter" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                  <a href="https://www.facebook.com/ofcom" title="facebook" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/ofcom" title="linkedin" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="https://www.youtube.com/ofcom" title="youtube" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="https://www.instagram.com/ofcom.org.uk/" title="instagram" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="https://www.tiktok.com/@ofcom.org.uk" title="tiktok" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                  </a>
+                </div>
+
+                <div class="multicolor-banner">
+                  <div class="row row-cols-auto g-0 multicolor-strip menu-strip-height">
+                    <div class="bg-blue"></div>
+                    <div class="bg-megenta"></div>
+                    <div class="bg-pink"></div>
+                    <div class="bg-yellow"></div>
+                    <div class="bg-green"></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="block menu-item-has-children menublock  ">
+
+              <button type="button"> Licences <span class="visually-hidden-focusable">Menu</span> <i
+                  class="fa fa-angle-down"></i></button>
+              <div class="sub-menu mega-menu mega-menu-column-4">
+                <div class="list-item ">
+                  <div class="title d-flex justify-content-between align-items-center">
+                    <a href="licence.html" class="sub-menu-link">
+                      <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
+                        <span>Licences </span>
+                        <svg class="svg-arrow" width="25" height="25" viewBox="0 0 40 40"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                          <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                            stroke-linejoin="bevel"></path>
+                          <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+
+                 <ul>
+                    <li><a href="javascript:void(0);">Spectrum licences</a></li>
+                    <li><a href="javascript:void(0);">Radio broadcast licences</a></li>
+                    <li><a href="javascript:void(0);">TV broadcast licences</a></li>
+                  </ul>
+                </div>
+
+
+                <div class="list-item">
+                  <ul>
+                    <li class="mb-3">
+                      <span class="detail-text">
+                        You need a licence from Ofcom if you’re looking to use certain radio equipment (like amateur or
+                        ships radio), or broadcast on TV or radio.
+                      </span>
+                    </li>
+
+                    <li>
+                      <a href="javascript:void(0);">
+                        Help with your spectrum licence
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">
+                        Help with your broadcast licence
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+
+
+                <div class="w-100 menu-social-icons">
+                  <a href="https://x.com/ofcom" title="x-twitter" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                  <a href="https://www.facebook.com/ofcom" title="facebook" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/ofcom" title="linkedin" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="https://www.youtube.com/ofcom" title="youtube" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="https://www.instagram.com/ofcom.org.uk/" title="instagram" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="https://www.tiktok.com/@ofcom.org.uk" title="tiktok" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                  </a>
+                </div>
+
+                <div class="multicolor-banner">
+                  <div class="row row-cols-auto g-0 multicolor-strip menu-strip-height">
+                    <div class="bg-blue"></div>
+                    <div class="bg-megenta"></div>
+                    <div class="bg-pink"></div>
+                    <div class="bg-yellow"></div>
+                    <div class="bg-green"></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </nav>
+      </div>
+      <!-- menu end here -->
+      <a href="javascript:void(0);" id="search-icon" class="search-icons d-flex align-items-center order-2 order-lg-1">
+        <i class="fas fa-search"></i>
+        <span class="visually-hidden-focusable">Global Search</span>
+      </a>
+      <form action="global-search.html" class="search-form" id="globalSearch">
+        <div class="search-box mx-auto mb-3 position-relative">
+          <input type="search" class="search-box-input" name="query" aria-label="Global Search" placeholder="Search"
+            id="globalquery" autocomplete="off">
+          <label for="globalquery" class="fas fa-search visually-hidden-focusable">Search</label>
+          <a href="global-search.html" class="fas fa-search gl-search"><span
+              class="visually-hidden-focusable">Search</span></a>
+        </div>
+
+        <h4 class="text-center mt-4">Quick links</h4>
+        <hr>
+        <div class="search-quick-link mx-auto mt-4">
+          <div class="row">
+            <div class="col-6 col-md-3">
+              <a href="javascript:void(0);" class="w-100 d-flex align-items-start align-items-start">
+                <span>Broadband and mobile coverage checker</span>
+                <i class="fa-solid fa-circle-arrow-right"></i>
+              </a>
+            </div>
+            <div class="col-6 col-md-3">
+              <a href="javascript:void(0);" class="w-100 d-flex align-items-start align-items-start">
+                <span>Social tariffs: Cheaper broadband and phone packages</span>
+                <i class="fa-solid fa-circle-arrow-right"></i>
+              </a>
+            </div>
+            <div class="col-6 col-md-3">
+              <a href="javascript:void(0);" class="w-100 d-flex align-items-start align-items-start">
+                <span>Telephone area codes: Find UK dialling codes for numbers starting 01 and 02</span>
+                <i class="fa-solid fa-circle-arrow-right"></i>
+              </a>
+            </div>
+            <div class="col-6 col-md-3">
+              <a href="javascript:void(0);" class="w-100 d-flex align-items-start align-items-start">
+                <span>Ofcom licensing portal for aircraft, amateur and ships radio</span>
+                <i class="fa-solid fa-circle-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr>
+
+
+        <div class="search-quick-link news-blue-bg mx-auto mt-4 mb-5">
+          <h4 class="text-center mt-4 mb-3">Latest news</h4>
+          <div class="row extra-margin">
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="javascript:void(0);">
+                <div class="info-card news-info">
+                  <picture>
+                    <source srcset="assets/img/tech-gavel-web.webp" sizes="100vw" type="image/webp">
+                    <source srcset="" sizes="100vw"><img alt="Tech-gavel-web" src="" loading="lazy" decoding="async"
+                      class="w-100 mb-3">
+                  </picture>
+                  <div class="d-flex justify-content-between align-items-start">
+                    <h3 class="info-card-header">Ofcom spectrum auction: final results announced</h3>
+                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                        stroke-linejoin="bevel"></path>
+                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                    </svg>
+                  </div>
+                  <span class="date">24 October 2025</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="javascript:void(0);">
+                <div class="info-card news-info">
+                  <picture>
+                    <source srcset="assets/img/delivery-warehouse-workers-hero.webp" sizes="100vw" type="image/webp">
+                    <source srcset="" sizes="100vw"><img alt="Tech-gavel-web" src="" loading="lazy" decoding="async"
+                      class="w-100 mb-3">
+                  </picture>
+                  <div class="d-flex justify-content-between align-items-start">
+                    <h3 class="info-card-header">Best and worst parcel firms for customer satisfaction revealed 2024/25
+                    </h3>
+                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                        stroke-linejoin="bevel"></path>
+                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                    </svg>
+                  </div>
+                  <span class="date">22 October 2025</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="javascript:void(0);">
+                <div class="info-card news-info">
+                  <picture>
+                    <source srcset="assets/img/news-centre-hero-1336--560px-6.webp" sizes="100vw" type="image/webp">
+                    <source srcset="" sizes="100vw"><img alt="Tech-gavel-web" src="" loading="lazy" decoding="async"
+                      class="w-100 mb-3">
+                  </picture>
+                  <div class="d-flex justify-content-between align-items-start">
+                    <h3 class="info-card-header">Ofcom updates guidance around politicians presenting news</h3>
+                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                        stroke-linejoin="bevel"></path>
+                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                    </svg>
+                  </div>
+                  <span class="date">20 October 2025</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="javascript:void(0);">
+                <div class="info-card news-info">
+                  <picture>
+                    <source srcset="assets/img/bbc-salford.webp" sizes="100vw" type="image/webp">
+                    <source srcset="" sizes="100vw"><img alt="Tech-gavel-web" src="" loading="lazy" decoding="async"
+                      class="w-100 mb-3">
+                  </picture>
+                  <div class="d-flex justify-content-between align-items-start">
+                    <h3 class="info-card-header">Ofcom investigation finds BBC Gaza documentary in breach of
+                      Broadcasting Code</h3>
+                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                        stroke-linejoin="bevel"></path>
+                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel"></path>
+                    </svg>
+                  </div>
+                  <span class="date">17 October 2025</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </form>
+      <a href="" class="langauge-change order-1 order-lg-3" lang="cy" hreflang="cy">Cymraeg</a>
+
+
+    </div>
+    </div>
+  </header>
+  <main role="main">
+
+
+    <section class="breadcrumb-position">
+      <div class="row">
+        <div class="col-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="/">Home</a></li>
+              <li class="breadcrumb-item ellipsis"><a href="online-safety.html">Online safety</a></li>
+              <li class="breadcrumb-item ellipsis"><a href="#">Illegal and
+                  harmful content</a></li>
+              <li class="breadcrumb-item active ellipsis" aria-current="page"><span>Guide for services: complying with
+                  the Online Safety Act</span></li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <section>
+      <div class="hero-banner-narrow maroon-bg">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 col-lg-7 col-xl-8 offset-lg-2 offset-xl-2">
+              <h1 id="skipToContent" data-epi-type="title"><strong>Guide for services: complying with the Online Safety Act</strong></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid standared-page container-p-0">
+        <div class="row">
+          <div class="col-lg-2">
+            <div class="mt-5 mb-lg-0">
+              <a class="btn btn-tag blue-bg" href="https://www.ofcom.org.uk/online-safety" target="_self">
+                Online safety
+              </a>
+              <a class="btn btn-tag light-blue-bg"
+                href="https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content" target="_self">
+                Illegal and harmful content
+              </a>
+              <a class="btn btn-tag light-blue-bg" href="https://www.ofcom.org.uk/online-safety/pornography"
+                target="_self">
+                Online pornography
+              </a>
+              <a class="btn btn-tag light-blue-bg" href="https://www.ofcom.org.uk/online-safety/protecting-children"
+                target="_self">
+                Protecting children
+              </a>
+              <a class="btn btn-tag maroon-bg" href="https://www.ofcom.org.uk/information-for-industry" target="_self">
+                Information for industry
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="row row-cols-auto g-0 mt-3 mt-lg-5 ml-left">
+              <div class="col-12">
+                Published:
+                27 February 2024
+              </div>
+              <div class="col-12">
+                Last updated:
+                21 May 2025
+              </div>
+            </div>
+            <div class="mt-3 mt-lg-5">
+              <div class="standard-content-area">
+
+                <div class="block  richtextblock  ">
+
+                  <section class="container-xl mt-5">
+
+                    <div class="rich-text-block">
+                      <p class="lead">The Online Safety Act makes businesses, and anyone else who operates a wide range
+                        of online services, legally responsible for keeping people (especially children) in the UK safe
+                        online.</p>
+                      <p>All in-scope services with a significant number of UK users, or targeting the UK market, are
+                        covered by the new rules, regardless of where they are based.</p>
+                      <p>The rules apply to services that are made available over the internet (or ‘online services’).
+                        This might be a website, app or another type of platform. If you or your business provides an
+                        online service, then the rules might apply to you.</p>
+                    </div>
+                  </section>
+                </div>
+                <div class="block  accordionpanelblock  ">
+
+                  <div class="mt-5 overflow-hidden">
+                    <div class="container-xl">
+                      <div class="row">
+                        <div class="col-12">
+                          <div class="accordion">
+                            <div class="accordion-item destination-accordian">
+                              <div class="accordion-header">
+                                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse"
+                                  data-bs-target="#collapse82daa5a0-ee37-4b44-9c6b-5b42ff9e36811"
+                                  aria-label="Who the  rules apply to, button collapsed">
+                                  <h3 class="accordion-head h4">
+                                    <p class="accordion-head">
+                                      Who the rules apply to
+                                    </p>
+                                  </h3>
+                                </button>
+                              </div>
+                              <div id="collapse82daa5a0-ee37-4b44-9c6b-5b42ff9e36811"
+                                class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                                <div class="card-body">
+
+                                  <div class="rich-text-block">
+                                    <p>Specifically, the rules&nbsp;cover services where:</p>
+                                    <ul>
+                                      <li>people may encounter content (like images, videos, messages or comments), that
+                                        has been generated, uploaded or shared by other users. Among other things, this
+                                        includes private messaging, and services that allow users to upload, generate or
+                                        share pornographic content. The Act calls these ‘user-to-user services’;</li>
+                                      <li>people can search other websites or databases (‘search services’); or</li>
+                                      <li>you or your business publish or display pornographic content.</li>
+                                    </ul>
+                                    <p>To give a few examples, a 'user-to-user' service could be:</p>
+                                    <ul>
+                                      <li>a social media site or app;</li>
+                                      <li>a photo- or video-sharing service;</li>
+                                      <li>a chat or instant messaging service, like a dating app; or</li>
+                                      <li>an online or mobile gaming service.</li>
+                                    </ul>
+                                    <p>The rules apply to organisations big and small, from large and well-resourced
+                                      companies to very small ‘micro-businesses’. They also apply to individuals who run
+                                      an online service.</p>
+                                    <p>It doesn’t matter where you or your business is based. The new rules will apply
+                                      to you (or your business) if the service you provide has a significant number of
+                                      users in the UK, or if the UK is a target market.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="block  richtextblock  ">
+
+                  <section class="container-xl mt-5">
+
+                    <div class="rich-text-block">
+                      <h2>Check if the Online Safety Act applies to you</h2>
+                      <p>Use our tool to find out if the rules are likely to apply to you, and what to do next.</p>
+                      <p><a href="https://ofcomlive.my.salesforce-sites.com/formentry/RegulationChecker"
+                          title="Start now" class="btn btn-primary external-link">Start now</a></p>
+                    </div>
+                  </section>
+                </div>
+                <div class="block  twocolumnblock  ">
+
+                  <div class="mt-5">
+                    <section class="container-xl">
+                      <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                          <div class="row extra-margin">
+
+                            <div class="block  standardpage col-12 col-md-6 half">
+
+                              <a
+                                href="/online-safety/illegal-and-harmful-content/important-dates-for-online-safety-compliance">
+                                <div class="info-card">
+                                  <div class="d-flex justify-content-between align-items-start">
+                                    <h3 class="info-card-header">Important dates for Online Safety compliance</h3>
+                                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                    </svg>
+                                  </div>
+                                  <div class="serach-date">
+                                  </div>
+
+                                  <p>
+                                    The Online Safety Act makes companies that operate a wide range of online services
+                                    legally responsible for keeping people safe online.
+                                  </p>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="block  standardpage col-12 col-md-6 half">
+
+                              <a href="/online-safety/illegal-and-harmful-content/roadmap-to-regulation">
+                                <div class="info-card">
+                                  <div class="d-flex justify-content-between align-items-start">
+                                    <h3 class="info-card-header">Ofcom's approach to implementing the Online Safety Act
+                                    </h3>
+                                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                    </svg>
+                                  </div>
+                                  <div class="serach-date">
+                                  </div>
+
+                                  <p>
+                                    Our plans for putting online safety laws into practice, and what we expect from tech
+                                    firms.
+                                  </p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </section>
+                  </div>
+                </div>
+                <div class="block  richtextblock  ">
+
+                  <section class="container-xl mt-5">
+
+                    <div class="rich-text-block">
+                      <h2>Check how to comply with the illegal content rules</h2>
+                      <p>If the Online Safety Act applies to you, you will need to complete an illegal content risk
+                        assessment by 16 March 2025.</p>
+                      <p>Use our tool to help you to complete a risk assessment and comply with your safety obligations.
+                      </p>
+                      <p><a
+                          href="/online-safety/illegal-and-harmful-content/check-how-to-comply-with-the-illegal-content-rules"
+                          title="Start now" class="btn btn-primary">Start now</a></p>
+                    </div>
+                  </section>
+                </div>
+                <div class="block  twocolumnblock  ">
+
+                  <div class="mt-5">
+                    <section class="container-xl">
+                      <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                          <div class="row extra-margin">
+
+                            <div class="block  standardpage col-12 col-md-6 half">
+
+                              <a
+                                href="/online-safety/illegal-and-harmful-content/quick-guide-to-online-safety-risk-assessments">
+                                <div class="info-card">
+                                  <div class="d-flex justify-content-between align-items-start">
+                                    <h3 class="info-card-header">Quick guide to illegal content risk assessments</h3>
+                                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                    </svg>
+                                  </div>
+                                  <div class="serach-date">
+                                  </div>
+
+                                  <p>
+                                    Under the Online Safety Act, most regulated services will have to carry out a risk
+                                    assessment. Find out what this means for you.
+                                  </p>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="block  standardpage col-12 col-md-6 half">
+
+                              <a href="/online-safety/illegal-and-harmful-content/codes-of-practice">
+                                <div class="info-card">
+                                  <div class="d-flex justify-content-between align-items-start">
+                                    <h3 class="info-card-header">Quick guide to illegal content codes of practice</h3>
+                                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                    </svg>
+                                  </div>
+                                  <div class="serach-date">
+                                  </div>
+
+                                  <p>
+                                    One way services can keep their users safe is to adopt the measures in our codes of
+                                    practices. Find out what measures we've proposed in our codes.
+                                  </p>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="block  standardpage col-12 col-md-6 half">
+
+                              <a
+                                href="/online-safety/illegal-and-harmful-content/statement-protecting-people-from-illegal-harms-online">
+                                <div class="info-card">
+                                  <div class="d-flex justify-content-between align-items-start">
+                                    <h3 class="info-card-header">Statement: Protecting people from illegal harms online
+                                    </h3>
+                                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                    </svg>
+                                  </div>
+                                  <div class="serach-date">
+                                  </div>
+
+                                  <p>
+                                    Our illegal harms policy statement includes our full guidance, Codes of Practice and
+                                    other documents relating to online services' duties under the Online Safety Act.
+
+                                  </p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </section>
+                  </div>
+                </div>
+                <div class="block  richtextblock  ">
+
+                  <section class="container-xl mt-5">
+
+                    <div class="rich-text-block">
+                      <h2>Check how to comply with the protection of children rules</h2>
+                      <p>Services likely to be accessed by children will be required to carry out children’s risk
+                        assessments from 24 April 2025. If you provide a service now, the deadline to complete your
+                        first children’s risk assessment is 24 July 2025.</p>
+                      <p>Use our tool to help you to complete a children's risk assessment and comply with your safety
+                        obligations.</p>
+                      <p><a
+                          href="/online-safety/protecting-children/check-how-to-comply-with-the-protection-of-children-rules"
+                          title="Start now" class="btn btn-primary">Start now</a></p>
+                    </div>
+                  </section>
+                </div>
+                <div class="block  twocolumnblock  ">
+
+                  <div class="mt-5">
+                    <section class="container-xl">
+                      <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                          <div class="row extra-margin">
+
+                            <div class="block  standardpage col-12 col-md-6 half">
+
+                              <a
+                                href="/online-safety/illegal-and-harmful-content/quick-guide-to-childrens-access-assessments">
+                                <div class="info-card">
+                                  <div class="d-flex justify-content-between align-items-start">
+                                    <h3 class="info-card-header">Quick guide to children’s access assessments</h3>
+                                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                    </svg>
+                                  </div>
+                                  <div class="serach-date">
+                                  </div>
+
+                                  <p>
+                                    Children’s access assessments are a new assessment that all user-to user-services
+                                    and search services (‘Part 3 services’) regulated under the Online Safety Act must
+                                    carry out.
+                                  </p>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="block  standardpage col-12 col-md-6 half">
+
+                              <a
+                                href="/online-safety/illegal-and-harmful-content/quick-guide-to-childrens-risk-assessments">
+                                <div class="info-card">
+                                  <div class="d-flex justify-content-between align-items-start">
+                                    <h3 class="info-card-header">Quick guide to children’s risk assessments: protecting
+                                      children online</h3>
+                                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                    </svg>
+                                  </div>
+                                  <div class="serach-date">
+                                  </div>
+
+                                  <p>
+                                    Under the Online Safety Act, services likely to be accessed by children will have to
+                                    carry out a children's risk assessment. Find out what this means for you.
+                                  </p>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="block  standardpage col-12 col-md-6 half">
+
+                              <a
+                                href="/online-safety/illegal-and-harmful-content/quick-guide-to-childrens-safety-codes">
+                                <div class="info-card">
+                                  <div class="d-flex justify-content-between align-items-start">
+                                    <h3 class="info-card-header">Quick guide to Protection of Children Codes</h3>
+                                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                    </svg>
+                                  </div>
+                                  <div class="serach-date">
+                                  </div>
+
+                                  <p>
+                                    Under the Online Safety Act, services that are likely to be accessed by children
+                                    have new duties to comply with to protect children online. One way they can do that
+                                    is to adopt the safety measures in Ofcom’s codes of practices.
+                                  </p>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="block  standardpage col-12 col-md-6 half">
+
+                              <a href="/online-safety/protecting-children/age-checks-to-protect-children-online">
+                                <div class="info-card">
+                                  <div class="d-flex justify-content-between align-items-start">
+                                    <h3 class="info-card-header">Age checks to protect children online</h3>
+                                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                    </svg>
+                                  </div>
+                                  <div class="serach-date">
+                                  </div>
+
+                                  <p>
+                                    Children will be prevented from encountering online pornography and protected from
+                                    other types of harmful content under&nbsp;Ofcom’s new industry guidance which sets
+                                    out how we expect sites and apps to introduce highly effective age assurance.
+                                  </p>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="block  consultationstandardpage col-12 col-md-6 half">
+
+                              <a
+                                href="/online-safety/illegal-and-harmful-content/statement-protecting-children-from-harms-online">
+                                <div class="info-card">
+                                  <div class="d-flex justify-content-between align-items-start">
+                                    <h3 class="info-card-header">Statement: Protecting children from harms online</h3>
+                                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                    </svg>
+                                  </div>
+                                  <div class="serach-date">
+                                  </div>
+                                  <p>
+                                    Our protection of children policy Statement includes our full guidance, Codes of
+                                    Practice and other documents relating to online services' duties under the Online
+                                    Safety Act.
+
+
+                                  </p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </section>
+                  </div>
+                </div>
+                <div class="block  richtextblock  ">
+
+                  <section class="container-xl mt-5">
+
+                    <div class="rich-text-block">
+                      <h2>Comply with rules about online pornography</h2>
+                      <p>If you or your business has an online service that hosts pornographic content, there are rules
+                        you will need to follow to prevent children from accessing it.</p>
+                    </div>
+                  </section>
+                </div>
+                <div class="block  twocolumnblock  ">
+
+                  <div class="mt-5">
+                    <section class="container-xl">
+                      <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                          <div class="row extra-margin">
+
+                            <div class="block  standardpage col-12 col-md-6 half">
+
+                              <a href="/online-safety/illegal-and-harmful-content/age-assurance">
+                                <div class="info-card">
+                                  <div class="d-flex justify-content-between align-items-start">
+                                    <h3 class="info-card-header">Quick guide to implementing highly effective age
+                                      assurance</h3>
+                                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                    </svg>
+                                  </div>
+                                  <div class="serach-date">
+                                  </div>
+
+                                  <p>
+                                    The Online Safety Act has introduced new rules on robust age checks that services
+                                    must follow to protect children
+                                  </p>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="block  standardpage col-12 col-md-6 half">
+
+                              <a
+                                href="/online-safety/pornography/adults-only-what-to-do-if-your-online-service-allows-pornography">
+                                <div class="info-card">
+                                  <div class="d-flex justify-content-between align-items-start">
+                                    <h3 class="info-card-header">‘Adults Only’: what to do if your online service allows
+                                      pornography</h3>
+                                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                    </svg>
+                                  </div>
+                                  <div class="serach-date">
+                                  </div>
+
+                                  <p>
+                                    If you allow pornography on your online service, this page is for you. It explains
+                                    what you need to know about the Online Safety Act and what you need to check to
+                                    ensure you follow the rules.
+                                  </p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </section>
+                  </div>
+                </div>
+                <div class="block  richtextblock  ">
+
+                  <section class="container-xl mt-5">
+
+                    <div class="rich-text-block">
+                      <h2>Compliance resources</h2>
+                      <p>Further resources, including documents and guidance, to help you comply with the Act.</p>
+                    </div>
+                  </section>
+                </div>
+                <div class="block  twocolumnblock  ">
+
+                  <div class="mt-5">
+                    <section class="container-xl">
+                      <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                          <div class="row extra-margin">
+
+                            <div class="block  standardpage col-12 col-md-6 half">
+
+                              <a href="/online-safety/online-safety-regulatory-documents">
+                                <div class="info-card">
+                                  <div class="d-flex justify-content-between align-items-start">
+                                    <h3 class="info-card-header">Online safety regulatory documents and guidance</h3>
+                                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                    </svg>
+                                  </div>
+                                  <div class="serach-date">
+                                  </div>
+
+                                  <p>
+                                    Latest versions of Ofcom’s online safety regulatory documents and guidance, as well
+                                    as links to previous, superseded versions.
+                                  </p>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="block  standardpage col-12 col-md-6 half">
+
+                              <a
+                                href="/online-safety/the-online-safety-act-and-gaming-know-the-risks-know-the-rules-know-how-to-comply">
+                                <div class="info-card">
+                                  <div class="d-flex justify-content-between align-items-start">
+                                    <h3 class="info-card-header">The Online Safety Act and gaming: know the risks, the
+                                      rules, and how to comply</h3>
+                                    <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                      <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                      <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2"
+                                        stroke-linejoin="bevel"></path>
+                                    </svg>
+                                  </div>
+                                  <div class="serach-date">
+                                  </div>
+
+                                  <p>
+                                    Guidance for the gaming industry on how the Online Safety Act applies to these
+                                    services,
+                                    the risks gaming could present to users, and what to do to comply with the rules.
+                                  </p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </section>
+                  </div>
+                </div>
+                <div class="block  richtextblock  ">
+
+                  <section class="container-xl mt-5">
+
+                    <div class="rich-text-block">
+                      <h2>Subscribe for updates about online safety</h2>
+                      <p><a href="https://ofcomlive.my.salesforce-sites.com/formentry/apex/OSScopingMainPage"
+                          title="https://ofcomlive.my.salesforce-sites.com/formentry/apex/OSScopingMainPage"
+                          target="_blank" rel="noopener" class="external-link">Subscribe for updates</a> on any changes
+                        to the regulations and what you need to do.</p>
+                    </div>
+                  </section>
+                </div>
+                <div class="block  richtextblock  ">
+
+                  <section class="container-xl mt-5">
+
+                    <div class="rich-text-block">
+                      <h2>Other important things you should know</h2>
+                    </div>
+                  </section>
+                </div>
+                <div class="block  accordionpanelblock  ">
+
+                  <div class="mt-5 overflow-hidden">
+                    <div class="container-xl">
+                      <div class="row">
+                        <div class="col-12">
+                          <div class="accordion">
+                            <div class="accordion-item destination-accordian">
+                              <div class="accordion-header">
+                                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse"
+                                  data-bs-target="#collapse74d25ed0-0f99-487c-bf7c-b217434f5db71"
+                                  aria-label="You need to assess and manage risks to people's online safety, button collapsed">
+                                  <h3 class="accordion-head h4">
+                                    <p class="accordion-head">
+                                      You need to assess and manage risks to people's online safety
+                                    </p>
+                                  </h3>
+                                </button>
+                              </div>
+                              <div id="collapse74d25ed0-0f99-487c-bf7c-b217434f5db71"
+                                class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                                <div class="card-body">
+
+                                  <div class="rich-text-block">
+                                    <p>If the rules apply to your service, then we will expect you to make sure that the
+                                      steps you take to keep people in the UK safe are good enough.</p>
+                                    <p>While the precise duties vary from service to service, most businesses will need
+                                      to:</p>
+                                    <ul>
+                                      <li>assess the risk of harm from illegal content;</li>
+                                      <li>assess the particular risk of harm to children from harmful content (if
+                                        children are likely to use your service);</li>
+                                      <li>take effective steps to manage and mitigate the risks you identify – we have
+                                        published our illegal content codes of practice you can follow to do this for
+                                        your illegal content risk assessment;</li>
+                                      <li>in your terms of service, clearly explain how you will protect users;</li>
+                                      <li>make it easy for your users to report illegal content, and content harmful to
+                                        children;</li>
+                                      <li>make it easy for your users to complain, including when they think their post
+                                        has been unfairly removed or account blocked; and</li>
+                                      <li>consider the importance of protecting freedom of expression and the right to
+                                        privacy when implementing safety measures.</li>
+                                    </ul>
+                                    <p>It's up to you to assess the risks on your service, then decide which safety
+                                      measures you need to take.</p>
+                                    <p>To help you, we have published a range of resources – including information about
+                                      risk and harm online, guidance and codes of practice.</p>
+                                    <p>Some businesses will have other duties to meet, so that:</p>
+                                    <ul>
+                                      <li>people have more choice and control over what they see online; and</li>
+                                      <li>companies are more transparent and can be held to account for their
+                                        activities.</li>
+                                    </ul>
+                                    <p>We have published codes of practice and guidance outlining the steps that
+                                      companies can take to comply with these additional duties.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item destination-accordian">
+                              <div class="accordion-header">
+                                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse"
+                                  data-bs-target="#collapse74d25ed0-0f99-487c-bf7c-b217434f5db72"
+                                  aria-label="As the regulator, Ofcom will help you to follow the rules, button collapsed">
+                                  <h3 class="accordion-head h4">
+                                    <p class="accordion-head">
+                                      As the regulator, Ofcom will help you to follow the rules
+                                    </p>
+                                  </h3>
+                                </button>
+                              </div>
+                              <div id="collapse74d25ed0-0f99-487c-bf7c-b217434f5db72"
+                                class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                                <div class="card-body">
+
+                                  <div class="rich-text-block">
+                                    <p>Ofcom is the regulator for online safety. We have a range of powers and duties to
+                                      implement the new rules and ensure people are better protected online. We have
+                                      published an updated version of <a
+                                        href="/online-safety/illegal-and-harmful-content/roadmap-to-regulation"
+                                        title="How Ofcom will implement the Online Safety Act">our overall approach</a>
+                                      and the outcomes we want to achieve.</p>
+                                    <p>The Act expects us to help services follow the rules – including by providing
+                                      guidance and Codes of Practice. These will help you understand how harm can take
+                                      place online, what factors increase the risks, how you should assess these risks,
+                                      and what measures you should take in response.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item destination-accordian">
+                              <div class="accordion-header">
+                                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse"
+                                  data-bs-target="#collapse74d25ed0-0f99-487c-bf7c-b217434f5db73"
+                                  aria-label="But we can also fine businesses if they don't follow the rules, button collapsed">
+                                  <h3 class="accordion-head h4">
+                                    <p class="accordion-head">
+                                      But we can also fine businesses if they don't follow the rules
+                                    </p>
+                                  </h3>
+                                </button>
+                              </div>
+                              <div id="collapse74d25ed0-0f99-487c-bf7c-b217434f5db73"
+                                class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                                <div class="card-body">
+
+                                  <div class="rich-text-block">
+                                    <p>We want to work with you to keep adults and children safe. We’ll provide guidance
+                                      and resources to help you meet your new duties. These will include particular
+                                      support for small to medium-sized enterprises (SMEs).</p>
+                                    <p>But if we need to, we will take enforcement action if we determine that a
+                                      business is not meeting its duties – for example, if it isn’t doing enough to
+                                      protect users from harm.</p>
+                                    <p>We have a range of enforcement powers to use in different situations: we will
+                                      always use them in a proportionate, evidence-based and targeted way. We can direct
+                                      businesses to take specific steps to come into compliance. We can also fine
+                                      companies up to £18m, or 10% of their qualifying worldwide revenue (whichever is
+                                      greater).</p>
+                                    <p>In the most severe cases, we can seek a court order imposing “business disruption
+                                      measures”. This could mean asking a payment or advertising provider to withdraw
+                                      from the business' service, or asking an internet service provider to limit
+                                      access.</p>
+                                    <p>We can also use our enforcement powers if you fail to respond to a request for
+                                      information.</p>
+                                    <p>You can find more information about out enforcement powers, and how we plan to
+                                      use them, in our draft enforcement guidance.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item destination-accordian">
+                              <div class="accordion-header">
+                                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse"
+                                  data-bs-target="#collapse74d25ed0-0f99-487c-bf7c-b217434f5db74"
+                                  aria-label="What we mean by 'illegal content', button collapsed">
+                                  <h3 class="accordion-head h4">
+                                    <p class="accordion-head">
+                                      What we mean by 'illegal content'
+                                    </p>
+                                  </h3>
+                                </button>
+                              </div>
+                              <div id="collapse74d25ed0-0f99-487c-bf7c-b217434f5db74"
+                                class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                                <div class="card-body">
+
+                                  <div class="rich-text-block">
+                                    <p>The new rules cover any kind of illegal content that can appear online, but the
+                                      Act includes a list of specific offences that you should consider. These are:</p>
+                                    <ol>
+                                      <li>terrorism</li>
+                                      <li>child sexual exploitation and abuse (CSEA) offences, including</li>
+                                      <ol type="a">
+                                        <li>grooming</li>
+                                        <li>image-based child sexual abuse material (CSAM)</li>
+                                        <li>CSAM URLs</li>
+                                      </ol>
+                                      <li>hate</li>
+                                      <li>harassment, stalking, threats and abuse</li>
+                                      <li>controlling or coercive behaviour</li>
+                                      <li>intimate image abuse</li>
+                                      <li>extreme pornography</li>
+                                      <li>sexual exploitation of adults</li>
+                                      <li>human trafficking</li>
+                                      <li>unlawful immigration</li>
+                                      <li>fraud and financial offences</li>
+                                      <li>proceeds of crime</li>
+                                      <li>drugs and psychoactive substances</li>
+                                      <li>firearms, knives and other weapons</li>
+                                      <li>encouraging or assisting suicide</li>
+                                      <li>foreign interference</li>
+                                      <li>animal cruelty</li>
+                                    </ol>
+                                    <p>Our <a
+                                        href="/siteassets/resources/documents/online-safety/information-for-industry/illegal-harms/register-of-risks.pdf?v=390983"
+                                        title="Register of Risks (PDF, 4.65MB)">Register of Risks (PDF, 4.65MB)</a>
+                                      (organised by each kind of offence) looks at the causes and impact of illegal harm
+                                      online.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item destination-accordian">
+                              <div class="accordion-header">
+                                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse"
+                                  data-bs-target="#collapse74d25ed0-0f99-487c-bf7c-b217434f5db75"
+                                  aria-label="What you need to do about illegal content, button collapsed">
+                                  <h3 class="accordion-head h4">
+                                    <p class="accordion-head">
+                                      What you need to do about illegal content
+                                    </p>
+                                  </h3>
+                                </button>
+                              </div>
+                              <div id="collapse74d25ed0-0f99-487c-bf7c-b217434f5db75"
+                                class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                                <div class="card-body">
+
+                                  <div class="rich-text-block">
+                                    <p>All user-to-user services and search services will need to:</p>
+                                    <ul>
+                                      <li>carry out an illegal content risk assessment – we have published guidance to
+                                        help you do this;</li>
+                                      <li>meet your safety duties on illegal content – this includes removing illegal
+                                        content, taking proportionate steps to prevent your users encountering it, and
+                                        managing the risks identified in your risk assessment – our codes of practice
+                                        will help you do this;</li>
+                                      <li>record in writing how you are meeting these duties – we have published
+                                        guidance to help you do this;</li>
+                                      <li>explain your approach in your terms of service (or publicly available
+                                        statement);</li>
+                                      <li>allow your users to report illegal harm and submit complaints.</li>
+                                    </ul>
+                                    <p>One way to protect the public and meet your safety duties is to adopt the safety
+                                      measures we set out in our Codes of Practice. The codes cover a range of measures
+                                      in areas like content moderation, complaints, user access, design features to
+                                      support users, and the governance and management of online safety risks.</p>
+                                    <p>In our Codes of Practice, we have carefully considered which services each
+                                      measure should apply to, with some measures only applying to large and/or risky
+                                      services. The measures in our codes are only recommendations, so you can choose
+                                      alternatives. But if you do adopt all the recommended measures that are relevant
+                                      to you, then you will be meeting your safety duties.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item destination-accordian">
+                              <div class="accordion-header">
+                                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse"
+                                  data-bs-target="#collapse74d25ed0-0f99-487c-bf7c-b217434f5db76"
+                                  aria-label="Remember users' rights to privacy and free expression, button collapsed">
+                                  <h3 class="accordion-head h4">
+                                    <p class="accordion-head">
+                                      Remember users' rights to privacy and free expression
+                                    </p>
+                                  </h3>
+                                </button>
+                              </div>
+                              <div id="collapse74d25ed0-0f99-487c-bf7c-b217434f5db76"
+                                class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                                <div class="card-body">
+
+                                  <div class="rich-text-block">
+                                    <p>When implementing safety measures and policies – including on illegal harm and
+                                      the protection of children – you will need to consider the importance of
+                                      protecting users’ privacy and freedom of expression.</p>
+                                    <p>Ofcom will consider any risks to these rights when preparing our codes of
+                                      practice and other guidance, and include appropriate safeguards.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+              <div class="block  articlepanelblock  ">
+                <div class="mt-5">
+                  <section class="container-xl info">
+                    <h2 class="h3 teaser-header text-center">Related content</h2>
+                    <div class="row extra-margin">
+
+                      <div class="block col-12 col-sm-6 col-lg-4 standardpage  ">
+
+                        <a
+                          href="/online-safety/illegal-and-harmful-content/important-dates-for-online-safety-compliance">
+                          <div class="info-card">
+                            <div class="d-flex justify-content-between align-items-start">
+                              <h3 class="info-card-header">Important dates for Online Safety compliance</h3>
+                              <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                  stroke-linejoin="bevel"></path>
+                                <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel">
+                                </path>
+                              </svg>
+                            </div>
+                            <div class="serach-date">
+                            </div>
+
+                            <p>
+                              The Online Safety Act makes companies that operate a wide range of online services legally
+                              responsible for keeping people safe online.
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="block col-12 col-sm-6 col-lg-4 consultationstandardpage  ">
+
+                        <a href="/online-safety/illegal-and-harmful-content/a-safer-life-online-for-women-and-girls">
+                          <div class="info-card">
+                            <div class="d-flex justify-content-between align-items-start">
+                              <h3 class="info-card-header">Consultation on draft Guidance: A safer life online for women
+                                and girls</h3>
+                              <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                  stroke-linejoin="bevel"></path>
+                                <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel">
+                                </path>
+                              </svg>
+                            </div>
+                            <div class="serach-date">
+                            </div>
+                            <p>
+                              Ofcom is consulting on draft Guidance for a safer life online for women and girls. The
+                              consultation is aimed at providers of regulated online services and other relevant
+                              stakeholders including Ofcom’s statutory consultees for the draft Guidance - the
+                              Commissioner for Victims and Witnesses and the Domestic Abuse Commissioner.
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="block col-12 col-sm-6 col-lg-4 consultationstandardpage  ">
+
+                        <a
+                          href="/online-safety/illegal-and-harmful-content/consultation-online-safety-information-guidance">
+                          <div class="info-card">
+                            <div class="d-flex justify-content-between align-items-start">
+                              <h3 class="info-card-header">Statement: Online Safety Information Gathering Guidance</h3>
+                              <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                  stroke-linejoin="bevel"></path>
+                                <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel">
+                                </path>
+                              </svg>
+                            </div>
+                            <div class="serach-date">
+                            </div>
+                            <p>
+                              We have issued a statement on guidance to help services, and other stakeholders, to
+                              understand when and how we might use these powers.
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="block col-12 col-sm-6 col-lg-4 consultationstandardpage  ">
+
+                        <a href="/online-safety/illegal-and-harmful-content/transparency-reporting">
+                          <div class="info-card">
+                            <div class="d-flex justify-content-between align-items-start">
+                              <h3 class="info-card-header">Statement: Transparency Reporting</h3>
+                              <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                  stroke-linejoin="bevel"></path>
+                                <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel">
+                                </path>
+                              </svg>
+                            </div>
+                            <div class="serach-date">
+                            </div>
+                            <p>
+                              Our draft transparency reporting guidance, which is open for consultation until 4 October
+                              2024.
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="block col-12 col-sm-6 col-lg-4 consultationstandardpage  ">
+
+                        <a href="/online-safety/protecting-children/protecting-children-from-harms-online">
+                          <div class="info-card">
+                            <div class="d-flex justify-content-between align-items-start">
+                              <h3 class="info-card-header">Consultation: Protecting children from harms online</h3>
+                              <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                  stroke-linejoin="bevel"></path>
+                                <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel">
+                                </path>
+                              </svg>
+                            </div>
+                            <div class="serach-date">
+                            </div>
+                            <p>
+                              Our proposals for how internet services should approach their new duties relating to
+                              content that is harmful to children.
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="block col-12 col-sm-6 col-lg-4 consultationstandardpage  ">
+
+                        <a
+                          href="/online-safety/illegal-and-harmful-content/protecting-people-from-illegal-content-online">
+                          <div class="info-card">
+                            <div class="d-flex justify-content-between align-items-start">
+                              <h3 class="info-card-header">Consultation: Protecting people from illegal harms online
+                              </h3>
+                              <svg class="svg-arrow" width="40" height="40" viewBox="0 0 40 40"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20.2449" cy="19.7964" r="19"></circle>
+                                <path d="M22.6774 12.2964L30.8422 20.2964L22.6774 28.2964" stroke-width="2"
+                                  stroke-linejoin="bevel"></path>
+                                <path d="M30.6472 20.2964L9.64722 20.2964" stroke-width="2" stroke-linejoin="bevel">
+                                </path>
+                              </svg>
+                            </div>
+                            <div class="serach-date">
+                            </div>
+                            <p>
+                              This consultation focuses on our proposals for how internet services that enable the
+                              sharing of user-generated content ('user-to-user services') and search services should
+                              approach their new duties relating to illegal content.
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+              <div id="feedbackform">
+
+                <div class="block  formcontainerblock  ">
+
+
+
+
+                  <form method="post" novalidate="novalidate" data-f-metadata=""
+                    aria-labelledby="4078f3df-4b94-46ce-9ebd-e2b5903bfb68_label" enctype="multipart/form-data"
+                    class="EPiServerForms ValidationSuccess" data-f-type="form"
+                    id="4078f3df-4b94-46ce-9ebd-e2b5903bfb68">
+
+
+
+                    <script type="text/javascript" nonce="udD/ZgQMed73m9zJwz8zT1j9VqZg7L3lr7MPglFrjxU=">
+                      // This view acts as a rendering template to render InitScript(and server-side Form's descriptor) in FormContainerBlock's client-side for Form[4078f3df-4b94-46ce-9ebd-e2b5903bfb68].
+                      // TECHNOTE: all serverside (paths, dynamic values) of EPiServerForms will be transfered to client side here in this section.
+                      (function initializeOnRenderingFormDescriptor() {
+                        // each workingFormInfo is store inside epi.EPiServer.Forms, lookup by its FormGuid
+                        var workingFormInfo = epi.EPiServer.Forms["4078f3df-4b94-46ce-9ebd-e2b5903bfb68"] = {
+                          Id: "4078f3df-4b94-46ce-9ebd-e2b5903bfb68",
+                          Name: "Page Feedback Form",
+                          // whether this Form can be submitted which relates to the visitor's data (cookie, identity) and Form's settings (AllowAnonymous, AllowXXX)
+                          SubmittableStatus: { "submittable": true, "message": "" },
+                          ConfirmMessage: "Successfully Submitted Confirmation Message",
+                          ResetConfirmMessage: "",
+                          ShowNavigationBar: true,
+                          FocusOnForm: false,
+                          ShowSummarizedData: false,
+                          // serialize the dependency configuration of this form to clientside
+                          DependenciesInfo: JSON.parse("[{\"fieldName\":\"__field_72719\",\"action\":{\"displayName\":\"Shown\",\"name\":\"EPiServer.Forms.Core.Internal.Dependency.ShowAction\",\"order\":1,\"clientsideAction\":\"show\"},\"conditionCombination\":\"Any\",\"conditions\":[{\"fieldName\":\"__field_72718\",\"operator\":\"Equals\",\"fieldValue\":\"No\"}]},{\"fieldName\":\"__field_72720\",\"action\":{\"displayName\":\"Shown\",\"name\":\"EPiServer.Forms.Core.Internal.Dependency.ShowAction\",\"order\":1,\"clientsideAction\":\"show\"},\"conditionCombination\":\"Any\",\"conditions\":[{\"fieldName\":\"__field_72718\",\"operator\":\"Equals\",\"fieldValue\":\"No\"},{\"fieldName\":\"__field_72718\",\"operator\":\"Equals\",\"fieldValue\":\"Yes\"}]}]"),
+                          // keep all fieldName which are not satisfied the field dependency conditions
+                          DependencyInactiveElements: [],
+                          // Validation info, for executing validating on client side
+                          ValidationInfo: JSON.parse("[{\"targetElementName\":\"__field_72718\",\"targetElementId\":\"c2ee3143-73e4-46e6-9298-3708bd1947c3\",\"validators\":[{\"type\":\"EPiServer.Forms.Implementation.Validation.RequiredValidator\",\"description\":null,\"model\":{\"message\":\"This field is required.\",\"validationCssClass\":\"ValidationRequired\",\"additionalAttributes\":{\"required\":\"\",\"aria-required\":\"true\"}}}]},{\"targetElementName\":\"__field_72719\",\"targetElementId\":\"f592d84e-befd-49d2-9c31-b9b5ed8268dd\",\"validators\":[{\"type\":\"EPiServer.Forms.Implementation.Validation.RequiredValidator\",\"description\":null,\"model\":{\"message\":\"This field is required.\",\"validationCssClass\":\"ValidationRequired\",\"additionalAttributes\":{\"required\":\"\",\"aria-required\":\"true\"}}}]},{\"targetElementName\":\"__field_190413\",\"targetElementId\":\"80be2fa7-a431-4238-9ef2-793db3b02fc8\",\"validators\":[{\"type\":\"EPiServer.Forms.Samples.Implementation.Validation.RecaptchaValidator\",\"description\":null,\"model\":{\"message\":\"Invalid reCAPTCHA value, please try again.\",\"validationCssClass\":null,\"additionalAttributes\":null}}]}]"),
+                          // Steps information for driving multiple-step Forms.
+                          StepsInfo: {
+                            Steps: [{ "index": 0, "attachedUrl": "", "dependField": null, "dependCondition": null, "isActive": true, "attachedContentLink": "", "dependValue": "", "elementName": "__field_", "guid": "00000000-0000-0000-0000-000000000000" }]
+                          },
+                          FieldsExcludedInSubmissionSummary: [],
+                          ElementsInfo: JSON.parse("{\"__field_72718\":{\"type\":\"EPiServer.Forms.Implementation.Elements.ChoiceElementBlock\",\"friendlyName\":\"Options\",\"customBinding\":false},\"__field_72719\":{\"type\":\"EPiServer.Forms.Implementation.Elements.TextareaElementBlock\",\"friendlyName\":\"comments\",\"customBinding\":false},\"__field_72720\":{\"type\":\"EPiServer.Forms.Implementation.Elements.SubmitButtonElementBlock\",\"friendlyName\":\"Submit\",\"customBinding\":false}}"),
+                          DataSubmitController: "/EPiServer.Forms/DataSubmit",
+                        };
+                        /// TECHNOTE: Calculation at FormInfo level, and these values will be static input for later processing.
+                        workingFormInfo.StepsInfo.FormHasNoStep_VirtualStepCreated = true; // this FLAG will be true, if Editor does not put any FormStep. Engine will create a virtual step, with empty GUID
+                        workingFormInfo.StepsInfo.FormHasNothing = false; // this FLAG will be true if FormContainer has no element at all
+                        workingFormInfo.StepsInfo.AllStepsAreNotLinked = true; // this FLAG will be true, if all steps all have contentLink= ="" (emptyString)
+
+                        epi.EPiServer.SystemSettings = {
+                          RequestVerification: {
+                            FormFieldName: "__RequestVerificationToken",
+                            HeaderName: "RequestVerificationToken"
+                          }
+                        };
+                      })();
+                    </script>
+                    <input type="hidden" class="Form__Element Form__SystemElement FormHidden FormHideInSummarized"
+                      name="__FormGuid" value="4078f3df-4b94-46ce-9ebd-e2b5903bfb68" data-f-type="hidden">
+                    <input type="hidden" class="Form__Element Form__SystemElement FormHidden FormHideInSummarized"
+                      name="__FormHostedPage" value="140057" data-f-type="hidden">
+                    <input type="hidden" class="Form__Element Form__SystemElement FormHidden FormHideInSummarized"
+                      name="__FormLanguage" value="en" data-f-type="hidden">
+                    <input type="hidden" class="Form__Element Form__SystemElement FormHidden FormHideInSummarized"
+                      name="__FormCurrentStepIndex" value="0" data-f-type="hidden">
+                    <input type="hidden" class="Form__Element Form__SystemElement FormHidden FormHideInSummarized"
+                      name="__FormSubmissionId" value="" data-f-type="hidden">
+                    <input name="__RequestVerificationToken" type="hidden"
+                      value="CfDJ8LuB-591HtdGlBAn-1ak5UEkWT72FIFxZiMsyNoLOSd6QaAWdboVl2eKY8C6loMAdTGPTChu9NEbmVfJNQkfKwgrt6JHj3eY-pwvt6CDWFBSN3j4D5oSLfuz_t9w3PEl_iW96Gbho-24lOog81tnYDg">
+                    <h2 class="Form__Title" id="4078f3df-4b94-46ce-9ebd-e2b5903bfb68_label">Rate this page</h2>
+                    <div class="Form__Status">
+                      <div role="status" class="Form__Status__Message hide" data-f-form-statusmessage="">
+
+                      </div>
+                    </div>
+                    <div data-f-mainbody="" class="Form__MainBody">
+                      <section id="__field_" data-f-type="step" data-f-element-name="__field_"
+                        class="Form__Element FormStep Form__Element--NonData " data-f-stepindex="0"
+                        data-f-element-nondata="">
+                        <!-- Each FormStep groups the elements below it til the next FormStep -->
+
+
+
+                        <div aria-invalid="false" class="Form__Element FormChoice ValidationRequired"
+                          data-f-element-name="__field_72718" data-f-type="choice"
+                          id="c2ee3143-73e4-46e6-9298-3708bd1947c3">
+                          <fieldset aria-describedby="__field_72718_desc">
+                            <legend class="Form__Element__Caption">Was this page helpful?</legend>
+                            <div>
+                              <input type="radio" id="c2ee3143-73e4-46e6-9298-3708bd1947c3_0" name="__field_72718"
+                                value="Yes" class="FormChoice__Input FormChoice__Input--Radio" data-f-datainput=""
+                                required="" aria-required="true">
+                              <label for="c2ee3143-73e4-46e6-9298-3708bd1947c3_0" class="FormChoice__Label">
+                                Yes
+                              </label>
+                            </div>
+                            <div>
+                              <input type="radio" id="c2ee3143-73e4-46e6-9298-3708bd1947c3_1" name="__field_72718"
+                                value="No" class="FormChoice__Input FormChoice__Input--Radio" data-f-datainput=""
+                                required="" aria-required="true">
+                              <label for="c2ee3143-73e4-46e6-9298-3708bd1947c3_1" class="FormChoice__Label">
+                                No
+                              </label>
+                            </div>
+                          </fieldset>
+                          <span class="Form__Element__ValidationError hidden" data-f-linked-name="__field_72718"
+                            data-f-validationerror="" id="__field_72718_desc" role="alert"></span>
+                        </div>
+
+                        <div class="Form__Element FormTextbox FormTextbox--Textarea ValidationRequired hide"
+                          data-f-element-name="__field_72719" data-f-modifier="textarea" data-f-type="textbox"> <label
+                            for="f592d84e-befd-49d2-9c31-b9b5ed8268dd" class="Form__Element__Caption">What can we do to
+                            improve pages like this?</label>
+                          <textarea name="__field_72719" id="f592d84e-befd-49d2-9c31-b9b5ed8268dd"
+                            class="FormTextbox__Input" placeholder=""
+                            data-f-label="What can we do to improve pages like this?" data-f-datainput=""
+                            title="Tooltip text resolved the aria label issue" required="" aria-required="true"
+                            aria-describedby="__field_72719_desc" autocomplete="off"></textarea>
+                          <span class="Form__Element__ValidationError hidden" data-f-linked-name="__field_72719"
+                            data-f-validationerror="" id="__field_72719_desc" role="alert"></span>
+                        </div>
+
+
+                        <button id="fe98d66c-adbf-4f60-b418-70b1b7b32a3a" name="submit" type="submit"
+                          value="fe98d66c-adbf-4f60-b418-70b1b7b32a3a" data-f-is-finalized="false"
+                          data-f-is-progressive-submit="true" data-f-type="submitbutton"
+                          data-f-element-name="__field_72720"
+                          class="Form__Element FormExcludeDataRebind FormSubmitButton hide btn btn-primary width-md-100">
+                          Submit</button>
+
+
+
+                        <div id="80be2fa7-a431-4238-9ef2-793db3b02fc8"
+                          class="Form__Element Form__CustomElement FormRecaptcha"
+                          data-epiforms-element-name="__field_190413"
+                          data-epiforms-sitekey="6LcxVZgqAAAAAA5jdSiWf0zricZdAMxTjP28peu4">
+
+                          <span role="alert" aria-live="polite" data-epiforms-linked-name="__field_190413"
+                            class="Form__Element__ValidationError hidden">
+
+                          </span>
+                        </div>
+                      </section>
+
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section id="footer-subscription" class="mtop-5" aria-label="subscription">
+    <div class="row g-0">
+      <div class="col-12 d-flex justify-content-center position-relative">
+        <a href="email-updates.html" class="btn btn-primary button-subscribe">
+          Subscribe to email updates <i class="ms-4 fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+      <div class="col-12">
+        <div class="row row-cols-auto g-0 multicolor-strip">
+          <div class="col bg-blue"></div>
+          <div class="col bg-megenta"></div>
+          <div class="col bg-pink"></div>
+          <div class="col bg-yellow"></div>
+          <div class="col bg-green"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container-xl">
+      <div class="row">
+
+        <div class="block col-md-12 col-lg-3 socialiconsblock  ">
+
+          <section class="mt-0 mt-lg-5 social">
+            <h2 class="follow">Follow us</h2>
+            <ul class="list-unstyled social-icons">
+              <li class="social-icons-list">
+                <a class="" href="https://x.com/ofcom" title="x-twitter" aria-label="x-twitter (opens in a new tab)"
+                  target="_blank">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <span class="visually-hidden-focusable">x-twitter</span>
+                </a>
+              </li>
+              <li class="social-icons-list">
+                <a class="" href="https://www.facebook.com/ofcom" title="facebook"
+                  aria-label="facebook (opens in a new tab)" target="_blank">
+                  <i class="fa-brands fa-facebook"></i>
+                  <span class="visually-hidden-focusable">facebook</span>
+                </a>
+              </li>
+              <li class="social-icons-list">
+                <a class="" href="https://www.linkedin.com/company/ofcom" title="linkedin"
+                  aria-label="linkedin (opens in a new tab)" target="_blank">
+                  <i class="fa-brands fa-linkedin"></i>
+                  <span class="visually-hidden-focusable">linkedin</span>
+                </a>
+              </li>
+              <li class="social-icons-list">
+                <a class="" href="https://www.youtube.com/ofcom" title="youtube"
+                  aria-label="youtube (opens in a new tab)" target="_blank">
+                  <i class="fa-brands fa-youtube"></i>
+                  <span class="visually-hidden-focusable">youtube</span>
+                </a>
+              </li>
+              <li class="social-icons-list">
+                <a class="" href="https://www.instagram.com/ofcom.org.uk/" title="instagram"
+                  aria-label="instagram (opens in a new tab)" target="_blank">
+                  <i class="fa-brands fa-instagram"></i>
+                  <span class="visually-hidden-focusable">instagram</span>
+                </a>
+              </li>
+              <li class="social-icons-list">
+                <a class="" href="https://www.tiktok.com/@ofcom.org.uk" title="tiktok"
+                  aria-label="tiktok (opens in a new tab)" target="_blank">
+                  <i class="fa-brands fa-tiktok"></i>
+                  <span class="visually-hidden-focusable">tiktok</span>
+                </a>
+              </li>
+            </ul>
+          </section>
+
+        </div>
+        <div class="block col-md-12 col-lg-3 linklistblock  ">
+
+          <section class="mt-0 mt-lg-5 about-ofcom">
+            <h2 class="follow h5">About Ofcom</h2>
+            <ul class="list-unstyled">
+              <li>
+                <a class="footer-link" title="What is Ofcom?" href="javascript:void(0);">
+                  What is Ofcom?
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Contact us" href="javascript:void(0);">
+                  Contact us
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Ofcom in the nations and regions"
+                  href="javascript:void(0);">
+                  Nations and regions
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Jobs at Ofcom" href="javascript:void(0);"
+                  target="_blank">
+                  Jobs
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="General Privacy Statement"
+                  href="javascript:void(0);">
+                  General Privacy Statement
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Modern slavery statement"
+                  href="javascript:void(0);">
+                  Modern slavery statement
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Our work in the Welsh language"
+                  href="javascript:void(0);">
+                  Our work in Welsh
+                </a>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div class="block col-md-12 col-lg-3 linklistblock  ">
+
+          <section class="mt-0 mt-lg-5 about-ofcom">
+            <h2 class="follow h5">About this website</h2>
+            <ul class="list-unstyled">
+              <li>
+                <a class="footer-link" title="Accessibility of Ofcom's website"
+                  href="javascript:void(0);">
+                  Accessibility
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Cookies policy" href="javascript:void(0);">
+                  Cookies policy
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Terms of use" href="javascript:void(0);">
+                  Terms of use
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" title="Copyright and information re-use"
+                  href="javascript:void(0);">
+                  Copyright and information re-use
+                </a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="container-xl">
+      <div class="row copyrights">
+        <div class="copyright-text text-lg-start text-start text-sm-end"> © Ofcom 2025 </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <!-- <script type="text/javascript">
+    window.onload = () => {
+      const myModal = new bootstrap.Modal('#onload');
+      myModal.show();
+    }
+  </script> -->
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+          slidesPerGroup: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 10,
+          slidesPerGroup: 3,
+        },
+      },
+    });
+  </script>
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/js/bootstrap-select.min.js"></script>
+  <script src="js/virtual-select.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src="js/main.js"></script>
+  <script>
+    VirtualSelect.init({
+      ele: '#example-select',
+      hideClearButton: true,
+      disableSelectAll: true,
+      showSelectedOptionsFirst: false,
+      autoSelectFirstOption: false,
+      autoSelectFirstOption: false,
+      selectAllText: 'Select all',
+      autofocus: false,
+      disableSelectAll: false,
+      showDropboxAsPopup: false
+    });
+  </script>
+  <script>
+    flatpickr(".flatpickr-date", {
+      enableTime: false,
+      dateFormat: "d-m-Y",
+    });
+  </script>
+
+  <script>
+    const elem = document.querySelector('.filter-datepicker');
+    const datepicker = new Datepicker(elem, {
+      format: 'dd/mm/yyyy',
+    });
+
+    $('.addingCalendar').on("click", function (e) {
+      console.log("clicked");
+      $('filter-datepicker').click();
+    });
+  </script>
+  <script>
+    const elem1 = document.querySelector('.filter-datepicker1');
+    const datepicker1 = new Datepicker(elem1, {
+      format: 'dd/mm/yyyy',
+    }); 
+  </script>
+  <script>
+
+
+  </script>
+
+</body>
+
+</html>
