@@ -1924,17 +1924,19 @@ $(document).ready(function () {
 
 $(function () {
 
-    // 1️⃣ Generate dynamic link tags from accordion headers
+    // 1️⃣ Generate dynamic link tags from accordion button attributes
     $("#link-tags").empty();
-    $(".accordion-head").each(function (index) {
-        const title = $(this).text().trim();
-        const target = $(this).closest(".accordion-header").find("[data-bs-target]").attr("data-bs-target");
+    $("#myAccordion .accordion-button").each(function (index) {
+        const $btn = $(this);
+        const target = $btn.attr("data-bs-target");
 
-        // 🟢 Tooltip description (you’ll add description text separately in HTML)
-        const tooltipDesc = $(this).next(".link-tag-tooltip").text().trim() || "";
+        // ✅ Get data from button attributes
+        const title = $btn.attr("data-title")?.trim() || "";
+        const tooltipDesc = $btn.attr("data-desc")?.trim() || "";
+
         const tooltipId = tooltipDesc ? `tooltip-desc-${index}` : "";
 
-        // Create link tag with accessible attributes
+        // Create accessible link
         const link = $('<a/>', {
             href: "javascript:void(0);",
             class: "btn btn-tag bordered",
@@ -1953,17 +1955,16 @@ $(function () {
         $("#link-tags").append(link);
     });
 
-    // 2️⃣ Initialize Bootstrap tooltips (hover + focus)
+    // 2️⃣ Initialize Bootstrap tooltips (for hover and focus)
     const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
     const tooltipList = tooltipTriggerList.map(function (el) {
         return new bootstrap.Tooltip(el, {
             trigger: 'hover focus',
-            customClass: 'custom-color',
             delay: { show: 100, hide: 100 }
         });
     });
 
-    // 3️⃣ Make tooltip dismissible with Esc key
+    // 3️⃣ Make tooltip dismissible via Esc key
     $(document).on("keydown", "[data-bs-toggle='tooltip']", function (e) {
         if (e.key === "Escape" || e.key === "Esc") {
             const tooltipInstance = bootstrap.Tooltip.getInstance(this);
@@ -1998,7 +1999,7 @@ $(function () {
         }
     });
 
-    // 5️⃣ Sync link active state with accordion expand/collapse
+    // 5️⃣ Keep active state in sync when accordion opens/closes
     $(document).on("shown.bs.collapse", "#myAccordion .accordion-collapse", function () {
         const targetId = `#${this.id}`;
         const $link = $(`#link-tags .btn-tag[data-target='${targetId}']`);
@@ -2011,7 +2012,7 @@ $(function () {
         $link.removeClass("active").attr("aria-expanded", "false");
     });
 
-    // 6️⃣ Expand/Collapse All functionality
+    // 6️⃣ Expand/Collapse All (only for #myAccordion)
     let allOpen = false;
     const $toggleAll = $("#expend-accordion .show-hide-text");
     const expandText = $toggleAll.data("expand-text") || "Expand All accordion";
@@ -2046,6 +2047,7 @@ $(function () {
     });
 
 });
+
 
 
 

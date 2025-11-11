@@ -23,6 +23,7 @@
   <link href="css/main.css" rel="stylesheet">
 </head>
 
+
 <body>
 
   <!-- header start -->
@@ -1356,9 +1357,24 @@
                   <div class="col-12">
                     <div id="myAccordion" class="accordion accordion-expended overflow-hidden">
                       <div class="accordion-item destination-accordian">
+                        <!-- <div class="accordion-header" id="headingOne">
+                          <button class="accordion-button collapsed"  data-bs-toggle="collapse"
+                            data-bs-target="#collapse59" data-title="Spectrum licences"
+                            data-desc="Everything you need to know about the licensing process for
+                                amateur radio, business radio, aeronautical radio, ships radio and more.">
+                            <h2>
+                              <p class="accordion-head">Spectrum licences</p>
+                              <div class="link-tag-tooltip">Everything you need to know about the licensing process for
+                                amateur radio, business radio, aeronautical radio, ships radio and more.</div>
+                            </h2>
+                          </button>
+                        </div> -->
                         <div class="accordion-header" id="headingOne">
                           <button class="accordion-button collapsed" data-bs-toggle="collapse"
-                            data-bs-target="#collapse59">
+                            data-bs-target="#collapse59" data-title="Spectrum licences"
+                            data-desc="Everything you need to know about the licensing process for
+                                amateur radio, business radio, aeronautical radio, ships radio and more.">
+
                             <h2>
                               <p class="accordion-head">Spectrum licences</p>
                               <div class="link-tag-tooltip">Everything you need to know about the licensing process for
@@ -1625,7 +1641,8 @@
                       <div class="accordion-item destination-accordian">
                         <div class="accordion-header" id="heading2">
                           <button class="accordion-button collapsed" data-bs-toggle="collapse"
-                            data-bs-target="#collapse60">
+                            data-bs-target="#collapse60" data-title="Radio broadcast licences"
+                            data-desc="Radio broadcast licences">
                             <h2>
                               <p class="accordion-head">Radio broadcast licences</p>
                               <div class="link-tag-tooltip">Everything you need to know about the licensing process for
@@ -1776,8 +1793,8 @@
 
                       <div class="accordion-item destination-accordian">
                         <div class="accordion-header" id="heading3">
-                          <button class="accordion-button collapsed" data-bs-toggle="collapse"
-                            data-bs-target="#collapse61">
+                          <button class="accordion-button collapsed" data-bs-target="#collapse61" data-title="TV broadcast licences"
+                            data-desc="">
                             <h2>
                               <p class="accordion-head">TV broadcast licences</p>
                             </h2>
@@ -2218,34 +2235,8 @@
       showDropboxAsPopup: false
     });
   </script>
-  <script>
-    flatpickr(".flatpickr-date", {
-      enableTime: false,
-      dateFormat: "d-m-Y",
-    });
-  </script>
-
-  <script>
-    const elem = document.querySelector('.filter-datepicker');
-    const datepicker = new Datepicker(elem, {
-      format: 'dd/mm/yyyy',
-    });
-
-    $('.addingCalendar').on("click", function (e) {
-      console.log("clicked");
-      $('filter-datepicker').click();
-    });
-  </script>
-  <script>
-    const elem1 = document.querySelector('.filter-datepicker1');
-    const datepicker1 = new Datepicker(elem1, {
-      format: 'dd/mm/yyyy',
-    }); 
-  </script>
-  <script>
-
-  </script>
-
+  
+  
 </body>
 
 </html>
