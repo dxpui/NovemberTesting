@@ -7368,7 +7368,7 @@ input::-webkit-date-and-time-value {
 
 .carousel-inside .carousel-description {
     height: auto;
-    min-height: 300px;
+    min-height: 240px;
     padding: 0 15px 50px 15px !important;
 }
 .carousel-inside .carousel-description .slider-header{
