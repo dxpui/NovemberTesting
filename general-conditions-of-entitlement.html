@@ -126,7 +126,7 @@
                   </p>
                 </div>
                 <div class="list-item">
-                 <div class="title d-flex justify-content-between align-items-center">
+                  <div class="title d-flex justify-content-between align-items-center">
                     <a href="online-safety.html" class="sub-menu-link">
                       <div class="sub-topic-text d-flex justify-content-between align-items-start align-items-center">
                         <span> Online safety </span>
@@ -505,7 +505,7 @@
                     </a>
                   </div>
 
-                   <ul>
+                  <ul>
                     <li><a href="javascript:void(0);">Complain about
                         mobile, phone or internet services</a></li>
                     <li><a href="javascript:void(0);">Complain about TV,
@@ -532,7 +532,7 @@
                       </span>
                     </li>
 
-                   <li>
+                    <li>
                       <a href="javascript:void(0);">
                         The types of complaint Ofcom deals with
                       </a>
@@ -600,7 +600,7 @@
                     </a>
                   </div>
 
-                 <ul>
+                  <ul>
                     <li><a href="javascript:void(0);">Spectrum licences</a></li>
                     <li><a href="javascript:void(0);">Radio broadcast licences</a></li>
                     <li><a href="javascript:void(0);">TV broadcast licences</a></li>
@@ -838,14 +838,6 @@
 
 
 
-
-
-
-
-
-
-
-
     <section>
       <div class="hero-banner-narrow blue-bg">
         <div class="container-fluid">
@@ -853,23 +845,77 @@
             <div class="col-md-12 col-lg-7 col-xl-8 offset-lg-2 offset-xl-2">
               <h1 id="skipToContent" data-epi-type="title"><strong>General Conditions of Entitlement</strong></h1>
             </div>
+
+
+            <div class="col-md-12 col-lg-3 col-xl-2 mx-auto position-relative social-icons-block">
+              <button id="toggleButton" class="btn btn-primary-white-border center-icon-btn social-share-icon-btn">
+                <span>Share this page</span>
+                <svg class="position-absolute share-button" style="right: 10px;" width="25" height="24"
+                  viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M18.9764 16.12C18.2164 16.12 17.5364 16.42 17.0164 16.89L9.88638 12.74C9.93638 12.51 9.97638 12.28 9.97638 12.04C9.97638 11.8 9.93638 11.57 9.88638 11.34L16.9364 7.23004C17.4764 7.73004 18.1864 8.04004 18.9764 8.04004C20.6364 8.04004 21.9764 6.70004 21.9764 5.04004C21.9764 3.38004 20.6364 2.04004 18.9764 2.04004C17.3164 2.04004 15.9764 3.38004 15.9764 5.04004C15.9764 5.28004 16.0164 5.51004 16.0664 5.74004L9.01638 9.85004C8.47638 9.35004 7.76638 9.04004 6.97638 9.04004C5.31638 9.04004 3.97638 10.38 3.97638 12.04C3.97638 13.7 5.31638 15.04 6.97638 15.04C7.76638 15.04 8.47638 14.73 9.01638 14.23L16.1364 18.39C16.0864 18.6 16.0564 18.82 16.0564 19.04C16.0564 20.65 17.3664 21.96 18.9764 21.96C20.5864 21.96 21.8964 20.65 21.8964 19.04C21.8964 17.43 20.5864 16.12 18.9764 16.12ZM18.9764 4.04004C19.5264 4.04004 19.9764 4.49004 19.9764 5.04004C19.9764 5.59004 19.5264 6.04004 18.9764 6.04004C18.4264 6.04004 17.9764 5.59004 17.9764 5.04004C17.9764 4.49004 18.4264 4.04004 18.9764 4.04004ZM6.97638 13.04C6.42638 13.04 5.97638 12.59 5.97638 12.04C5.97638 11.49 6.42638 11.04 6.97638 11.04C7.52638 11.04 7.97638 11.49 7.97638 12.04C7.97638 12.59 7.52638 13.04 6.97638 13.04ZM18.9764 20.06C18.4264 20.06 17.9764 19.61 17.9764 19.06C17.9764 18.51 18.4264 18.06 18.9764 18.06C19.5264 18.06 19.9764 18.51 19.9764 19.06C19.9764 19.61 19.5264 20.06 18.9764 20.06Z"
+                    fill="" />
+                </svg>
+              </button>
+              <button id="likeButton"
+                class="btn btn-primary-white-border center-icon-btn social-share-icon-btn like-btn">
+                <span>Like this page</span>
+                <i class="fa-solid fa-heart position-absolute" style="right: 10px;"></i>
+              </button>
+              <div class="social-icons-box">
+                <a class="text-white " href="javascript:void(0);" title="Twitter">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a class="text-white " href="javascript:void(0);" title="Facebook">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a class="text-white " href="javascript:void(0);" title="LinkedIn">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a class="text-white " href="javascript:void(0);" title="Youtube">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a id="copyUrl" class="text-white " href="javascript:void(0);" title="Copy browser URL">
+                  <i class="fa-solid fa-link"></i>
+                </a>
+
+              </div>
+            </div>
+
+
+
+            <div class="toast-container" id="copyToast" role="alert" aria-live="assertive" aria-atomic="true">
+              <div class="toast-top-header">
+                <span>
+                  URL copied
+                </span>
+              </div>
+              <div class="row row-cols-auto g-0 multicolor-strip toast-strip">
+                <div class="col bg-blue"></div>
+                <div class="col bg-megenta"></div>
+                <div class="col bg-pink"></div>
+                <div class="col bg-yellow"></div>
+                <div class="col bg-green"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
+
     <section>
       <div class="container-fluid standared-page container-p-0">
         <div class="row">
           <div class="col-lg-2">
             <div class="mt-5 mb-lg-0">
-              <a class="btn btn-tag blue-bg" href="https://www.ofcom.org.uk/phones-and-broadband" target="_self">
+              <a class="btn btn-tag blue-bg" href="https://www.ofcom.org.uk/phones-and-broadband" target="_blank">
                 Phones and broadband
               </a>
               <a class="btn btn-tag light-blue-bg" href="https://www.ofcom.org.uk/phones-and-broadband/accessibility"
-                target="_self">
+                target="_blank">
                 Accessibility (Phones and broadband)
               </a>
-              <a class="btn btn-tag maroon-bg" href="https://www.ofcom.org.uk/information-for-industry" target="_self">
+              <a class="btn btn-tag maroon-bg" href="https://www.ofcom.org.uk/information-for-industry" target="_blank">
                 Information for industry
               </a>
             </div>
@@ -1707,7 +1753,7 @@
   <section id="footer-subscription" class="mtop-5" aria-label="subscription">
     <div class="row g-0">
       <div class="col-12 d-flex justify-content-center position-relative">
-       <a href="email-updates.html" class="btn btn-primary button-subscribe">
+        <a href="email-updates.html" class="btn btn-primary button-subscribe">
           Subscribe to email updates <i class="ms-4 fa-solid fa-arrow-right"></i>
         </a>
       </div>
@@ -1793,32 +1839,27 @@
                 </a>
               </li>
               <li>
-                <a class="footer-link" title="Ofcom in the nations and regions"
-                  href="javascript:void(0);">
+                <a class="footer-link" title="Ofcom in the nations and regions" href="javascript:void(0);">
                   Nations and regions
                 </a>
               </li>
               <li>
-                <a class="footer-link" title="Jobs at Ofcom" href="javascript:void(0);"
-                  target="_blank">
+                <a class="footer-link" title="Jobs at Ofcom" href="javascript:void(0);" target="_blank">
                   Jobs
                 </a>
               </li>
               <li>
-                <a class="footer-link" title="General Privacy Statement"
-                  href="javascript:void(0);">
+                <a class="footer-link" title="General Privacy Statement" href="javascript:void(0);">
                   General Privacy Statement
                 </a>
               </li>
               <li>
-                <a class="footer-link" title="Modern slavery statement"
-                  href="javascript:void(0);">
+                <a class="footer-link" title="Modern slavery statement" href="javascript:void(0);">
                   Modern slavery statement
                 </a>
               </li>
               <li>
-                <a class="footer-link" title="Our work in the Welsh language"
-                  href="javascript:void(0);">
+                <a class="footer-link" title="Our work in the Welsh language" href="javascript:void(0);">
                   Our work in Welsh
                 </a>
               </li>
@@ -1831,8 +1872,7 @@
             <h2 class="follow h5">About this website</h2>
             <ul class="list-unstyled">
               <li>
-                <a class="footer-link" title="Accessibility of Ofcom's website"
-                  href="javascript:void(0);">
+                <a class="footer-link" title="Accessibility of Ofcom's website" href="javascript:void(0);">
                   Accessibility
                 </a>
               </li>
@@ -1847,8 +1887,7 @@
                 </a>
               </li>
               <li>
-                <a class="footer-link" title="Copyright and information re-use"
-                  href="javascript:void(0);">
+                <a class="footer-link" title="Copyright and information re-use" href="javascript:void(0);">
                   Copyright and information re-use
                 </a>
               </li>

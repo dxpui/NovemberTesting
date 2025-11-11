@@ -2395,6 +2395,8 @@ header .search-box {
     }
 }
 
+
+
 /*--------------------------------------------------------------
 # Breadcrumb 
 --------------------------------------------------------------*/
@@ -7446,3 +7448,10 @@ input::-webkit-date-and-time-value {
     background-color: var(--color-default);
 }
 
+.like-btn:hover{
+    background-color: var(--color-white) !important;
+}
+
+.like-btn:hover i{
+    color: var(--color-red) !important;
+}

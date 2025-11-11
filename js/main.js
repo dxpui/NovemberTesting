@@ -1893,6 +1893,7 @@ $(document).ready(function () {
         event.stopPropagation(); // Prevent click from bubbling to document
         $(".social-icons-box").toggle();
         $("#toggleButton").hide();
+         $("#likeButton").hide();
     });
 
     // Hide when clicking outside
@@ -1900,6 +1901,7 @@ $(document).ready(function () {
         if (!$(event.target).closest(".social-icons-box, #toggleButton").length) {
             $(".social-icons-box").hide();
             $("#toggleButton").show();
+             $("#likeButton").show();
         }
     });
 
