@@ -2048,7 +2048,12 @@ $(function () {
 
 });
 
-
+$(document).ready(function() {
+  $('#likeButton').on('click', function() {
+    $(this).toggleClass('liked');
+    $(this).find('.like-text, .liked-text').toggleClass('d-none');
+  });
+});
 
 
 // Teaser Swiper

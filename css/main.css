@@ -7371,11 +7371,12 @@ input::-webkit-date-and-time-value {
     min-height: 240px;
     padding: 0 15px 50px 15px !important;
 }
-.carousel-inside .carousel-description .slider-header{
+
+.carousel-inside .carousel-description .slider-header {
     font-size: 1.2rem;
 }
 
-.carousel-inside .image-box{
+.carousel-inside .image-box {
     padding: 15px;
 }
 
@@ -7398,7 +7399,7 @@ input::-webkit-date-and-time-value {
 
 }
 
-.carousel-inner-card .carousel-card-header{
+.carousel-inner-card .carousel-card-header {
     font-size: .875rem;
     font-weight: 400;
     width: 90%;
@@ -7448,10 +7449,52 @@ input::-webkit-date-and-time-value {
     background-color: var(--color-default);
 }
 
-.like-btn:hover{
+.like-btn:hover {
     background-color: var(--color-white) !important;
 }
 
-.like-btn:hover i{
+
+#likeButton:focus {
+    background-color: var(--color-default) !important;
+    color: var(--color-white) !important;
+    text-decoration: none !important;
+}
+
+#likeButton:active {
+    background-color: white !important;
+    color: var(--color-default) !important;
+    text-decoration: none !important;
+}
+
+#likeButton:hover {
+    text-decoration: underline;
+    background-color: var(--color-secondary) !important;
+    color: var(--color-default) !important;
+}
+
+#likeButton:hover i {
+    color: var(--color-white) !important;
+}
+
+#likeButton.liked {
+    background-color: white !important;
+    color: var(--color-default) !important;
+}
+
+#likeButton i {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+#likeButton.liked i {
+    color: var(--color-red);
+}
+
+#likeButton.liked:hover {
+     background-color: var(--color-secondary) !important;
+    color: var(--color-default) !important;
+}
+
+#likeButton.liked:hover i {
     color: var(--color-red) !important;
 }
