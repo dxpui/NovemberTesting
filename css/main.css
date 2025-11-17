@@ -693,7 +693,7 @@ a.purple-btn:focus-visible {
 
 .btn-tag.maroon-bg:hover,
 .btn-tag.maroon-bg:focus-visible {
-    background-color: var(--color-light-gray);
+    background-color: var(--color-light-gray) !important;
     color: var(--color-maroon);
 }
 
